@@ -678,18 +678,33 @@
   {
     "id": "islam-khoja",
     "cityId": "khiva",
-    "name": "Islam Khoja Minaret",
+    "name": {
+      "en": "Islam Khoja Minaret"
+    },
     "category": "architecture",
-    "shortDescription": "The tallest minaret in the country, and the best view over the walled town.",
-    "description": "57 metres, built in 1910, with a spiral staircase that is genuinely tight and unlit — take a phone torch and skip it if you dislike enclosed spaces. The reward at the top is the only view that shows you Ichan Kala as a whole: flat roofs, domes, and the desert starting immediately outside the walls.",
+    "shortDescription": {
+      "en": "The tallest minaret in the country, and the best view over the walled town."
+    },
+    "description": {
+      "en": "57 metres, built in 1910, with a spiral staircase that is genuinely tight and unlit — take a phone torch and skip it if you dislike enclosed spaces. The reward at the top is the only view that shows you Ichan Kala as a whole: flat roofs, domes, and the desert starting immediately outside the walls."
+    },
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3766,
     "longitude": 60.3628,
     "visitDuration": 30,
     "images": [
-      "https://picsum.photos/seed/karvon-islamkhoja-1/1600/1050",
-      "https://picsum.photos/seed/karvon-islamkhoja-2/1600/1050",
-      "https://picsum.photos/seed/karvon-islamkhoja-3/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq1HptZms6tCp_VcIBQjytJb_lcwatQOsx493v1hEbhf1u2dVh1zpi6E&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/13197739/2a000001922faa60ece9122ccdde085d1f2f/L_height",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/19829109/2a0000019d3deef392ea36d9443836f94a5b/L_height",
+        "credit": ""
+      }
     ]
   },
   {
