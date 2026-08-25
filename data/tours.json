@@ -81,67 +81,38 @@
     ]
   },
   {
-    "id": "samarkand-3day",
-    "title": "Samarkand in Three Days",
-    "cityId": "samarkand",
-    "duration": 3,
-    "coverImage": "https://picsum.photos/seed/karvon-tour-sam3/1600/1000",
-    "description": "For travellers who want to stop rushing. Everything in the two-day itinerary, spread out, with a third day for the workshops, the bazaar at its own pace, and a second visit to whichever site you liked most.",
-    "notes": "The third day is deliberately light. A day trip to Shahrisabz over the mountain pass can replace it if you would rather cover ground.",
-    "days": [
-      {
-        "title": "The Registan and around",
-        "placeIds": [
-          "registan",
-          "gur-e-amir"
-        ],
-        "note": "A half day, so you can arrive on the midday train and still do it."
-      },
-      {
-        "title": "Tombs and the great mosque",
-        "placeIds": [
-          "shah-i-zinda",
-          "bibi-khanym",
-          "siyob-bazaar"
-        ],
-        "note": "The bazaar sits between the other two — use it as your lunch stop."
-      },
-      {
-        "title": "Out of the centre",
-        "placeIds": [
-          "ulugbek-observatory",
-          "konigil"
-        ],
-        "note": "Half a day of driving and craft workshops, back in town for the evening."
-      }
-    ]
-  },
-  {
     "id": "bukhara-2day",
-    "title": "Bukhara in Two Days",
+    "title": {
+      "en": "Bukhara in One Day"
+    },
     "cityId": "bukhara",
-    "duration": 2,
-    "coverImage": "https://picsum.photos/seed/karvon-tour-bukh2/1600/1000",
-    "description": "Bukhara rewards walking more than any other city here. Two days is enough to cover the monuments without ever needing a taxi, and to end both evenings at the pool.",
-    "notes": "Almost everything is inside a twenty-minute walk of Lyab-i Hauz. Wear shoes you can cover ten kilometres in.",
+    "duration": 1,
+    "coverImage": {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeVBnan59yRvVA-Vjwk-nWYJVoS5iv4EuRCcCV7DGKEeNKcbdxF_Kj7Y8r&s=10",
+      "credit": ""
+    },
+    "description": {
+      "en": "Bukhara rewards walking more than any other city here. Two days is enough to cover the monuments without ever needing a taxi, and to end both evenings at the pool."
+    },
+    "notes": {
+      "en": "Almost everything is inside a twenty-minute walk of Lyab-i Hauz. Wear shoes you can cover ten kilometres in."
+    },
     "days": [
       {
-        "title": "The fortress and the minaret",
+        "title": {
+          "en": "The fortress and the minaret"
+        },
         "placeIds": [
-          "ark-fortress",
           "samanid-mausoleum",
+          "ark-fortress",
+          "trading-domes",
+          "lyabi-hauz",
+          "chor-minor",
           "poi-kalyan"
         ],
-        "note": "Save Poi Kalyan for late afternoon when the brick turns gold."
-      },
-      {
-        "title": "Domes, lanes and the pool",
-        "placeIds": [
-          "trading-domes",
-          "chor-minor",
-          "lyabi-hauz"
-        ],
-        "note": "Chor Minor is a fifteen-minute walk east through residential streets — that walk is part of the point."
+        "note": {
+          "en": "Save Poi Kalyan for late afternoon when the brick turns gold."
+        }
       }
     ]
   },
