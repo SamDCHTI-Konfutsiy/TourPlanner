@@ -64,21 +64,70 @@
   },
   {
     "id": "samarkand",
-    "name": "Samarkand",
-    "region": "Samarqand Region",
-    "tagline": "The blue domes that gave the Silk Road its postcard",
-    "description": "Samarkand is the reason most people come to Uzbekistan. Timur rebuilt it as the capital of an empire and filled it with tilework at a scale that still feels unreasonable — three madrasahs facing one square, a mausoleum of ribbed turquoise, an avenue of tombs climbing a hill. Two full days lets you see it twice: once in the flat light of morning and once when the tiles go violet at dusk.",
-    "coverImage": "https://picsum.photos/seed/karvon-samarkand-cover/1800/1100",
+    "name": {
+      "en": "Samarkand"
+    },
+    "region": {
+      "en": "Samarqand Region"
+    },
+    "tagline": {
+      "en": "The blue domes that gave the Silk Road its postcard"
+    },
+    "description": {
+      "en": "Samarkand is the reason most people come to Uzbekistan. Timur rebuilt it as the capital of an empire and filled it with tilework at a scale that still feels unreasonable — three madrasahs facing one square, a mausoleum of ribbed turquoise, an avenue of tombs climbing a hill. Two full days lets you see it twice: once in the flat light of morning and once when the tiles go violet at dusk."
+    },
+    "coverImage": {
+      "src": "https://data.daryo.uz/media/2017/05/7-18.jpg",
+      "credit": ""
+    },
     "gallery": [
-      "https://picsum.photos/seed/karvon-samarkand-g1/1400/950",
-      "https://picsum.photos/seed/karvon-samarkand-g2/1400/950",
-      "https://picsum.photos/seed/karvon-samarkand-g3/1400/950",
-      "https://picsum.photos/seed/karvon-samarkand-g4/1400/950"
+      {
+        "src": "https://kun.uz/_next/image?url=https%3A%2F%2Fstorage.kun.uz%2Fsource%2F11%2FkG6dOE6SUHkqQxZjAcKQz9ojK7qDrwr8.jpg&w=1200&q=75",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669413179-1.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669415854-2026-08-25-19.19.09.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669417639-2026-08-25-19.19.11.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669419370-2026-08-25-19.19.15.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669421178-2026-08-25-19.19.23.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669422898-2026-08-25-19.19.20.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669424567-2026-08-25-19.19.57.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669426502-2026-08-25-19.20.15.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669428673-2026-08-25-19.20.13.jpg",
+        "credit": ""
+      }
     ],
     "latitude": 39.6542,
     "longitude": 66.9597,
     "recommendedDays": 2,
-    "travelInfo": "Two hours from Tashkent by high-speed train, three hours on to Bukhara. The old town is walkable; keep a taxi for the observatory and the paper mill on the edge of town."
+    "travelInfo": {
+      "en": "Two hours from Tashkent by high-speed train, three hours on to Bukhara. The old town is walkable; keep a taxi for the observatory and the paper mill on the edge of town."
+    }
   },
   {
     "id": "shahrisabz",
