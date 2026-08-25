@@ -1042,5 +1042,29 @@
         "credit": ""
       }
     ]
+  },
+  {
+    "id": "central-asia-pilaf-centre-beshqozon",
+    "cityId": "tashkent",
+    "name": {
+      "en": "Central Asia Pilaf Centre BESHQOZON"
+    },
+    "category": "food",
+    "shortDescription": {
+      "en": ""
+    },
+    "description": {
+      "en": ""
+    },
+    "address": "",
+    "latitude": 0,
+    "longitude": 0,
+    "visitDuration": 60,
+    "images": [
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/16920891/2a000001981bd7099dac94ee4a90bcf6c479/L_height",
+        "credit": ""
+      }
+    ]
   }
 ]
