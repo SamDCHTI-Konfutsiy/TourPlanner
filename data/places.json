@@ -761,34 +761,69 @@
   {
     "id": "ak-saray",
     "cityId": "shahrisabz",
-    "name": "Ak-Saray Palace",
+    "name": {
+      "en": "Ak-Saray Palace"
+    },
     "category": "historical",
-    "shortDescription": "Two broken pylons, 38 metres high, all that is left of Timur's largest building.",
-    "description": "The arch that once spanned these two towers would have been the widest in the Islamic world. It fell centuries ago and what stands now are the stumps, still carrying their blue mosaic and an inscription that reads, roughly, that anyone doubting Timur's power should look at what he built. Hard to argue with.",
+    "shortDescription": {
+      "en": "Two broken pylons, 38 metres high, all that is left of Timur's largest building."
+    },
+    "description": {
+      "en": "The arch that once spanned these two towers would have been the widest in the Islamic world. It fell centuries ago and what stands now are the stumps, still carrying their blue mosaic and an inscription that reads, roughly, that anyone doubting Timur's power should look at what he built. Hard to argue with."
+    },
     "address": "Ipak Yuli Street, Shahrisabz",
     "latitude": 39.0619,
     "longitude": 66.8306,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-aksaray-1/1600/1050",
-      "https://picsum.photos/seed/karvon-aksaray-2/1600/1050",
-      "https://picsum.photos/seed/karvon-aksaray-3/1600/1050"
+      {
+        "src": "https://api.society.uz/media/photo_2023-12-25_14-15-17_1.webp",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxdaXF49uEjqVBbCo6uZQD8PFflQbpVxD6GNGfhdmHFg&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://data.daryo.uz/media/cache/2014/02/31840296-886x664.jpg",
+        "credit": ""
+      }
     ]
   },
   {
     "id": "dorut-tilovat",
     "cityId": "shahrisabz",
-    "name": "Dorut Tilovat Complex",
+    "name": {
+      "en": "Dorut Tilovat Complex"
+    },
     "category": "historical",
-    "shortDescription": "The family burial complex, including the crypt Timur prepared for himself and never used.",
-    "description": "Quieter and more intact than Ak-Saray at the other end of town. It holds the tomb of Timur's spiritual teacher, the Kok Gumbaz mosque with its blue dome, and — under a modern shelter nearby — the empty crypt Timur intended for his own body before he died in the wrong season to be carried home.",
+    "shortDescription": {
+      "en": "The family burial complex, including the crypt Timur prepared for himself and never used."
+    },
+    "description": {
+      "en": "Quieter and more intact than Ak-Saray at the other end of town. It holds the tomb of Timur's spiritual teacher, the Kok Gumbaz mosque with its blue dome, and — under a modern shelter nearby — the empty crypt Timur intended for his own body before he died in the wrong season to be carried home."
+    },
     "address": "Shahrisabz centre",
     "latitude": 39.0522,
     "longitude": 66.8339,
     "visitDuration": 45,
     "images": [
-      "https://picsum.photos/seed/karvon-doruttilovat-1/1600/1050",
-      "https://picsum.photos/seed/karvon-doruttilovat-2/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJV2teLazA-eIzpycXsfqKehahB8oYWwY3n5EPGtXVw&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eyQ81CWK-o2CkVCwrvwbgQT0axj6Rl3efFHOScWnXz4n0_Tz9wXonoQ&s=10",
+        "credit": "Dor-us Saodat"
+      },
+      {
+        "src": "https://st.muslim.uz/cache/7/0/c/2/6/70c26c5d7afefcf4b2ab99d1d3417039e7826404.jpeg",
+        "credit": ""
+      },
+      {
+        "src": "https://api.society.uz/media/news/%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%BE%D0%B9_%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%B5%D0%BD%D1%82_%D0%BF%D0%BE%D1%81%D1%82_%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5_%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D1%8E%D1%89%D0%B8%D0%B9_%D1%81%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D1%80_%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_3_dmW5XLi.png",
+        "credit": ""
+      }
     ]
   },
   {
