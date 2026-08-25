@@ -131,19 +131,46 @@
   },
   {
     "id": "shahrisabz",
-    "name": "Shahrisabz",
-    "region": "Qashqadaryo Region",
-    "tagline": "Timur's home town, and the palace he never finished",
-    "description": "Timur was born near here and built Shahrisabz to outdo his own capital. The Ak-Saray palace gate survives as two enormous broken pylons standing in open ground — arguably more impressive as a ruin than it would have been whole. It works as a long day trip from Samarkand over the Takhtakaracha pass.",
-    "coverImage": "https://picsum.photos/seed/karvon-shahrisabz-cover/1800/1100",
+    "name": {
+      "en": "Shahrisabz"
+    },
+    "region": {
+      "en": "Qashqadaryo Region"
+    },
+    "tagline": {
+      "en": "Timur's home town, and the palace he never finished"
+    },
+    "description": {
+      "en": "Timur was born near here and built Shahrisabz to outdo his own capital. The Ak-Saray palace gate survives as two enormous broken pylons standing in open ground — arguably more impressive as a ruin than it would have been whole. It works as a long day trip from Samarkand over the Takhtakaracha pass."
+    },
+    "coverImage": {
+      "src": "https://uzbek-travel.com/images/uz/Cities/Shakhrisabz/8322350072_6718ec2f0d_b.jpg",
+      "credit": ""
+    },
     "gallery": [
-      "https://picsum.photos/seed/karvon-shahrisabz-g1/1400/950",
-      "https://picsum.photos/seed/karvon-shahrisabz-g2/1400/950"
+      {
+        "src": "https://dolorestravel.com/uploads/Guide/335/698beea36e6df.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://bektour.uz/thumb/2/V3Xuld5IpNWZH586YBVuHQ/580r450/d/shaxrisabz_0.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://www.advantour.com/img/uzbekistan/shakhrisabz/shakhrisabz4.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://storage.kun.uz/source/uploads/20180104/images/032018/Atemur/atemurgfdfgs-13.jpg",
+        "credit": ""
+      }
     ],
     "latitude": 39.0567,
     "longitude": 66.8339,
     "recommendedDays": 1,
-    "travelInfo": "About 90 minutes from Samarkand by car over a mountain pass. There is no high-speed rail link, so plan it as a day trip rather than an overnight stop."
+    "travelInfo": {
+      "en": "About 90 minutes from Samarkand by car over a mountain pass. There is no high-speed rail link, so plan it as a day trip rather than an overnight stop."
+    }
   },
   {
     "id": "bukhara",
