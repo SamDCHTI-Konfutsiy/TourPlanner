@@ -366,19 +366,37 @@
   {
     "id": "ark-fortress",
     "cityId": "bukhara",
-    "name": "Ark Fortress",
+    "name": {
+      "en": "Ark Fortress"
+    },
     "category": "historical",
-    "shortDescription": "The emir's walled citadel — a city inside the city, occupied for fifteen hundred years.",
-    "description": "The Ark was residence, treasury, prison and mint all at once, and the ramp up through the gate is the same one every ambassador climbed. Most of the interior was flattened in 1920 and what remains is a set of courtyards housing small museums. The throne room and the coronation court are the parts to spend time in.",
+    "shortDescription": {
+      "en": "The emir's walled citadel — a city inside the city, occupied for fifteen hundred years."
+    },
+    "description": {
+      "en": "The Ark was residence, treasury, prison and mint all at once, and the ramp up through the gate is the same one every ambassador climbed. Most of the interior was flattened in 1920 and what remains is a set of courtyards housing small museums. The throne room and the coronation court are the parts to spend time in."
+    },
     "address": "Afrosiyob Street, Bukhara",
     "latitude": 39.7758,
     "longitude": 64.4092,
     "visitDuration": 90,
     "images": [
-      "https://picsum.photos/seed/karvon-ark-1/1600/1050",
-      "https://picsum.photos/seed/karvon-ark-2/1600/1050",
-      "https://picsum.photos/seed/karvon-ark-3/1600/1050",
-      "https://picsum.photos/seed/karvon-ark-4/1600/1050"
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/Ark-0-0-0-0-1596541961.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXY3X6UNFVqlHsy-PYARnrtO6EVQIL0K29cnYja9UKJzkQsEfwiKiiJg&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/Ark1-0-0-0-0-1596542024.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUuKuvgKzBulpYYp79Myuf5qua9aMuZbvx3ukBopnvTSB2Csy02FE8lxA&s=10",
+        "credit": "1909 year"
+      }
     ]
   },
   {
