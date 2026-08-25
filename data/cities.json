@@ -2,198 +2,112 @@
   {
     "id": "tashkent",
     "name": {
-      "en": "Tashkent",
-      "zh": "塔什干"
+      "en": "Tashkent"
     },
     "region": {
-      "en": "Tashkent Region",
-      "zh": "塔什干州"
+      "en": "Tashkent Region"
     },
     "tagline": {
-      "en": "Where you land, and where the road west begins",
-      "zh": "旅程的起点，也是西行丝路的开端"
+      "en": "Where the modern republic meets the old caravan road"
     },
     "description": {
-      "en": "Almost every trip starts here. Tashkent is the capital and the only city with a real international airport, so you will arrive, sleep off the flight, and take the fast train west the next morning. It rewards a day: a bazaar under a Soviet-modernist dome, a religious complex holding what is claimed to be the world's oldest Quran, and a metro decorated like a palace. I usually meet clients at the airport and we do the old town before the first train.",
-      "zh": "几乎所有行程都从这里开始。塔什干是首都，也是唯一拥有大型国际机场的城市，多数客人在这里落地、休整一晚，第二天清晨乘高铁西行。这座城市值得停留一天：苏联现代主义穹顶下的巴扎、藏有据称世界最古老《古兰经》的宗教建筑群，以及装饰得像宫殿的地铁。我通常在机场接机，赶第一班火车前带客人逛完老城。"
+      "en": "Tashkent is the gateway for almost every Silk Road journey. Soviet-era boulevards and a metro built like an underground museum sit beside the mud-brick lanes of the old town, where bread is still baked in clay ovens each morning. Most travellers land here, sleep off the flight, and use the city as the hinge between the Fergana Valley in the east and the desert cities in the west."
     },
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/088_Chorsu_Plaza_i_c%C3%BApules_de_la_mesquita_de_Xoja_Ahror%2C_des_del_basar_Eski_Juva_%28Taixkent%29.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA",
-      "page": "https://commons.wikimedia.org/wiki/File:088_Chorsu_Plaza_i_c%C3%BApules_de_la_mesquita_de_Xoja_Ahror%2C_des_del_basar_Eski_Juva_%28Taixkent%29.jpg"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tashkent-cover/1800/1100",
     "gallery": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hazrati_Imam_Mosque_01.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Hazrati_Imam_Mosque_01.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/083_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_parada_de_verdures.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:083_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_parada_de_verdures.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/039_Hazrati_Imom_Jome_Masjidi%2C_Gran_Mesquita_de_Hazrati_Imam_%28Taixkent%29%2C_c%C3%BApula_i_minaret.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:039_Hazrati_Imom_Jome_Masjidi%2C_Gran_Mesquita_de_Hazrati_Imam_%28Taixkent%29%2C_c%C3%BApula_i_minaret.jpg"
-      }
+      "https://picsum.photos/seed/karvon-tashkent-g1/1400/950",
+      "https://picsum.photos/seed/karvon-tashkent-g3/1400/950",
+      "https://picsum.photos/seed/karvon-tashkent-g2/1400/950"
     ],
     "latitude": 41.2995,
     "longitude": 69.2401,
-    "recommendedDays": 1,
+    "recommendedDays": 2,
     "travelInfo": {
-      "en": "Tashkent International Airport has the widest choice of flights, including direct routes to several Chinese cities. Afrosiyob high-speed trains reach Samarkand in about two hours and Bukhara in about four. Book seats a week ahead in spring and autumn — they sell out.",
-      "zh": "塔什干国际机场航线最多，包括飞往中国多个城市的直飞航班。Afrosiyob 高速列车约两小时到撒马尔罕，约四小时到布哈拉。春秋两季车票紧张，建议提前一周订座。"
+      "en": "International airport with the widest choice of flights. High-speed Afrosiyob trains leave for Samarkand and Bukhara several times a day — book at least a week ahead in spring and autumn."
     }
   },
   {
     "id": "samarkand",
-    "name": {
-      "en": "Samarkand",
-      "zh": "撒马尔罕"
-    },
-    "region": {
-      "en": "Samarqand Region",
-      "zh": "撒马尔罕州"
-    },
-    "tagline": {
-      "en": "The blue domes everyone comes for — and my home city",
-      "zh": "举世闻名的蓝色穹顶，也是我常住的城市"
-    },
-    "description": {
-      "en": "Samarkand is why most people come to Uzbekistan, and it is where I live. Timur rebuilt it as the capital of his empire and filled it with tilework at a scale that still looks unreasonable: three madrasahs facing one square, a ribbed turquoise dome over his own tomb, an avenue of mausoleums climbing a hillside. Two days lets you see it twice — once in flat morning light and once when the tiles turn violet at dusk.",
-      "zh": "撒马尔罕是绝大多数人来乌兹别克斯坦的理由，也是我居住的城市。帖木儿把它重建为帝国首都，用今天看来仍显奢侈的规模铺满琉璃：三座经学院共对一个广场、他自己陵墓上的青绿棱纹穹顶、沿山坡而上的陵墓长街。安排两天可以看两遍——一次在清晨的平光下，一次在琉璃转成紫色的黄昏。"
-    },
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan_square_Samarkand.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Registan_square_Samarkand.jpg"
-    },
+    "name": "Samarkand",
+    "region": "Samarqand Region",
+    "tagline": "The blue domes that gave the Silk Road its postcard",
+    "description": "Samarkand is the reason most people come to Uzbekistan. Timur rebuilt it as the capital of an empire and filled it with tilework at a scale that still feels unreasonable — three madrasahs facing one square, a mausoleum of ribbed turquoise, an avenue of tombs climbing a hill. Two full days lets you see it twice: once in the flat light of morning and once when the tiles go violet at dusk.",
+    "coverImage": "https://picsum.photos/seed/karvon-samarkand-cover/1800/1100",
     "gallery": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan_square_Samarkand%2C_Uzbekistan%2C_at_night.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Registan_square_Samarkand%2C_Uzbekistan%2C_at_night.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shohi-Zinda_majmuasi_%28Shah-i-Zinda%2C_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA — featured picture",
-        "page": "https://commons.wikimedia.org/wiki/File:Shohi-Zinda_majmuasi_%28Shah-i-Zinda%2C_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80_-_Amir_Temur_maqbarasi_-_Gur-e-Amir_%28By_Khusen_Rustamov%29.jpg?width=1600",
-        "credit": "Khusen Rustamov / Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80_-_Amir_Temur_maqbarasi_-_Gur-e-Amir_%28By_Khusen_Rustamov%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan%2C_main_square_in_Samarkand.JPG?width=1600",
-        "credit": "Oleg Yunakov / Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Registan%2C_main_square_in_Samarkand.JPG"
-      }
+      "https://picsum.photos/seed/karvon-samarkand-g1/1400/950",
+      "https://picsum.photos/seed/karvon-samarkand-g2/1400/950",
+      "https://picsum.photos/seed/karvon-samarkand-g3/1400/950",
+      "https://picsum.photos/seed/karvon-samarkand-g4/1400/950"
     ],
     "latitude": 39.6542,
     "longitude": 66.9597,
     "recommendedDays": 2,
-    "travelInfo": {
-      "en": "Two hours from Tashkent by high-speed train, about ninety minutes on to Bukhara. The main sites are walkable from each other; you only need a car for the observatory and the paper mill on the edge of town.",
-      "zh": "从塔什干乘高铁两小时抵达，再约九十分钟到布哈拉。主要景点之间可以步行；只有城郊的天文台和造纸作坊需要用车。"
-    }
+    "travelInfo": "Two hours from Tashkent by high-speed train, three hours on to Bukhara. The old town is walkable; keep a taxi for the observatory and the paper mill on the edge of town."
+  },
+  {
+    "id": "shahrisabz",
+    "name": "Shahrisabz",
+    "region": "Qashqadaryo Region",
+    "tagline": "Timur's home town, and the palace he never finished",
+    "description": "Timur was born near here and built Shahrisabz to outdo his own capital. The Ak-Saray palace gate survives as two enormous broken pylons standing in open ground — arguably more impressive as a ruin than it would have been whole. It works as a long day trip from Samarkand over the Takhtakaracha pass.",
+    "coverImage": "https://picsum.photos/seed/karvon-shahrisabz-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-shahrisabz-g1/1400/950",
+      "https://picsum.photos/seed/karvon-shahrisabz-g2/1400/950"
+    ],
+    "latitude": 39.0567,
+    "longitude": 66.8339,
+    "recommendedDays": 1,
+    "travelInfo": "About 90 minutes from Samarkand by car over a mountain pass. There is no high-speed rail link, so plan it as a day trip rather than an overnight stop."
   },
   {
     "id": "bukhara",
-    "name": {
-      "en": "Bukhara",
-      "zh": "布哈拉"
-    },
-    "region": {
-      "en": "Bukhara Region",
-      "zh": "布哈拉州"
-    },
-    "tagline": {
-      "en": "A living old town you can cross on foot in twenty minutes",
-      "zh": "二十分钟就能走穿的、仍在生活的古城"
-    },
-    "description": {
-      "en": "Bukhara kept its shape. Where other cities were rebuilt around their monuments, here the trading domes, the fortress and the mosques are still stitched together by ordinary streets full of people going to work. The colour is different too — less glazed blue, more raw ochre brick that turns gold in the last hour of light. It is the easiest city here to walk, and the best one for buying things.",
-      "zh": "布哈拉保留了原本的城市肌理。其他城市是围绕古迹重建的，而这里的商贸圆顶、城堡和清真寺之间，仍由普通街巷连接，走着上班的居民。色调也不同——琉璃蓝少了，更多是赭黄色的砖，日落前一小时会泛成金色。这是最适合步行的城市，也是最适合买东西的地方。"
-    },
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalyan_Minaret%2C_Bukhara_%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD_%D0%B2_%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B5%2C_Minorai_Kalon%29.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA — featured picture",
-      "page": "https://commons.wikimedia.org/wiki/File:Kalyan_Minaret%2C_Bukhara_%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD_%D0%B2_%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B5%2C_Minorai_Kalon%29.jpg"
-    },
+    "name": "Bukhara",
+    "region": "Bukhara Region",
+    "tagline": "A living old town you can cross on foot in twenty minutes",
+    "description": "Bukhara kept its shape. Where other cities were rebuilt around their monuments, here the trading domes, the pool, the fortress and the mosques are still stitched together by ordinary streets full of people going to work. The colour is different too — less glazed blue, more raw ochre brick that turns gold in the last hour of light.",
+    "coverImage": "https://picsum.photos/seed/karvon-bukhara-cover/1800/1100",
     "gallery": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Fortress_in_Bukhara_04.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Ark_Fortress_in_Bukhara_04.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/19_Buhara_Toki_Zargaron%282%29.JPG?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:19_Buhara_Toki_Zargaron%282%29.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Samanid_Mausoleum_in_Bukhara.jpg"
-      }
+      "https://picsum.photos/seed/karvon-bukhara-g1/1400/950",
+      "https://picsum.photos/seed/karvon-bukhara-g2/1400/950",
+      "https://picsum.photos/seed/karvon-bukhara-g3/1400/950"
     ],
     "latitude": 39.7747,
     "longitude": 64.4286,
     "recommendedDays": 2,
-    "travelInfo": {
-      "en": "About ninety minutes from Samarkand by high-speed train. West to Khiva is a long road across the Kyzylkum desert — six to seven hours by car, or the overnight train. There are also short flights from Bukhara back to Tashkent.",
-      "zh": "从撒马尔罕乘高铁约九十分钟。往西去希瓦要穿越克孜勒库姆沙漠，驾车六至七小时，或乘夜班火车。布哈拉也有飞回塔什干的短途航班。"
-    }
+    "travelInfo": "Reachable by train from Samarkand in about three hours. The road west to Khiva crosses the Kyzylkum desert — around seven hours by car, or take the overnight train."
   },
   {
     "id": "khiva",
-    "name": {
-      "en": "Khiva",
-      "zh": "希瓦"
-    },
-    "region": {
-      "en": "Khorezm Region",
-      "zh": "花剌子模州"
-    },
-    "tagline": {
-      "en": "A walled desert city that empties at sunset",
-      "zh": "日落后归于寂静的沙漠围城"
-    },
-    "description": {
-      "en": "Ichan Kala, the walled inner town, is a rectangle of mud walls holding around fifty monuments in half a square kilometre. It is the most compact and the most theatrical of the four cities — you climb a minaret, look down, and the whole place is laid out below you like a model. Stay inside the walls overnight if you can; once the day-trippers leave, the lanes are yours.",
-      "zh": "被城墙围起的内城伊禅卡拉，是一个由夯土城墙围成的长方形，半平方公里内密集分布着约五十处古迹。它是四座城市中最紧凑、也最具戏剧性的——登上宣礼塔往下看，整座城像模型一样摊开在脚下。如果可以，就住在城墙内；当天往返的游客散去后，巷子就是你们的了。"
-    },
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_skyline.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA",
-      "page": "https://commons.wikimedia.org/wiki/File:Khiva_skyline.jpg"
-    },
+    "name": "Khiva",
+    "region": "Khorezm Region",
+    "tagline": "A walled desert city that closes at sunset",
+    "description": "Ichan Kala, the inner town of Khiva, is a rectangle of mud walls holding fifty monuments in half a square kilometre. It is the most compact and the most theatrical of the four cities — you climb a minaret, look down, and the whole place is laid out below you like a model. Stay inside the walls for the night, when the day-trippers have gone and the lanes are empty.",
+    "coverImage": "https://picsum.photos/seed/karvon-khiva-cover/1800/1100",
     "gallery": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_Itchan_Kala.JPG?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva_Itchan_Kala.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalta_Minor%2C_Khiva%2C_Uzbekistan.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Kalta_Minor%2C_Khiva%2C_Uzbekistan.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Islam_Hoja_Minaret%2C_Khiva_%28Islomxo%CA%BBja_minorasi%2C_%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%98%D1%81%D0%BB%D0%B0%D0%BC_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B0%2C_%D0%A5%D0%B8%D0%B2%D0%B0%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Islam_Hoja_Minaret%2C_Khiva_%28Islomxo%CA%BBja_minorasi%2C_%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%98%D1%81%D0%BB%D0%B0%D0%BC_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B0%2C_%D0%A5%D0%B8%D0%B2%D0%B0%29.jpg"
-      }
+      "https://picsum.photos/seed/karvon-khiva-g1/1400/950",
+      "https://picsum.photos/seed/karvon-khiva-g2/1400/950",
+      "https://picsum.photos/seed/karvon-khiva-g3/1400/950"
     ],
     "latitude": 41.3783,
     "longitude": 60.3639,
-    "recommendedDays": 2,
-    "travelInfo": {
-      "en": "The furthest west of the four cities. Urgench airport is 35 km away with daily flights back to Tashkent, which saves you the long drive at the end of a trip — I usually plan the route to end here and fly out.",
-      "zh": "四座城市中最靠西。乌尔根奇机场距此35公里，每天有飞回塔什干的航班，可以省下行程末尾的长途驾车——我通常把路线终点安排在这里，然后直接飞回。"
-    }
+    "recommendedDays": 1,
+    "travelInfo": "The furthest west of the four main cities. Urgench airport is 35 km away with daily flights back to Tashkent, which saves a long drive at the end of a trip."
+  },
+  {
+    "id": "nukus",
+    "name": "Nukus",
+    "region": "Karakalpakstan",
+    "tagline": "A world-class avant-garde collection at the edge of a dead sea",
+    "description": "Nukus exists in most itineraries for one reason: the Savitsky Museum, which holds thousands of Soviet avant-garde paintings smuggled out of Moscow and hidden here for decades. It is also the jumping-off point for the Aral Sea and the fortresses of ancient Khorezm. A niche stop, and a genuinely strange one.",
+    "coverImage": "https://picsum.photos/seed/karvon-nukus-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-nukus-g1/1400/950",
+      "https://picsum.photos/seed/karvon-nukus-g2/1400/950"
+    ],
+    "latitude": 42.46,
+    "longitude": 59.61,
+    "recommendedDays": 1,
+    "travelInfo": "Three hours north of Khiva by road. Add it only if the Savitsky collection or the Aral Sea is the point of your trip — otherwise it is a long detour."
   }
 ]
