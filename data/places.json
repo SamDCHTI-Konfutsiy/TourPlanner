@@ -173,9 +173,22 @@
     "longitude": 66.9791,
     "visitDuration": 45,
     "images": [
-      "https://picsum.photos/seed/karvon-bibikhanym-1/1600/1050",
-      "https://picsum.photos/seed/karvon-bibikhanym-2/1600/1050",
-      "https://picsum.photos/seed/karvon-bibikhanym-3/1600/1050"
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/SamarkandBibiKhanym.jpg/250px-SamarkandBibiKhanym.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://static.zarnews.uz/crop/8/1/720__80_815e26890aed979a2cdbd824a89fdd68.jpeg?img=self&v=1712982798",
+        "credit": ""
+      },
+      {
+        "src": "https://kun.uz/_next/image?url=https%3A%2F%2Fstorage.kun.uz%2Fsource%2F10%2FWyeUkJuP9-BsuQh1fQ0sPSQ0qN0iQwhF.jpg&w=1200&q=75",
+        "credit": ""
+      },
+      {
+        "src": "https://storage.humodoc.com/humo-prod/images/ambar/article/360f259c5a333ac9b08ce819439f00a6f9266533/large.webp",
+        "credit": ""
+      }
     ]
   },
   {
