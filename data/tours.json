@@ -81,6 +81,42 @@
     ]
   },
   {
+    "id": "samarkand-3day",
+    "title": "Samarkand in Three Days",
+    "cityId": "samarkand",
+    "duration": 3,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam3/1600/1000",
+    "description": "For travellers who want to stop rushing. Everything in the two-day itinerary, spread out, with a third day for the workshops, the bazaar at its own pace, and a second visit to whichever site you liked most.",
+    "notes": "The third day is deliberately light. A day trip to Shahrisabz over the mountain pass can replace it if you would rather cover ground.",
+    "days": [
+      {
+        "title": "The Registan and around",
+        "placeIds": [
+          "registan",
+          "gur-e-amir"
+        ],
+        "note": "A half day, so you can arrive on the midday train and still do it."
+      },
+      {
+        "title": "Tombs and the great mosque",
+        "placeIds": [
+          "shah-i-zinda",
+          "bibi-khanym",
+          "siyob-bazaar"
+        ],
+        "note": "The bazaar sits between the other two — use it as your lunch stop."
+      },
+      {
+        "title": "Out of the centre",
+        "placeIds": [
+          "ulugbek-observatory",
+          "konigil"
+        ],
+        "note": "Half a day of driving and craft workshops, back in town for the evening."
+      }
+    ]
+  },
+  {
     "id": "bukhara-2day",
     "title": {
       "en": "Bukhara in One Day"
@@ -103,8 +139,8 @@
           "en": "The fortress and the minaret"
         },
         "placeIds": [
-          "samanid-mausoleum",
           "ark-fortress",
+          "samanid-mausoleum",
           "trading-domes",
           "lyabi-hauz",
           "chor-minor",
