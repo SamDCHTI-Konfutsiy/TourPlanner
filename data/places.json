@@ -158,10 +158,16 @@
   {
     "id": "bibi-khanym",
     "cityId": "samarkand",
-    "name": "Bibi-Khanym Mosque",
+    "name": {
+      "en": "Bibi-Khanym Mosque"
+    },
     "category": "architecture",
-    "shortDescription": "An enormous congregational mosque that began collapsing almost as soon as it was built.",
-    "description": "Timur pushed his builders past what the engineering of the 1390s could hold, and the arches started failing within decades. Much of what stands now is a Soviet reconstruction, but the scale is intact and the marble Quran stand in the courtyard is original. Pair it with the bazaar next door — they are two minutes apart.",
+    "shortDescription": {
+      "en": "An enormous congregational mosque that began collapsing almost as soon as it was built."
+    },
+    "description": {
+      "en": "Timur pushed his builders past what the engineering of the 1390s could hold, and the arches started failing within decades. Much of what stands now is a Soviet reconstruction, but the scale is intact and the marble Quran stand in the courtyard is original. Pair it with the bazaar next door — they are two minutes apart."
+    },
     "address": "Bibikhonim Street, Samarkand",
     "latitude": 39.6602,
     "longitude": 66.9791,
