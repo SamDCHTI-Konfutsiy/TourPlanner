@@ -13,11 +13,47 @@
     "description": {
       "en": "Tashkent is the gateway for almost every Silk Road journey. Soviet-era boulevards and a metro built like an underground museum sit beside the mud-brick lanes of the old town, where bread is still baked in clay ovens each morning. Most travellers land here, sleep off the flight, and use the city as the hinge between the Fergana Valley in the east and the desert cities in the west."
     },
-    "coverImage": "https://picsum.photos/seed/karvon-tashkent-cover/1800/1100",
+    "coverImage": {
+      "src": "https://hittheroadket.com/wp-content/uploads/2023/05/amir-timur-square-tashkent-hotel-uzbekistan.webp",
+      "credit": ""
+    },
     "gallery": [
-      "https://picsum.photos/seed/karvon-tashkent-g1/1400/950",
-      "https://picsum.photos/seed/karvon-tashkent-g3/1400/950",
-      "https://picsum.photos/seed/karvon-tashkent-g2/1400/950"
+      {
+        "src": "assets/images/cities/1787669161734-2026-08-25-19.21.19.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669164151-2026-08-25-19.21.22.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669165880-2026-08-25-19.21.24.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669167966-2026-08-25-19.21.30.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669169738-2026-08-25-19.21.38.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669171565-2026-08-25-19.21.14.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669173179-2026-08-25-19.21.11.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669175192-2026-08-25-19.21.08.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669177004-2026-08-25-19.21.05.jpg",
+        "credit": ""
+      }
     ],
     "latitude": 41.2995,
     "longitude": 69.2401,
