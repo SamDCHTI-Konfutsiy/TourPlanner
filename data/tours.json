@@ -35,31 +35,48 @@
   },
   {
     "id": "samarkand-2day",
-    "title": "Samarkand in Two Days",
+    "title": {
+      "en": "Samarkand in Two Days"
+    },
     "cityId": "samarkand",
     "duration": 2,
-    "coverImage": "https://picsum.photos/seed/karvon-tour-sam2/1600/1000",
-    "description": "The pace most people want. Day one is the Timurid core in the centre; day two moves out to the observatory and the paper mill, with room for a long lunch.",
-    "notes": "Day two needs a car or taxi for two short hops. Both stops are on the same side of the city.",
+    "coverImage": {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTxd1RW4x7OEf9-tUEAaTgjBQoZnyQmKNp_buyjJr3wBbA3p-cq7g-ux5&s=10",
+      "credit": ""
+    },
+    "description": {
+      "en": "The pace most people want. Day one is the Timurid core in the centre; day two moves out to the observatory and the paper mill, with room for a long lunch."
+    },
+    "notes": {
+      "en": "Day two needs a car or taxi for two short hops. Both stops are on the same side of the city."
+    },
     "days": [
       {
-        "title": "The Timurid centre",
+        "title": {
+          "en": "The Timurid centre"
+        },
         "placeIds": [
           "registan",
           "gur-e-amir",
           "bibi-khanym",
           "siyob-bazaar"
         ],
-        "note": "All within walking distance of each other."
+        "note": {
+          "en": "All within walking distance of each other."
+        }
       },
       {
-        "title": "Tombs, stars and paper",
+        "title": {
+          "en": "Tombs, stars and paper"
+        },
         "placeIds": [
           "shah-i-zinda",
           "ulugbek-observatory",
           "konigil"
         ],
-        "note": "Start at Shah-i-Zinda by eight to have the lane to yourself."
+        "note": {
+          "en": "Start at Shah-i-Zinda by eight to have the lane to yourself."
+        }
       }
     ]
   },
