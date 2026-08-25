@@ -577,20 +577,21 @@
   {
     "id": "chorsu-bazaar",
     "cityId": "tashkent",
-    "name": "Chorsu Bazaar",
+    "name": {
+      "en": "Chorsu Bazaar"
+    },
     "category": "market",
-    "shortDescription": "A blue dome the size of a stadium, packed with meat, spice and dairy counters.",
-    "description": "The oldest market in the city and still the loudest. The main dome holds the butchers and the dairy counters — go up to the gallery to look down on the spice pyramids — while bread, plov and secondhand everything spill out into the streets around it. Come hungry and before two in the afternoon.",
+    "shortDescription": {
+      "en": "A blue dome the size of a stadium, packed with meat, spice and dairy counters."
+    },
+    "description": {
+      "en": "The oldest market in the city and still the loudest. The main dome holds the butchers and the dairy counters — go up to the gallery to look down on the spice pyramids — while bread, plov and secondhand everything spill out into the streets around it. Come hungry and before two in the afternoon."
+    },
     "address": "Chorsu, Old City, Tashkent",
     "latitude": 41.3264,
     "longitude": 69.2347,
     "visitDuration": 75,
-    "images": [
-      "https://picsum.photos/seed/karvon-chorsu-1/1600/1050",
-      "https://picsum.photos/seed/karvon-chorsu-2/1600/1050",
-      "https://picsum.photos/seed/karvon-chorsu-3/1600/1050",
-      "https://picsum.photos/seed/karvon-chorsu-4/1600/1050"
-    ]
+    "images": []
   },
   {
     "id": "hazrati-imam",
