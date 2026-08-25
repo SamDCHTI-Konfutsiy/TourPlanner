@@ -1006,18 +1006,41 @@
   {
     "id": "savitsky-museum",
     "cityId": "nukus",
-    "name": "Savitsky Museum",
+    "name": {
+      "en": "Savitsky Museum"
+    },
     "category": "museum",
-    "shortDescription": "Thousands of banned Soviet avant-garde paintings, hidden in the desert for fifty years.",
-    "description": "Igor Savitsky spent decades collecting work by artists the Soviet state had suppressed and brought it to Nukus, far enough from Moscow that nobody looked closely. The result is the second-largest collection of Russian avant-garde art anywhere, in a city most people have never heard of. Allow three hours; the labelling is thin, so a guide helps.",
+    "shortDescription": {
+      "en": "Thousands of banned Soviet avant-garde paintings, hidden in the desert for fifty years."
+    },
+    "description": {
+      "en": "Igor Savitsky spent decades collecting work by artists the Soviet state had suppressed and brought it to Nukus, far enough from Moscow that nobody looked closely. The result is the second-largest collection of Russian avant-garde art anywhere, in a city most people have never heard of. Allow three hours; the labelling is thin, so a guide helps."
+    },
     "address": "Rzayev Street 127, Nukus",
     "latitude": 42.4599,
     "longitude": 59.6111,
     "visitDuration": 150,
     "images": [
-      "https://picsum.photos/seed/karvon-savitsky-1/1600/1050",
-      "https://picsum.photos/seed/karvon-savitsky-2/1600/1050",
-      "https://picsum.photos/seed/karvon-savitsky-3/1600/1050"
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/Rasmlar/cropped-images/7F1A4042-0-0-0-0-1737973158.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBddLs5-MZfK6nQy-hvBya4b0AI5Arq7cjXxY1856uX7XcUXHCaQS5TVBi&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbek-travel.com/images/uz/Landmarks/Nukus/3066038813_b3faa19284_b.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLy37efQOCRqn-dOhE14GuSErfa7ZlCo0med-9zjJfWx-0masyNkGoiTs&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRKDTbHTo_ppyz6xNEoGTM6wg9E1a9yp3P1hyQ4Nfv7xz3jDat0WnENKE&s=10",
+        "credit": ""
+      }
     ]
   }
 ]
