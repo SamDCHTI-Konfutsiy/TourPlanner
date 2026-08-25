@@ -260,18 +260,57 @@
   },
   {
     "id": "nukus",
-    "name": "Nukus",
-    "region": "Karakalpakstan",
-    "tagline": "A world-class avant-garde collection at the edge of a dead sea",
-    "description": "Nukus exists in most itineraries for one reason: the Savitsky Museum, which holds thousands of Soviet avant-garde paintings smuggled out of Moscow and hidden here for decades. It is also the jumping-off point for the Aral Sea and the fortresses of ancient Khorezm. A niche stop, and a genuinely strange one.",
-    "coverImage": "https://picsum.photos/seed/karvon-nukus-cover/1800/1100",
+    "name": {
+      "en": "Nukus"
+    },
+    "region": {
+      "en": "Karakalpakstan"
+    },
+    "tagline": {
+      "en": "A world-class avant-garde collection at the edge of a dead sea"
+    },
+    "description": {
+      "en": "Nukus exists in most itineraries for one reason: the Savitsky Museum, which holds thousands of Soviet avant-garde paintings smuggled out of Moscow and hidden here for decades. It is also the jumping-off point for the Aral Sea and the fortresses of ancient Khorezm. A niche stop, and a genuinely strange one."
+    },
+    "coverImage": {
+      "src": "https://www.backpackadventures.org/wp-content/uploads/2021/05/Stans0303b.jpg",
+      "credit": ""
+    },
     "gallery": [
-      "https://picsum.photos/seed/karvon-nukus-g1/1400/950",
-      "https://picsum.photos/seed/karvon-nukus-g2/1400/950"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGoYbB4rumj_SHhJ4-LPQzJZDMUBGCR01EdiQHajtA0MJWwYz9hO2lz3k&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSROwtCgeop5mCbwOT_eWZeVAZIng1iPU2Ju0CbBivs8Wz9xApc8DFfmKA&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UB1-QBYXct7quPm9Y2WpQdz4jP9VmmVekusPESHeYJkrJwn5GaIMgwI&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://www.gazeta.uz/media/img/2024/08/pjzJyG17243933270013_l.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ28xZJUw4num8j3_4daN2YwAk6OBLrwQ5-ia2BR1jvprzbxxInVL_RpeP&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CZh-sMYOfWBaI4J6FHuiRAZ2LC7N3Ke1ueeInRs7Z4pVpBoSeSKuaneZ&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_787/https://unusualnomad.com/wp-content/uploads/2025/04/Uzbekistan-Nukus-Savitsky-museum-art-2-RF.jpg",
+        "credit": ""
+      }
     ],
     "latitude": 42.46,
     "longitude": 59.61,
     "recommendedDays": 1,
-    "travelInfo": "Three hours north of Khiva by road. Add it only if the Savitsky collection or the Aral Sea is the point of your trip — otherwise it is a long detour."
+    "travelInfo": {
+      "en": "Three hours north of Khiva by road. Add it only if the Savitsky collection or the Aral Sea is the point of your trip — otherwise it is a long detour."
+    }
   }
 ]
