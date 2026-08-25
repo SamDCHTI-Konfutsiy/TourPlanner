@@ -217,20 +217,46 @@
   },
   {
     "id": "khiva",
-    "name": "Khiva",
-    "region": "Khorezm Region",
-    "tagline": "A walled desert city that closes at sunset",
-    "description": "Ichan Kala, the inner town of Khiva, is a rectangle of mud walls holding fifty monuments in half a square kilometre. It is the most compact and the most theatrical of the four cities — you climb a minaret, look down, and the whole place is laid out below you like a model. Stay inside the walls for the night, when the day-trippers have gone and the lanes are empty.",
-    "coverImage": "https://picsum.photos/seed/karvon-khiva-cover/1800/1100",
+    "name": {
+      "en": "Khiva"
+    },
+    "region": {
+      "en": "Khorezm Region"
+    },
+    "tagline": {
+      "en": "A walled desert city that closes at sunset"
+    },
+    "description": {
+      "en": "Ichan Kala, the inner town of Khiva, is a rectangle of mud walls holding fifty monuments in half a square kilometre. It is the most compact and the most theatrical of the four cities — you climb a minaret, look down, and the whole place is laid out below you like a model. Stay inside the walls for the night, when the day-trippers have gone and the lanes are empty."
+    },
+    "coverImage": {
+      "src": "https://meros.uz/uploads/wonder/wonder//e748bef6dfdc04693f353128f98f50a4.JPG",
+      "credit": ""
+    },
     "gallery": [
-      "https://picsum.photos/seed/karvon-khiva-g1/1400/950",
-      "https://picsum.photos/seed/karvon-khiva-g2/1400/950",
-      "https://picsum.photos/seed/karvon-khiva-g3/1400/950"
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/Rasmlar/Xorazm/cropped-images/ichan-qala-7-0-0-0-0-1738670741.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/fed/cropped-images/shutterstock_526336663-0-0-0-0-1582805758.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669989066-2026-08-25-19.21.02.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk8fSBaElxzVlWSm2wR6_r7t5ZIVb6QVdUfE-LIvvaVPUbK3zhDnFKtrk&s=10",
+        "credit": ""
+      }
     ],
     "latitude": 41.3783,
     "longitude": 60.3639,
     "recommendedDays": 1,
-    "travelInfo": "The furthest west of the four main cities. Urgench airport is 35 km away with daily flights back to Tashkent, which saves a long drive at the end of a trip."
+    "travelInfo": {
+      "en": "The furthest west of the four main cities. Urgench airport is 35 km away with daily flights back to Tashkent, which saves a long drive at the end of a trip."
+    }
   },
   {
     "id": "nukus",
