@@ -98,20 +98,61 @@
   {
     "id": "shah-i-zinda",
     "cityId": "samarkand",
-    "name": "Shah-i-Zinda",
+    "name": {
+      "en": "Shah-i-Zinda"
+    },
     "category": "historical",
-    "shortDescription": "An avenue of tombs climbing a hillside, tiled from floor to dome.",
-    "description": "Eleven mausoleums built over three centuries, packed shoulder to shoulder along a narrow lane and a flight of stairs. Because each family commissioned its own tomb, the tilework changes as you walk — carved terracotta, then majolica, then mosaic faience — so the street reads as a timeline of Central Asian ceramics. Come at opening time; the lane is too narrow for crowds.",
+    "shortDescription": {
+      "en": "An avenue of tombs climbing a hillside, tiled from floor to dome."
+    },
+    "description": {
+      "en": "Eleven mausoleums built over three centuries, packed shoulder to shoulder along a narrow lane and a flight of stairs. Because each family commissioned its own tomb, the tilework changes as you walk — carved terracotta, then majolica, then mosaic faience — so the street reads as a timeline of Central Asian ceramics. Come at opening time; the lane is too narrow for crowds."
+    },
     "address": "Shahi Zinda Street, Samarkand",
     "latitude": 39.6625,
     "longitude": 66.9847,
     "visitDuration": 90,
     "images": [
-      "https://picsum.photos/seed/karvon-shahizinda-1/1600/1050",
-      "https://picsum.photos/seed/karvon-shahizinda-2/1600/1050",
-      "https://picsum.photos/seed/karvon-shahizinda-3/1600/1050",
-      "https://picsum.photos/seed/karvon-shahizinda-4/1600/1050",
-      "https://picsum.photos/seed/karvon-shahizinda-5/1600/1050"
+      {
+        "src": "https://www.advantour.com/img/uzbekistan/samarkand/shakhi-zinda/shakhi-zinda-necropolis1.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://people-travels.com/storage/images/qspEJz9NBjwFWk51sPHHkfwPhY0qxWPiJwCAkITT.webp",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGyYJ4k_tDThqh2yJJT5XF_1kkHOC89qr__JjNVqNXE781TW7m6-JV_w&s=10",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670676896-2026-08-25-19.19.52.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670682760-2026-08-25-19.19.54.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670684703-2026-08-25-19.19.56.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670686353-2026-08-25-19.20.17.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670688386-2026-08-25-19.20.15.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670690195-2026-08-25-19.19.15.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670691738-2026-08-25-19.19.09.jpg",
+        "credit": ""
+      }
     ]
   },
   {
