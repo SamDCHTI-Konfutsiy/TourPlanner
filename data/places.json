@@ -338,20 +338,29 @@
   {
     "id": "poi-kalyan",
     "cityId": "bukhara",
-    "name": "Poi Kalyan Complex",
+    "name": {
+      "en": "Poi Kalyan Complex"
+    },
     "category": "architecture",
-    "shortDescription": "A 47-metre brick minaret that Genghis Khan reportedly refused to destroy.",
-    "description": "The Kalyan minaret has stood since 1127 — fourteen bands of patterned brick, no two alike, tapering to a lantern. It survived the Mongol sack of the city, the story goes, because Genghis Khan had to tip his head back to see the top and ordered it spared. The mosque on one side holds twelve thousand people; the Mir-i-Arab madrasah opposite is still a working seminary and closed to visitors, so admire the facade.",
+    "shortDescription": {
+      "en": "A 47-metre brick minaret that Genghis Khan reportedly refused to destroy."
+    },
+    "description": {
+      "en": "The Kalyan minaret has stood since 1127 — fourteen bands of patterned brick, no two alike, tapering to a lantern. It survived the Mongol sack of the city, the story goes, because Genghis Khan had to tip his head back to see the top and ordered it spared. The mosque on one side holds twelve thousand people; the Mir-i-Arab madrasah opposite is still a working seminary and closed to visitors, so admire the facade."
+    },
     "address": "Hoja Nurobobod Street, Bukhara",
     "latitude": 39.7758,
     "longitude": 64.4142,
     "visitDuration": 90,
     "images": [
-      "https://picsum.photos/seed/karvon-poikalyan-1/1600/1050",
-      "https://picsum.photos/seed/karvon-poikalyan-2/1600/1050",
-      "https://picsum.photos/seed/karvon-poikalyan-3/1600/1050",
-      "https://picsum.photos/seed/karvon-poikalyan-4/1600/1050",
-      "https://picsum.photos/seed/karvon-poikalyan-5/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqkbXgHig8_xggZrOe3ddTJ2wKZq8wpxGh-5O0OFWOP8EEopBUhLg1cEy&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdpaW26uOQgAQqHix46xjG4bfeRnycoXb6XSxS_m_T3c4oSO712hyW-g&s=10",
+        "credit": ""
+      }
     ]
   },
   {
