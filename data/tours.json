@@ -1,22 +1,35 @@
 [
   {
     "id": "samarkand-1day",
-    "title": "Samarkand in One Day",
+    "title": {
+      "en": "Samarkand in One Day"
+    },
     "cityId": "samarkand",
     "duration": 1,
-    "coverImage": "https://picsum.photos/seed/karvon-tour-sam1/1600/1000",
-    "description": "The short version, built for travellers arriving on the morning train and leaving at night. It covers the three sights nobody should miss and leaves an hour at the end for the square after dark.",
-    "notes": "Buy the Registan ticket first thing — the queue doubles after ten. Lunch is easiest near the bazaar.",
+    "coverImage": {
+      "src": "https://meros.uz/upload/2017/02/03c7c0ace395d80182db07ae2c30f034-large.png",
+      "credit": ""
+    },
+    "description": {
+      "en": "The short version, built for travellers arriving on the morning train and leaving at night. It covers the three sights nobody should miss and leaves an hour at the end for the square after dark."
+    },
+    "notes": {
+      "en": "Buy the Registan ticket first thing — the queue doubles after ten. Lunch is easiest near the bazaar."
+    },
     "days": [
       {
-        "title": "Arrival and the essentials",
+        "title": {
+          "en": "Arrival and the essentials"
+        },
         "placeIds": [
           "registan",
           "bibi-khanym",
           "siyob-bazaar",
           "shah-i-zinda"
         ],
-        "note": "Finish with the Registan again after sunset; the illuminated facades are a different building."
+        "note": {
+          "en": "Finish with the Registan again after sunset; the illuminated facades are a different building."
+        }
       }
     ]
   },
