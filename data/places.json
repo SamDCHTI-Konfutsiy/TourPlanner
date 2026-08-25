@@ -582,18 +582,33 @@
   {
     "id": "kalta-minor",
     "cityId": "khiva",
-    "name": "Kalta Minor Minaret",
+    "name": {
+      "en": "Kalta Minor Minaret"
+    },
     "category": "architecture",
-    "shortDescription": "A fat, banded, glazed minaret abandoned at a third of its planned height.",
-    "description": "The khan wanted a tower tall enough to see Bukhara from. He died in 1855 with it 29 metres up and 14 metres wide, and nobody continued it — so Khiva ended up with a stump completely sheathed in glazed tile, which is far stranger and more memorable than the finished thing would have been. It sits just inside the west gate.",
+    "shortDescription": {
+      "en": "A fat, banded, glazed minaret abandoned at a third of its planned height."
+    },
+    "description": {
+      "en": "The khan wanted a tower tall enough to see Bukhara from. He died in 1855 with it 29 metres up and 14 metres wide, and nobody continued it — so Khiva ended up with a stump completely sheathed in glazed tile, which is far stranger and more memorable than the finished thing would have been. It sits just inside the west gate."
+    },
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3789,
     "longitude": 60.3614,
     "visitDuration": 20,
     "images": [
-      "https://picsum.photos/seed/karvon-kaltaminor-1/1600/1050",
-      "https://picsum.photos/seed/karvon-kaltaminor-2/1600/1050",
-      "https://picsum.photos/seed/karvon-kaltaminor-3/1600/1050"
+      {
+        "src": "https://meros.uz/upload/2017/02/cd45b865782814baaef9e9b25501c455-large.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywerE66zjXkh6z9a_brOcr6pV-cT88z2kTHIFHG-C3g&s",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0UDYnTSH8QTaT-5-OxgNZS9Sbn1FU-bPM182uTbI0lpjrL4SS--5pLA&s=10",
+        "credit": ""
+      }
     ]
   },
   {
