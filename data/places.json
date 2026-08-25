@@ -50,19 +50,49 @@
   {
     "id": "gur-e-amir",
     "cityId": "samarkand",
-    "name": "Gur-e-Amir Mausoleum",
+    "name": {
+      "en": "Gur-e-Amir Mausoleum"
+    },
     "category": "historical",
-    "shortDescription": "Timur's tomb under a fluted turquoise dome, with a gold-leaf chamber inside.",
-    "description": "Timur built this for a grandson and ended up buried in it himself, under a slab of dark green jade. The ribbed dome is the shape every later Timurid architect copied, including the builders of the Taj Mahal. The interior is small and almost entirely gilded — it takes twenty minutes, but it is worth timing for late afternoon when the light comes through the grilles.",
+    "shortDescription": {
+      "en": "Timur's tomb under a fluted turquoise dome, with a gold-leaf chamber inside."
+    },
+    "description": {
+      "en": "Timur built this for a grandson and ended up buried in it himself, under a slab of dark green jade. The ribbed dome is the shape every later Timurid architect copied, including the builders of the Taj Mahal. The interior is small and almost entirely gilded — it takes twenty minutes, but it is worth timing for late afternoon when the light comes through the grilles."
+    },
     "address": "Bustonsaroy Street 2, Samarkand",
     "latitude": 39.6484,
     "longitude": 66.9689,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-guramir-1/1600/1050",
-      "https://picsum.photos/seed/karvon-guramir-2/1600/1050",
-      "https://picsum.photos/seed/karvon-guramir-3/1600/1050",
-      "https://picsum.photos/seed/karvon-guramir-4/1600/1050"
+      {
+        "src": "https://www.advantour.com/img/uzbekistan/samarkand/gur-emir-mausoleum7.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZHLF_UdEwwwaCJrAqusNghidojEovbwUwxyXJLONWHjXpit_t-KYXEQh&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9_%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80._%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4.jpg/250px-%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9_%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80._%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4.jpg?utm_source=uz.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        "credit": ""
+      },
+      {
+        "src": "https://cdn.iticket.uz/event/artist_bg/8OGQ7JPVcB3Oc5StajwCspHsMDH37d2xagSt1xh2.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/13265642/2a00000194d7480709ab5153380b725e609a/L_height",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670562403-2026-08-25-19.20.51.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670566222-2026-08-25-19.20.56.jpg",
+        "credit": ""
+      }
     ]
   },
   {
