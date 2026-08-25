@@ -189,22 +189,36 @@
   },
   {
     "id": "tashkent-1day",
-    "title": "Tashkent in One Day",
+    "title": {
+      "en": "Tashkent in One Day"
+    },
     "cityId": "tashkent",
     "duration": 1,
-    "coverImage": "https://picsum.photos/seed/karvon-tour-tash1/1600/1000",
-    "description": "Designed for the day you land or the day before you fly home. Old town in the morning, metro in the middle, modern city in the evening — all reachable without a car.",
-    "notes": "Metro tickets are a flat fare and the trains run every few minutes. Keep some cash for the bazaar.",
+    "coverImage": {
+      "src": "https://meros.uz/upload/2017/02/daa5d37e051da88d70b72bec40ef35e9-large.jpg",
+      "credit": ""
+    },
+    "description": {
+      "en": "Designed for the day you land or the day before you fly home. Old town in the morning, metro in the middle, modern city in the evening — all reachable without a car."
+    },
+    "notes": {
+      "en": "Metro tickets are a flat fare and the trains run every few minutes. Keep some cash for the bazaar."
+    },
     "days": [
       {
-        "title": "Old town to new",
+        "title": {
+          "en": "Old town to new"
+        },
         "placeIds": [
           "chorsu-bazaar",
           "hazrati-imam",
           "tashkent-metro",
-          "amir-timur-square"
+          "amir-timur-square",
+          "minor-mosque"
         ],
-        "note": "Chorsu and Hazrati Imam are a short walk apart; take the metro east from there."
+        "note": {
+          "en": "Chorsu and Hazrati Imam are a short walk apart; take the metro east from there."
+        }
       }
     ]
   }
