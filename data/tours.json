@@ -154,29 +154,36 @@
   },
   {
     "id": "khiva-2day",
-    "title": "Khiva in Two Days",
+    "title": {
+      "en": "Khiva in One Day"
+    },
     "cityId": "khiva",
-    "duration": 2,
-    "coverImage": "https://picsum.photos/seed/karvon-tour-khiva2/1600/1000",
-    "description": "One day inside the walls covers the monuments; the second is for the parts of Khiva that only appear when the day-trippers leave. Staying overnight inside Ichan Kala is the whole difference.",
-    "notes": "A single combined ticket covers most sites inside the walls and is valid for two days.",
+    "duration": 1,
+    "coverImage": {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OuQDL4RTM1YKHDJepEdtZOwX3n7C4_2YhoxTOxUGWN7EqbWwj7163iw&s=10",
+      "credit": ""
+    },
+    "description": {
+      "en": "One day inside the walls covers the monuments; the second is for the parts of Khiva that only appear when the day-trippers leave. Staying overnight inside Ichan Kala is the whole difference."
+    },
+    "notes": {
+      "en": "A single combined ticket covers most sites inside the walls and is valid for two days."
+    },
     "days": [
       {
-        "title": "Inside the walls",
+        "title": {
+          "en": "Inside the walls"
+        },
         "placeIds": [
           "ichan-kala",
           "kalta-minor",
-          "juma-mosque"
-        ],
-        "note": "Climb the Kunya-Ark watchtower early to get the layout in your head."
-      },
-      {
-        "title": "The palace and the view",
-        "placeIds": [
+          "juma-mosque",
           "tosh-hovli",
           "islam-khoja"
         ],
-        "note": "Time the minaret climb for the hour before sunset."
+        "note": {
+          "en": "Climb the Kunya-Ark watchtower early to get the layout in your head."
+        }
       }
     ]
   },
