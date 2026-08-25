@@ -402,18 +402,33 @@
   {
     "id": "lyabi-hauz",
     "cityId": "bukhara",
-    "name": "Lyab-i Hauz",
+    "name": {
+      "en": "Lyab-i Hauz"
+    },
     "category": "culture",
-    "shortDescription": "A 17th-century stone pool under mulberry trees, still the centre of local evening life.",
-    "description": "Bukhara once had dozens of these reservoirs; the emirs filled most of them in after they turned out to be spreading disease. This one survived and became the city's living room — old men playing backgammon under trees planted in 1477, teahouses on three sides, and a statue of the trickster Nasreddin riding his donkey. Best after seven in the evening.",
+    "shortDescription": {
+      "en": "A 17th-century stone pool under mulberry trees, still the centre of local evening life."
+    },
+    "description": {
+      "en": "Bukhara once had dozens of these reservoirs; the emirs filled most of them in after they turned out to be spreading disease. This one survived and became the city's living room — old men playing backgammon under trees planted in 1477, teahouses on three sides, and a statue of the trickster Nasreddin riding his donkey. Best after seven in the evening."
+    },
     "address": "Lyabi-Hauz, Bukhara",
     "latitude": 39.7756,
     "longitude": 64.4197,
     "visitDuration": 45,
     "images": [
-      "https://picsum.photos/seed/karvon-lyabihauz-1/1600/1050",
-      "https://picsum.photos/seed/karvon-lyabihauz-2/1600/1050",
-      "https://picsum.photos/seed/karvon-lyabihauz-3/1600/1050"
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/10373230/2a0000019199ee1c74d85e56c086f6a55606/L_height",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzNhrJ6t-MU37_-moTZP3O1iKwTWVtKqxgb9gw2RhLBV-6NzZLNMkzkK8&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvF79H8eyRG4h7PWDZqDH99oqzHIhrvcKq9POs0bnhVyg42GQ6R5rIbG7e&s=10",
+        "credit": ""
+      }
     ]
   },
   {
