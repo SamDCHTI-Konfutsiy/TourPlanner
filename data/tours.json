@@ -1,300 +1,166 @@
 [
   {
     "id": "samarkand-1day",
-    "title": {
-      "en": "Samarkand in One Day",
-      "zh": "撒马尔罕一日"
-    },
+    "title": "Samarkand in One Day",
     "cityId": "samarkand",
     "duration": 1,
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand%2C_light_show_at_the_Registan_%286237905701%29.jpg?width=1600",
-      "credit": "Arian Zwegers / Wikimedia Commons, CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Samarkand%2C_light_show_at_the_Registan_%286237905701%29.jpg"
-    },
-    "description": {
-      "en": "The short version, for travellers arriving on the morning train and leaving at night. Three sights nobody should miss, and an hour at the end for the square after dark.",
-      "zh": "浓缩版行程，适合早班火车抵达、当晚离开的客人。三处不容错过的景点，最后留一小时看夜色中的广场。"
-    },
-    "notes": {
-      "en": "We buy the Registan ticket first thing — the queue doubles after ten. Lunch is easiest near the bazaar.",
-      "zh": "我们一到就先买雷吉斯坦的门票——十点以后排队时间会翻倍。午餐在巴扎附近最方便。"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam1/1600/1000",
+    "description": "The short version, built for travellers arriving on the morning train and leaving at night. It covers the three sights nobody should miss and leaves an hour at the end for the square after dark.",
+    "notes": "Buy the Registan ticket first thing — the queue doubles after ten. Lunch is easiest near the bazaar.",
     "days": [
       {
-        "title": {
-          "en": "Arrival and the essentials",
-          "zh": "抵达与必看"
-        },
+        "title": "Arrival and the essentials",
         "placeIds": [
           "registan",
           "bibi-khanym",
+          "siyob-bazaar",
           "shah-i-zinda"
         ],
-        "note": {
-          "en": "We finish at the Registan again after sunset; lit up, it is a different building.",
-          "zh": "日落后我们会再回到雷吉斯坦；灯光亮起时，它像是另一座建筑。"
-        }
+        "note": "Finish with the Registan again after sunset; the illuminated facades are a different building."
       }
     ]
   },
   {
     "id": "samarkand-2day",
-    "title": {
-      "en": "Samarkand in Two Days",
-      "zh": "撒马尔罕两日"
-    },
+    "title": "Samarkand in Two Days",
     "cityId": "samarkand",
     "duration": 2,
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan%2C_main_square_in_Samarkand.JPG?width=1600",
-      "credit": "Oleg Yunakov / Wikimedia Commons, CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Registan%2C_main_square_in_Samarkand.JPG"
-    },
-    "description": {
-      "en": "The pace most people want. Day one is the Timurid core in the centre; day two moves out to the observatory, with room for a long lunch.",
-      "zh": "多数客人偏好的节奏。第一天走市中心的帖木儿王朝核心区，第二天前往城郊天文台，中午可以从容吃顿长饭。"
-    },
-    "notes": {
-      "en": "Day two needs a car for two short hops. Both stops are on the same side of the city, so it is not much driving.",
-      "zh": "第二天有两段短程需要用车，两处都在城市同一侧，行车时间不长。"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam2/1600/1000",
+    "description": "The pace most people want. Day one is the Timurid core in the centre; day two moves out to the observatory and the paper mill, with room for a long lunch.",
+    "notes": "Day two needs a car or taxi for two short hops. Both stops are on the same side of the city.",
     "days": [
       {
-        "title": {
-          "en": "The Timurid centre",
-          "zh": "帖木儿王朝核心区"
-        },
+        "title": "The Timurid centre",
         "placeIds": [
           "registan",
           "gur-e-amir",
-          "bibi-khanym"
+          "bibi-khanym",
+          "siyob-bazaar"
         ],
-        "note": {
-          "en": "All within walking distance of each other.",
-          "zh": "三处彼此步行可达。"
-        }
+        "note": "All within walking distance of each other."
       },
       {
-        "title": {
-          "en": "Tombs and the stars",
-          "zh": "陵墓与星辰"
-        },
+        "title": "Tombs, stars and paper",
         "placeIds": [
           "shah-i-zinda",
-          "ulugbek-observatory"
+          "ulugbek-observatory",
+          "konigil"
         ],
-        "note": {
-          "en": "We start at Shah-i-Zinda by eight to have the lane to ourselves.",
-          "zh": "八点前到沙赫静达，可以独享那条巷子。"
-        }
+        "note": "Start at Shah-i-Zinda by eight to have the lane to yourself."
       }
     ]
   },
   {
     "id": "samarkand-3day",
-    "title": {
-      "en": "Samarkand in Three Days",
-      "zh": "撒马尔罕三日"
-    },
+    "title": "Samarkand in Three Days",
     "cityId": "samarkand",
     "duration": 3,
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shohi-Zinda_majmuasi_%28Shah-i-Zinda%2C_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0%29.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA — featured picture",
-      "page": "https://commons.wikimedia.org/wiki/File:Shohi-Zinda_majmuasi_%28Shah-i-Zinda%2C_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0%29.jpg"
-    },
-    "description": {
-      "en": "For travellers who would rather stop rushing. Everything in the two-day itinerary, spread out, with a third day for a second visit to whichever site you liked most.",
-      "zh": "适合不想赶行程的客人。把两日行程摊开来走，第三天可以回到你最喜欢的那处再看一遍。"
-    },
-    "notes": {
-      "en": "The third day is deliberately light. If you would rather cover ground, we can swap it for a day trip to Shahrisabz over the mountain pass.",
-      "zh": "第三天刻意安排得轻松。如果你更想多跑一些地方，可以换成翻山去沙赫里萨布兹的一日行程。"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam3/1600/1000",
+    "description": "For travellers who want to stop rushing. Everything in the two-day itinerary, spread out, with a third day for the workshops, the bazaar at its own pace, and a second visit to whichever site you liked most.",
+    "notes": "The third day is deliberately light. A day trip to Shahrisabz over the mountain pass can replace it if you would rather cover ground.",
     "days": [
       {
-        "title": {
-          "en": "The Registan and around",
-          "zh": "雷吉斯坦及周边"
-        },
+        "title": "The Registan and around",
         "placeIds": [
           "registan",
           "gur-e-amir"
         ],
-        "note": {
-          "en": "Half a day, so you can arrive on the midday train and still do it.",
-          "zh": "半天即可，中午的火车到达也来得及。"
-        }
+        "note": "A half day, so you can arrive on the midday train and still do it."
       },
       {
-        "title": {
-          "en": "Tombs and the great mosque",
-          "zh": "陵墓与大清真寺"
-        },
+        "title": "Tombs and the great mosque",
         "placeIds": [
           "shah-i-zinda",
-          "bibi-khanym"
+          "bibi-khanym",
+          "siyob-bazaar"
         ],
-        "note": {
-          "en": "The bazaar sits between the two — we use it as the lunch stop.",
-          "zh": "巴扎正好在两者之间——我们把它当作午餐点。"
-        }
+        "note": "The bazaar sits between the other two — use it as your lunch stop."
       },
       {
-        "title": {
-          "en": "Out of the centre",
-          "zh": "走出市中心"
-        },
+        "title": "Out of the centre",
         "placeIds": [
-          "ulugbek-observatory"
+          "ulugbek-observatory",
+          "konigil"
         ],
-        "note": {
-          "en": "Half a day of driving and craft workshops, back in town for the evening.",
-          "zh": "半天用于驾车和参观手工作坊，傍晚回到城里。"
-        }
+        "note": "Half a day of driving and craft workshops, back in town for the evening."
       }
     ]
   },
   {
     "id": "bukhara-2day",
-    "title": {
-      "en": "Bukhara in Two Days",
-      "zh": "布哈拉两日"
-    },
+    "title": "Bukhara in Two Days",
     "cityId": "bukhara",
     "duration": 2,
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalon_Minaret%2C_Bukhara_%284933987001%29.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY",
-      "page": "https://commons.wikimedia.org/wiki/File:Kalon_Minaret%2C_Bukhara_%284933987001%29.jpg"
-    },
-    "description": {
-      "en": "Bukhara rewards walking more than any other city here. Two days covers the monuments without ever needing a taxi, and ends both evenings at the pool.",
-      "zh": "布哈拉比这里任何一座城市都更值得用脚走。两天足以走完主要古迹而完全不必打车，两个傍晚都收束在水池边。"
-    },
-    "notes": {
-      "en": "Almost everything sits within a twenty-minute walk of Lyab-i Hauz. Wear shoes you can cover ten kilometres in.",
-      "zh": "几乎所有景点都在拉比豪兹水池步行二十分钟范围内。请穿能走十公里的鞋。"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tour-bukh2/1600/1000",
+    "description": "Bukhara rewards walking more than any other city here. Two days is enough to cover the monuments without ever needing a taxi, and to end both evenings at the pool.",
+    "notes": "Almost everything is inside a twenty-minute walk of Lyab-i Hauz. Wear shoes you can cover ten kilometres in.",
     "days": [
       {
-        "title": {
-          "en": "The fortress and the minaret",
-          "zh": "城堡与宣礼塔"
-        },
+        "title": "The fortress and the minaret",
         "placeIds": [
           "ark-fortress",
           "samanid-mausoleum",
           "poi-kalyan"
         ],
-        "note": {
-          "en": "We save Poi Kalyan for late afternoon, when the brick turns gold.",
-          "zh": "把波依卡扬留到下午晚些时候，那时砖会变成金色。"
-        }
+        "note": "Save Poi Kalyan for late afternoon when the brick turns gold."
       },
       {
-        "title": {
-          "en": "Domes and lanes",
-          "zh": "圆顶与巷弄"
-        },
+        "title": "Domes, lanes and the pool",
         "placeIds": [
-          "trading-domes"
+          "trading-domes",
+          "chor-minor",
+          "lyabi-hauz"
         ],
-        "note": {
-          "en": "A slower day for shopping and the back streets, finishing at the pool for dinner.",
-          "zh": "节奏更慢的一天，用来购物和穿行小巷，最后在水池边吃晚饭。"
-        }
+        "note": "Chor Minor is a fifteen-minute walk east through residential streets — that walk is part of the point."
       }
     ]
   },
   {
     "id": "khiva-2day",
-    "title": {
-      "en": "Khiva in Two Days",
-      "zh": "希瓦两日"
-    },
+    "title": "Khiva in Two Days",
     "cityId": "khiva",
     "duration": 2,
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_skyline.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA",
-      "page": "https://commons.wikimedia.org/wiki/File:Khiva_skyline.jpg"
-    },
-    "description": {
-      "en": "One day inside the walls covers the monuments; the second is for the Khiva that only appears once the day-trippers leave. Staying overnight inside Ichan Kala is the whole difference.",
-      "zh": "第一天在城墙内走完主要古迹；第二天留给当天往返的游客散去后才出现的那个希瓦。住在伊禅卡拉城内，是全部差别所在。"
-    },
-    "notes": {
-      "en": "A single combined ticket covers most sites inside the walls and is valid for two days.",
-      "zh": "一张联票涵盖城墙内大部分景点，有效期两天。"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tour-khiva2/1600/1000",
+    "description": "One day inside the walls covers the monuments; the second is for the parts of Khiva that only appear when the day-trippers leave. Staying overnight inside Ichan Kala is the whole difference.",
+    "notes": "A single combined ticket covers most sites inside the walls and is valid for two days.",
     "days": [
       {
-        "title": {
-          "en": "Inside the walls",
-          "zh": "城墙之内"
-        },
+        "title": "Inside the walls",
         "placeIds": [
           "ichan-kala",
           "kalta-minor",
-          "kuhna-ark"
+          "juma-mosque"
         ],
-        "note": {
-          "en": "We climb the Kuhna Ark watchtower early to get the layout in mind.",
-          "zh": "先爬库赫纳方舟宫的瞭望塔，把布局记下来。"
-        }
+        "note": "Climb the Kunya-Ark watchtower early to get the layout in your head."
       },
       {
-        "title": {
-          "en": "The view and the quiet",
-          "zh": "登高与静时"
-        },
+        "title": "The palace and the view",
         "placeIds": [
+          "tosh-hovli",
           "islam-khoja"
         ],
-        "note": {
-          "en": "We time the minaret climb for the hour before sunset, then walk the empty lanes.",
-          "zh": "把登塔安排在日落前一小时，之后走空下来的巷子。"
-        }
+        "note": "Time the minaret climb for the hour before sunset."
       }
     ]
   },
   {
     "id": "tashkent-1day",
-    "title": {
-      "en": "Tashkent in One Day",
-      "zh": "塔什干一日"
-    },
+    "title": "Tashkent in One Day",
     "cityId": "tashkent",
     "duration": 1,
-    "coverImage": {
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/088_Chorsu_Plaza_i_c%C3%BApules_de_la_mesquita_de_Xoja_Ahror%2C_des_del_basar_Eski_Juva_%28Taixkent%29.jpg?width=1600",
-      "credit": "Wikimedia Commons, CC BY-SA",
-      "page": "https://commons.wikimedia.org/wiki/File:088_Chorsu_Plaza_i_c%C3%BApules_de_la_mesquita_de_Xoja_Ahror%2C_des_del_basar_Eski_Juva_%28Taixkent%29.jpg"
-    },
-    "description": {
-      "en": "Designed for the day you land or the day before you fly home. Old town in the morning, the metro in the middle, and I can get you to the station in time for the afternoon train.",
-      "zh": "为落地当天或回程前一天设计。上午逛老城，中午体验地铁，我可以把你送到车站赶下午的火车。"
-    },
-    "notes": {
-      "en": "Metro tickets are a flat fare and trains run every few minutes. Keep some cash for the bazaar.",
-      "zh": "地铁单一票价，几分钟一班。请在巴扎留些现金。"
-    },
+    "coverImage": "https://picsum.photos/seed/karvon-tour-tash1/1600/1000",
+    "description": "Designed for the day you land or the day before you fly home. Old town in the morning, metro in the middle, modern city in the evening — all reachable without a car.",
+    "notes": "Metro tickets are a flat fare and the trains run every few minutes. Keep some cash for the bazaar.",
     "days": [
       {
-        "title": {
-          "en": "Old town",
-          "zh": "老城"
-        },
+        "title": "Old town to new",
         "placeIds": [
           "chorsu-bazaar",
-          "hazrati-imam"
+          "hazrati-imam",
+          "tashkent-metro",
+          "amir-timur-square"
         ],
-        "note": {
-          "en": "The two are a short walk apart; we take the metro east afterwards.",
-          "zh": "两处步行可达；之后我们乘地铁往东。"
-        }
+        "note": "Chorsu and Hazrati Imam are a short walk apart; take the metro east from there."
       }
     ]
   }
