@@ -614,18 +614,33 @@
   {
     "id": "juma-mosque",
     "cityId": "khiva",
-    "name": "Juma Mosque",
+    "name": {
+      "en": "Juma Mosque"
+    },
     "category": "architecture",
-    "shortDescription": "A flat-roofed hall held up by 213 carved wooden columns, lit only by two ceiling openings.",
-    "description": "No domes, no arches, no courtyard — just a dim forest of elm columns, some of them carved a thousand years ago and reused from earlier buildings. Shafts of light drop through two square holes in the roof and move across the floor during the day. It is the coolest place in Khiva in both senses and the best antidote to tile fatigue.",
+    "shortDescription": {
+      "en": "A flat-roofed hall held up by 213 carved wooden columns, lit only by two ceiling openings."
+    },
+    "description": {
+      "en": "No domes, no arches, no courtyard — just a dim forest of elm columns, some of them carved a thousand years ago and reused from earlier buildings. Shafts of light drop through two square holes in the roof and move across the floor during the day. It is the coolest place in Khiva in both senses and the best antidote to tile fatigue."
+    },
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3776,
     "longitude": 60.3618,
     "visitDuration": 40,
     "images": [
-      "https://picsum.photos/seed/karvon-juma-1/1600/1050",
-      "https://picsum.photos/seed/karvon-juma-2/1600/1050",
-      "https://picsum.photos/seed/karvon-juma-3/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbdh0JsdyYZbHWu5gRMtAP7H4i54DiCw-k6sqS63FWug-WiC2VOPciUHT&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbek-travel.com/images/uz/Landmarks/Khiva/Juma_Mosque/3774210685_0a880c5501_b.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZIaQJwNJXeSJfIZqcklcRFPJhMkt-EiD7Oct7TcdjT2584XDPrX1xfD8&s=10",
+        "credit": ""
+      }
     ]
   },
   {
