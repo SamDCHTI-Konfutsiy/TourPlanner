@@ -533,18 +533,45 @@
   {
     "id": "amir-timur-square",
     "cityId": "tashkent",
-    "name": "Amir Timur Square",
+    "name": {
+      "en": "Amir Timur Square"
+    },
     "category": "culture",
-    "shortDescription": "The green centre of the capital, ringed by the city's grandest buildings.",
-    "description": "A shaded park with Timur on horseback at the middle, the Hotel Uzbekistan's concrete grid on one side and the Amir Timur Museum's blue dome on the other. It is the easiest orientation point in Tashkent and the place locals go to walk in the evening. The museum next door is worth an hour if the empire is new to you.",
+    "shortDescription": {
+      "en": "The green centre of the capital, ringed by the city's grandest buildings."
+    },
+    "description": {
+      "en": "A shaded park with Timur on horseback at the middle, the Hotel Uzbekistan's concrete grid on one side and the Amir Timur Museum's blue dome on the other. It is the easiest orientation point in Tashkent and the place locals go to walk in the evening. The museum next door is worth an hour if the empire is new to you."
+    },
     "address": "Amir Timur Avenue, Tashkent",
     "latitude": 41.3111,
     "longitude": 69.2797,
     "visitDuration": 45,
     "images": [
-      "https://picsum.photos/seed/karvon-timursquare-1/1600/1050",
-      "https://picsum.photos/seed/karvon-timursquare-2/1600/1050",
-      "https://picsum.photos/seed/karvon-timursquare-3/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQ9UdwHEHJSokjsvvpdZvbESV4KDcNs9VXHLarDQIc3ptiXIfbUKIC7MS&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=400%2Cheight=265%2Cdpr=2/tour_img/072bd637949aba3626d718aa1e0eba07dee527f7451081edc08a068c8c333871.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/Otabek/Amir%20Temur/Muzey/cropped-images/1-15-0-0-0-0-1724047697.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://museumstudiesabroad.org/wp-content/uploads/2024/02/Amir-Timur-Museum-Tashkent-6-scaled.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGgq9e5esnyJpljxp6FKKLDhQNEvW_ad27Wy_r5BEjkbDeGX9ROs1_b8&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://www.advantour.com/img/uzbekistan/tashkent/museums/amir-timur-museum/amir-timur-and-the-timurid-dynasty.jpg",
+        "credit": ""
+      }
     ]
   },
   {
