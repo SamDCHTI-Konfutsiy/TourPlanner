@@ -434,18 +434,37 @@
   {
     "id": "chor-minor",
     "cityId": "bukhara",
-    "name": "Chor Minor",
+    "name": {
+      "en": "Chor Minor"
+    },
     "category": "architecture",
-    "shortDescription": "Four blue-capped towers on a small gatehouse, hidden in a residential lane.",
-    "description": "Not a mosque and not a madrasah — this was the gatehouse to a madrasah that no longer exists, built in 1807 by a Turkmen merchant. Each of the four towers is decorated differently, and the usual reading is that they represent four faiths. It takes ten minutes and finding it through the back streets is half the pleasure.",
+    "shortDescription": {
+      "en": "Four blue-capped towers on a small gatehouse, hidden in a residential lane."
+    },
+    "description": {
+      "en": "Not a mosque and not a madrasah — this was the gatehouse to a madrasah that no longer exists, built in 1807 by a Turkmen merchant. Each of the four towers is decorated differently, and the usual reading is that they represent four faiths. It takes ten minutes and finding it through the back streets is half the pleasure."
+    },
     "address": "Chor Minor Street, Bukhara",
     "latitude": 39.7773,
     "longitude": 64.4272,
     "visitDuration": 30,
     "images": [
-      "https://picsum.photos/seed/karvon-chorminor-1/1600/1050",
-      "https://picsum.photos/seed/karvon-chorminor-2/1600/1050",
-      "https://picsum.photos/seed/karvon-chorminor-3/1600/1050"
+      {
+        "src": "https://meros.uz/upload/2017/02/4c3c8f69f5750695c291cd926edd9612-large.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://meros.uz/uploads/wonder/wonder//67c32de0a3163c6878dc054d5e82c85c.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLZ_lffpNdZWLeToS_stOmRI7dxlJHmqdyyBk_ZWMfxvDjVtx9oUueFAo&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://www.asiaodysseytravel.com/images/asia-tours/central-asia-tours/chor-minor-bukhara-700-2.jpg",
+        "credit": ""
+      }
     ]
   },
   {
