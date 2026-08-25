@@ -717,18 +717,45 @@
   {
     "id": "minor-mosque",
     "cityId": "tashkent",
-    "name": "Minor Mosque",
+    "name": {
+      "en": "Minor Mosque"
+    },
     "category": "architecture",
-    "shortDescription": "A white marble mosque from 2014 — the modern counterpoint to everything else on this trip.",
-    "description": "Bright white marble, pale blue dome, no patina at all. It is a useful reminder that Uzbek religious architecture is a living tradition rather than a museum, and the interior carving is genuinely good. Fifteen minutes on the way to or from the airport.",
+    "shortDescription": {
+      "en": "A white marble mosque from 2014 — the modern counterpoint to everything else on this trip."
+    },
+    "description": {
+      "en": "Bright white marble, pale blue dome, no patina at all. It is a useful reminder that Uzbek religious architecture is a living tradition rather than a museum, and the interior carving is genuinely good. Fifteen minutes on the way to or from the airport."
+    },
     "address": "Kichik Halqa Yuli, Tashkent",
     "latitude": 41.3419,
     "longitude": 69.2872,
     "visitDuration": 30,
     "images": [
-      "https://picsum.photos/seed/karvon-minor-1/1600/1050",
-      "https://picsum.photos/seed/karvon-minor-2/1600/1050",
-      "https://picsum.photos/seed/karvon-minor-3/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEVPmI0bCKk3hioYxM4u21MoAsIbc5o20ZLD8wsogiA&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-N9yzfxK2cVofEz7Fe6IO8HOKDlzK0MC0sXVaBYWYIKfC56RfJ-HERRE&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjrmxez9dcUUuhBugxROnpWbY60J9H_7mwhKBK1gx0_qWlX_9A4jt1lro&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/19871159/2a0000019db97fa313987182424249685d8b/L_height",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbmNFxtP2qGGqadlShKcXe3Lk4Pwv4yqkzeigOXRwgLmvMB3fYcuHsehk&s=10",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787672416337-photo-2026-08-25-20.39.09.jpeg",
+        "credit": ""
+      }
     ]
   },
   {
