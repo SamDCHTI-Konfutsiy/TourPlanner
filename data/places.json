@@ -194,18 +194,45 @@
   {
     "id": "ulugbek-observatory",
     "cityId": "samarkand",
-    "name": "Ulugh Beg Observatory",
+    "name": {
+      "en": "Ulugh Beg Observatory"
+    },
     "category": "museum",
-    "shortDescription": "The buried arc of a 15th-century sextant that measured the year to within a minute.",
-    "description": "Ulugh Beg was a working astronomer who happened to rule an empire. His observatory held a marble sextant forty metres tall, sunk into the hillside for stability; the underground section survives and you can walk down beside it. His star catalogue of 1018 entries stayed the most accurate in the world for two hundred years. The small museum above puts the numbers in context.",
+    "shortDescription": {
+      "en": "The buried arc of a 15th-century sextant that measured the year to within a minute."
+    },
+    "description": {
+      "en": "Ulugh Beg was a working astronomer who happened to rule an empire. His observatory held a marble sextant forty metres tall, sunk into the hillside for stability; the underground section survives and you can walk down beside it. His star catalogue of 1018 entries stayed the most accurate in the world for two hundred years. The small museum above puts the numbers in context."
+    },
     "address": "Tashkent Road, Samarkand",
     "latitude": 39.6753,
     "longitude": 67.0053,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-observatory-1/1600/1050",
-      "https://picsum.photos/seed/karvon-observatory-2/1600/1050",
-      "https://picsum.photos/seed/karvon-observatory-3/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-yucEmUnhN9V1T3WPMgnFqQsV6nSHYXP-WVzieyo3rojyhRicYBDOBP3x&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFUoEIFnkP7A7W9nFSwQnJG3rk76dN_EgerdF_D0KUKivfp1he_fJWiifi&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/A_model_of_Ulug_Beg_obsrvatory_in_the_Uzbek_National_Muzeum.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiqKiNZ-Inxi0GHtxylrohdQid78FRPwsYt4I_5Nnjv-6qTpu7z98OBWFg&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://central-asia.guide/wp-content/uploads/2023/01/Ulughbeg-observatory-painting-1024x682.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://ulugbekobservatory.parusinfo.com/images/4-01a4.jpg",
+        "credit": ""
+      }
     ]
   },
   {
