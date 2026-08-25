@@ -174,20 +174,46 @@
   },
   {
     "id": "bukhara",
-    "name": "Bukhara",
-    "region": "Bukhara Region",
-    "tagline": "A living old town you can cross on foot in twenty minutes",
-    "description": "Bukhara kept its shape. Where other cities were rebuilt around their monuments, here the trading domes, the pool, the fortress and the mosques are still stitched together by ordinary streets full of people going to work. The colour is different too — less glazed blue, more raw ochre brick that turns gold in the last hour of light.",
-    "coverImage": "https://picsum.photos/seed/karvon-bukhara-cover/1800/1100",
+    "name": {
+      "en": "Bukhara"
+    },
+    "region": {
+      "en": "Bukhara Region"
+    },
+    "tagline": {
+      "en": "A living old town you can cross on foot in twenty minutes"
+    },
+    "description": {
+      "en": "Bukhara kept its shape. Where other cities were rebuilt around their monuments, here the trading domes, the pool, the fortress and the mosques are still stitched together by ordinary streets full of people going to work. The colour is different too — less glazed blue, more raw ochre brick that turns gold in the last hour of light."
+    },
+    "coverImage": {
+      "src": "https://ilmlar.uz/buxoro-ark-qorgoni-tarixifotosuratlari-bilan/ark1/",
+      "credit": ""
+    },
     "gallery": [
-      "https://picsum.photos/seed/karvon-bukhara-g1/1400/950",
-      "https://picsum.photos/seed/karvon-bukhara-g2/1400/950",
-      "https://picsum.photos/seed/karvon-bukhara-g3/1400/950"
+      {
+        "src": "https://legacy.uz/media/minorai%20kalon.jpeg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/cities/1787669802037-2026-08-25-19.19.37.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://bsmi.uz/wp-content/uploads/2022/04/IMGP4417-0-0-0-0-1583740336.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://ilmlar.uz/nodir-devonbegi-madrasasi-tarixi-va-rasmlari/nodir-devonbegi-madrasasi-korinishi/",
+        "credit": ""
+      }
     ],
     "latitude": 39.7747,
     "longitude": 64.4286,
     "recommendedDays": 2,
-    "travelInfo": "Reachable by train from Samarkand in about three hours. The road west to Khiva crosses the Kyzylkum desert — around seven hours by car, or take the overnight train."
+    "travelInfo": {
+      "en": "Reachable by train from Samarkand in about three hours. The road west to Khiva crosses the Kyzylkum desert — around seven hours by car, or take the overnight train."
+    }
   },
   {
     "id": "khiva",
