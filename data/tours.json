@@ -210,10 +210,11 @@
           "en": "Old town to new"
         },
         "placeIds": [
-          "chorsu-bazaar",
           "hazrati-imam",
+          "chorsu-bazaar",
           "tashkent-metro",
           "amir-timur-square",
+          "central-asia-pilaf-centre-beshqozon",
           "minor-mosque"
         ],
         "note": {
