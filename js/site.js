@@ -10,13 +10,13 @@ function cityCard(city, wide = false) {
   return el(
     'a',
     { class: `city-card${wide ? ' city-card--wide' : ''} reveal`, href: cityHref(city.id) },
-    img(city.coverImage, city.name, { seed: city.id, sizes: '(max-width: 620px) 100vw, 33vw' }),
+    img(city.coverImage, L(city.name), { seed: city.id, sizes: '(max-width: 620px) 100vw, 33vw' }),
     el(
       'div',
       { class: 'city-card__body' },
-      el('h3', { text: city.name }),
-      el('p', { text: city.tagline || '' }),
-      el('span', { class: 'city-card__days' }, `${plural(city.recommendedDays || 1, 'day', 'days')} · ${placesInCity(city.id).length} places`)
+      el('h3', { text: L(city.name) }),
+      el('p', { text: L(city.tagline) || '' }),
+      el('span', { class: 'city-card__days' }, `${days(city.recommendedDays || 1)} · ${placesInCity(city.id).length} ${t('ui.places')}`)
     )
   );
 }
@@ -26,17 +26,17 @@ function tourCard(tour) {
   return el(
     'a',
     { class: 'card reveal', href: tourHref(tour.id) },
-    el('div', { class: 'card__media' }, img(tour.coverImage, tour.title, { seed: tour.id })),
+    el('div', { class: 'card__media' }, img(tour.coverImage, L(tour.title), { seed: tour.id })),
     el(
       'div',
       { class: 'card__body' },
-      el('h3', { class: 'card__title', text: tour.title }),
-      el('p', { class: 'card__text', text: tour.description || '' }),
+      el('h3', { class: 'card__title', text: L(tour.title) }),
+      el('p', { class: 'card__text', text: L(tour.description) || '' }),
       el(
         'div',
         { class: 'card__foot' },
-        el('span', { text: city ? city.name : '' }),
-        el('span', { text: plural(tour.duration || 1, 'day', 'days') })
+        el('span', { text: city ? L(city.name) : '' }),
+        el('span', { text: days(tour.duration || 1) })
       )
     )
   );
@@ -51,12 +51,12 @@ function placeCard(place) {
       style: 'text-align:left;cursor:pointer',
       onclick: () => openPlace(place.id),
     },
-    el('div', { class: 'card__media' }, img((place.images || [])[0], place.name, { seed: place.id })),
+    el('div', { class: 'card__media' }, img((place.images || [])[0], L(place.name), { seed: place.id })),
     el(
       'div',
       { class: 'card__body' },
-      el('h3', { class: 'card__title', text: place.name }),
-      el('p', { class: 'card__text', text: place.shortDescription || '' }),
+      el('h3', { class: 'card__title', text: L(place.name) }),
+      el('p', { class: 'card__text', text: L(place.shortDescription) || '' }),
       el(
         'div',
         { class: 'card__foot' },
@@ -94,25 +94,25 @@ function openPlace(id) {
   const body = el(
     'div',
     {},
-    el('div', { style: 'padding-top:20px' }, buildGallery(place.images, place.name)),
-    el('p', { class: 'eyebrow', style: 'margin-top:26px', text: `${categoryLabel(place.category)} · ${city ? city.name : ''}` }),
-    el('h2', { class: 'd3', text: place.name }),
-    el('p', { class: 'lede', style: 'margin-top:12px', text: place.shortDescription || '' }),
-    el('div', { style: 'margin-top:18px' }, el('p', { text: place.description || '' })),
+    el('div', { style: 'padding-top:20px' }, buildGallery(place.images, L(place.name))),
+    el('p', { class: 'eyebrow', style: 'margin-top:26px', text: `${categoryLabel(place.category)} · ${city ? L(city.name) : ''}` }),
+    el('h2', { class: 'd3', text: L(place.name) }),
+    el('p', { class: 'lede', style: 'margin-top:12px', text: L(place.shortDescription) || '' }),
+    el('div', { style: 'margin-top:18px' }, el('p', { text: L(place.description) || '' })),
     el(
       'div',
       { class: 'stat-row', style: 'margin-top:24px' },
-      el('div', { class: 'stat' }, el('span', { class: 'k', text: 'Time needed' }), el('div', { class: 'v', text: fmtDuration(place.visitDuration) || '—' })),
-      el('div', { class: 'stat' }, el('span', { class: 'k', text: 'Category' }), el('div', { class: 'v', style: 'font-size:1.2rem', text: categoryLabel(place.category) })),
-      el('div', { class: 'stat' }, el('span', { class: 'k', text: 'City' }), el('div', { class: 'v', style: 'font-size:1.2rem', text: city ? city.name : '—' }))
+      el('div', { class: 'stat' }, el('span', { class: 'k', text: t('ui.timeNeeded') }), el('div', { class: 'v', text: fmtDuration(place.visitDuration) || '—' })),
+      el('div', { class: 'stat' }, el('span', { class: 'k', text: t('ui.category') }), el('div', { class: 'v', style: 'font-size:1.2rem', text: categoryLabel(place.category) })),
+      el('div', { class: 'stat' }, el('span', { class: 'k', text: t('ui.city') }), el('div', { class: 'v', style: 'font-size:1.2rem', text: city ? L(city.name) : '—' }))
     ),
     place.address ? el('p', { class: 'muted', style: 'margin-top:18px', text: place.address }) : null,
     el('div', { style: 'margin-top:16px' }, mapBox)
   );
 
-  Modal.open(body, place.name);
+  Modal.open(body, L(place.name));
   history.replaceState(null, '', `${location.pathname}${location.search}#place=${place.id}`);
-  drawMap(mapBox, [{ lat: place.latitude, lng: place.longitude, name: place.name }], { zoom: 15 });
+  drawMap(mapBox, [{ lat: place.latitude, lng: place.longitude, name: L(place.name) }], { zoom: 15 });
 }
 
 /* ---------- home ---------- */
@@ -134,9 +134,9 @@ function renderHome() {
       el(
         'div',
         { class: 'shell hero__body' },
-        el('p', { class: 'eyebrow', text: s.siteTagline || 'Uzbekistan' }),
-        el('h1', { class: 'd1', text: s.heroTitle || 'Discover Uzbekistan' }),
-        el('p', { class: 'lede', text: s.heroSubtitle || '' }),
+        el('p', { class: 'eyebrow', text: L(s.siteTagline) || 'Uzbekistan' }),
+        el('h1', { class: 'd1', text: L(s.heroTitle) || 'Discover Uzbekistan' }),
+        el('p', { class: 'lede', text: L(s.heroSubtitle) || '' }),
         el(
           'div',
           { class: 'hero__cta' },
@@ -146,9 +146,9 @@ function renderHome() {
         el(
           'div',
           { class: 'hero__meta' },
-          el('div', {}, el('span', { class: 'k', text: 'Cities' }), el('span', { class: 'v', text: String(Data.cities.length) })),
-          el('div', {}, el('span', { class: 'k', text: 'Places' }), el('span', { class: 'v', text: String(Data.places.length) })),
-          el('div', {}, el('span', { class: 'k', text: 'Ready tours' }), el('span', { class: 'v', text: String(Data.tours.length) }))
+          el('div', {}, el('span', { class: 'k', text: t('nav.cities') }), el('span', { class: 'v', text: String(Data.cities.length) })),
+          el('div', {}, el('span', { class: 'k', text: t('ui.places') }), el('span', { class: 'v', text: String(Data.places.length) })),
+          el('div', {}, el('span', { class: 'k', text: t('ui.readyTours') }), el('span', { class: 'v', text: String(Data.tours.length) }))
         )
       )
     ),
@@ -160,7 +160,7 @@ function renderHome() {
       el(
         'div',
         { class: 'shell' },
-        sectionHead('Where to go', 'The cities on the road', el('a', { class: 'textlink', href: BASE + 'cities.html', text: 'All cities →' })),
+        sectionHead(t('home.whereEyebrow'), t('home.whereTitle'), el('a', { class: 'textlink', href: BASE + 'cities.html', text: t('home.allCities') })),
         searchMount,
         el('div', { class: 'grid grid--4', style: 'margin-top:34px' }, featured.map((c) => cityCard(c)))
       )
@@ -176,10 +176,10 @@ function renderHome() {
         el(
           'div',
           {},
-          el('p', { class: 'eyebrow', text: 'Route planner' }),
-          el('h2', { class: 'd2', text: 'Pick the cities. We fix the order.' }),
-          el('p', { class: 'lede', style: 'margin-top:16px', text: 'Choose any combination and the planner measures every leg, spots the moment your route doubles back on itself, and offers a shorter order — which you are free to ignore.' }),
-          el('div', { style: 'margin-top:26px' }, el('a', { class: 'btn', href: BASE + 'planner.html', text: 'Open the planner' }))
+          el('p', { class: 'eyebrow', text: t('home.plannerEyebrow') }),
+          el('h2', { class: 'd2', text: t('home.plannerTitle') }),
+          el('p', { class: 'lede', style: 'margin-top:16px', text: t('home.plannerBody') }),
+          el('div', { style: 'margin-top:26px' }, el('a', { class: 'btn', href: BASE + 'planner.html', text: t('home.plannerCta') }))
         ),
         el(
           'div',
@@ -204,10 +204,38 @@ function renderHome() {
       el(
         'div',
         { class: 'shell' },
-        sectionHead('Fixed departures', 'One city, one to three days', el('a', { class: 'textlink', href: BASE + 'tours.html', text: 'All tours →' })),
+        sectionHead(t('home.toursEyebrow'), t('home.toursTitle'), el('a', { class: 'textlink', href: BASE + 'tours.html', text: t('home.allTours') })),
         tours.length
           ? el('div', { class: 'grid grid--3' }, tours.map(tourCard))
           : emptyState(t('state.noTours'), 'Plan a route instead', BASE + 'planner.html')
+      )
+    ),
+
+    /* who you are travelling with */
+    el(
+      'section',
+      { class: 'section' },
+      el(
+        'div',
+        { class: 'shell' },
+        el(
+          'div',
+          { class: 'guide reveal' },
+          el('div', { class: 'guide__portrait' }, img(s.guidePhoto || s.heroImage, L(s.guideName), { seed: 'guide' })),
+          el(
+            'div',
+            {},
+            el('p', { class: 'eyebrow', text: t('home.aboutEyebrow') }),
+            el('h2', { class: 'guide__name', text: L(s.guideName) || s.siteName }),
+            el('p', { class: 'lede', style: 'margin-top:14px', text: L(s.companyDescription) }),
+            el('p', { class: 'muted', style: 'margin-top:12px', text: L(s.aboutBlurb) }),
+            el(
+              'div',
+              { class: 'guide__langs' },
+              (s.languages || []).map((lg) => el('span', { class: 'chip chip--static', text: lg.label }))
+            )
+          )
+        )
       )
     ),
 
@@ -218,7 +246,7 @@ function renderHome() {
       el(
         'div',
         { class: 'shell' },
-        sectionHead('Talk to us', 'Questions go to a person, not a form'),
+        sectionHead(t('nav.contact'), t('contact.title')),
         contactGrid(),
         el('p', { class: 'muted', style: 'margin-top:22px', text: (s.contact || {}).hours || '' })
       )
@@ -242,9 +270,9 @@ function renderCitiesIndex() {
       el(
         'div',
         { class: 'shell' },
-        el('p', { class: 'eyebrow', text: 'Cities' }),
-        el('h1', { class: 'd2', text: 'Every city we cover' }),
-        el('p', { class: 'lede', style: 'margin-top:14px', text: 'Six cities, twenty-six places. Each one is somewhere our guides take people themselves.' }),
+        el('p', { class: 'eyebrow', text: t('nav.cities') }),
+        el('h1', { class: 'd2', text: t('cities.title') }),
+        el('p', { class: 'lede', style: 'margin-top:14px', text: L(Data.settings.aboutBlurb) }),
         searchMount,
         el(
           'div',
@@ -275,7 +303,7 @@ function renderCity() {
     return;
   }
 
-  document.title = `${city.name} — ${Data.settings.siteName || 'Karvon'}`;
+  document.title = `${L(city.name)} — ${Data.settings.siteName || 'Karvon'}`;
   const places = placesInCity(city.id);
   const cityTours = toursInCity(city.id);
   const mapBox = el('div', { class: 'map map--tall' });
@@ -298,7 +326,7 @@ function renderCity() {
     el(
       'button',
       { class: 'chip', type: 'button', 'aria-pressed': 'true', onclick: (e) => setFilter('all', e.currentTarget) },
-      `All ${places.length}`
+      `${t('ui.all')} ${places.length}`
     ),
     ...present.map((cat) =>
       el(
@@ -319,19 +347,19 @@ function renderCity() {
     el(
       'section',
       { class: 'hero hero--short' },
-      el('div', { class: 'hero__media' }, img(city.coverImage, city.name, { seed: city.id, eager: true })),
+      el('div', { class: 'hero__media' }, img(city.coverImage, L(city.name), { seed: city.id, eager: true })),
       el(
         'div',
         { class: 'shell hero__body' },
-        el('p', { class: 'eyebrow', text: city.region || 'Uzbekistan' }),
-        el('h1', { class: 'd1', text: city.name }),
-        el('p', { class: 'lede', text: city.tagline || '' }),
+        el('p', { class: 'eyebrow', text: L(city.region) || 'Uzbekistan' }),
+        el('h1', { class: 'd1', text: L(city.name) }),
+        el('p', { class: 'lede', text: L(city.tagline) || '' }),
         el(
           'div',
           { class: 'hero__meta' },
-          el('div', {}, el('span', { class: 'k', text: 'Stay' }), el('span', { class: 'v', text: plural(city.recommendedDays || 1, 'day', 'days') })),
-          el('div', {}, el('span', { class: 'k', text: 'Places' }), el('span', { class: 'v', text: String(places.length) })),
-          el('div', {}, el('span', { class: 'k', text: 'Ready tours' }), el('span', { class: 'v', text: String(cityTours.length) }))
+          el('div', {}, el('span', { class: 'k', text: t('ui.stay') }), el('span', { class: 'v', text: days(city.recommendedDays || 1) })),
+          el('div', {}, el('span', { class: 'k', text: t('ui.places') }), el('span', { class: 'v', text: String(places.length) })),
+          el('div', {}, el('span', { class: 'k', text: t('ui.readyTours') }), el('span', { class: 'v', text: String(cityTours.length) }))
         )
       )
     ),
@@ -345,14 +373,14 @@ function renderCity() {
         el(
           'div',
           { class: 'reveal' },
-          el('p', { class: 'eyebrow', text: 'The city' }),
-          el('p', { style: 'font-size:1.08rem', text: city.description || '' }),
-          city.travelInfo
+          el('p', { class: 'eyebrow', text: t('city.theCity') }),
+          el('p', { style: 'font-size:1.08rem', text: L(city.description) || '' }),
+          L(city.travelInfo)
             ? el(
                 'div',
                 { style: 'margin-top:22px;padding:16px 18px;border-left:2px solid var(--saffron);background:rgba(227,165,62,.07)' },
-                el('p', { class: 'eyebrow', style: 'margin-bottom:8px', text: 'Getting there' }),
-                el('p', { class: 'muted', style: 'font-size:.95rem', text: city.travelInfo })
+                el('p', { class: 'eyebrow', style: 'margin-bottom:8px', text: t('city.gettingThere') }),
+                el('p', { class: 'muted', style: 'font-size:.95rem', text: L(city.travelInfo) })
               )
             : null
         ),
@@ -360,8 +388,8 @@ function renderCity() {
           'div',
           { class: 'reveal' },
           (city.gallery || []).length
-            ? buildGallery(city.gallery, city.name)
-            : buildGallery([city.coverImage], city.name)
+            ? buildGallery(city.gallery, L(city.name))
+            : buildGallery([city.coverImage], L(city.name))
         )
       )
     ),
@@ -372,7 +400,7 @@ function renderCity() {
       el(
         'div',
         { class: 'shell' },
-        sectionHead('What to see', `Places in ${city.name}`, filterRow),
+        sectionHead(t('city.whatToSee'), L(city.name), filterRow),
         places.length ? placesGrid : emptyState(t('state.noPlaces'), 'Browse other cities', BASE + 'cities.html')
       )
     ),
@@ -383,7 +411,7 @@ function renderCity() {
       el(
         'div',
         { class: 'shell' },
-        sectionHead('On the map', `${city.name} at a glance`),
+        sectionHead(t('city.onMap'), L(city.name)),
         mapBox
       )
     ),
@@ -395,7 +423,7 @@ function renderCity() {
           el(
             'div',
             { class: 'shell' },
-            sectionHead('Ready to book', `Fixed tours in ${city.name}`),
+            sectionHead(t('ui.readyTours'), t('city.toursHere')),
             el('div', { class: 'grid grid--3' }, cityTours.map(tourCard))
           )
         )
@@ -407,8 +435,8 @@ function renderCity() {
       el(
         'div',
         { class: 'shell', style: 'display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between' },
-        el('h2', { class: 'd3', text: `Add ${city.name} to a longer route` }),
-        el('a', { class: 'btn', href: `${BASE}planner.html?cities=${city.id}`, text: 'Open the planner' })
+        el('h2', { class: 'd3', text: t('city.addToRoute') }),
+        el('a', { class: 'btn', href: `${BASE}planner.html?cities=${city.id}`, text: t('home.plannerCta') })
       )
     )
   );
@@ -418,8 +446,8 @@ function renderCity() {
   drawMap(
     mapBox,
     [
-      { lat: city.latitude, lng: city.longitude, name: city.name, note: city.tagline },
-      ...places.map((p) => ({ lat: p.latitude, lng: p.longitude, name: p.name })),
+      { lat: city.latitude, lng: city.longitude, name: L(city.name), note: L(city.tagline) },
+      ...places.map((p) => ({ lat: p.latitude, lng: p.longitude, name: L(p.name) })),
     ],
     { zoom: 13 }
   );
@@ -452,15 +480,15 @@ function renderToursIndex() {
 
   const cityIdsWithTours = [...new Set(Data.tours.map((x) => x.cityId))];
   cityRow.replaceChildren(
-    el('button', { class: 'chip', type: 'button', 'aria-pressed': 'true', onclick: (e) => pick('city', 'all', e.currentTarget) }, 'All cities'),
+    el('button', { class: 'chip', type: 'button', 'aria-pressed': 'true', onclick: (e) => pick('city', 'all', e.currentTarget) }, t('ui.allCities')),
     ...cityIdsWithTours.map((id) =>
       el('button', { class: 'chip', type: 'button', 'aria-pressed': 'false', onclick: (e) => pick('city', id, e.currentTarget) }, (cityById(id) || {}).name || id)
     )
   );
   durationRow.replaceChildren(
-    el('button', { class: 'chip', type: 'button', 'aria-pressed': 'true', onclick: (e) => pick('duration', 'all', e.currentTarget) }, 'Any length'),
+    el('button', { class: 'chip', type: 'button', 'aria-pressed': 'true', onclick: (e) => pick('duration', 'all', e.currentTarget) }, t('ui.anyLength')),
     ...['1', '2', '3'].map((d) =>
-      el('button', { class: 'chip', type: 'button', 'aria-pressed': 'false', onclick: (e) => pick('duration', d, e.currentTarget) }, plural(Number(d), 'day', 'days'))
+      el('button', { class: 'chip', type: 'button', 'aria-pressed': 'false', onclick: (e) => pick('duration', d, e.currentTarget) }, days(Number(d)))
     )
   );
 
@@ -479,9 +507,9 @@ function renderToursIndex() {
       el(
         'div',
         { class: 'shell' },
-        el('p', { class: 'eyebrow', text: 'Fixed departures' }),
-        el('h1', { class: 'd2', text: 'Ready tours' }),
-        el('p', { class: 'lede', style: 'margin-top:14px', text: 'Each tour stays in one city for one, two or three days. Combine several with the route planner if you want to cover ground.' }),
+        el('p', { class: 'eyebrow', text: t('home.toursEyebrow') }),
+        el('h1', { class: 'd2', text: t('tours.title') }),
+        el('p', { class: 'lede', style: 'margin-top:14px', text: t('tours.intro') }),
         el('div', { style: 'margin-top:26px' }, cityRow, durationRow),
         Data.tours.length ? grid : emptyState(t('state.noTours'), 'Plan a route instead', BASE + 'planner.html')
       )
@@ -505,13 +533,13 @@ function renderTour() {
     return;
   }
 
-  document.title = `${tour.title} — ${Data.settings.siteName || 'Karvon'}`;
+  document.title = `${L(tour.title)} — ${Data.settings.siteName || 'Karvon'}`;
   const city = cityById(tour.cityId);
   const allPlaceIds = (tour.days || []).flatMap((d) => d.placeIds || []);
   const galleryImages = allPlaceIds.flatMap((id) => ((placeById(id) || {}).images || []).slice(0, 2)).slice(0, 10);
   const mapBox = el('div', { class: 'map' });
 
-  const days = (tour.days || []).map((day, i) =>
+  const dayBlocks = (tour.days || []).map((day, i) =>
     el(
       'div',
       { class: 'day reveal' },
@@ -519,7 +547,7 @@ function renderTour() {
         'div',
         { class: 'day__head' },
         el('span', { class: 'day__num', text: `Day ${i + 1}` }),
-        el('span', { class: 'day__title', text: day.title || '' })
+        el('span', { class: 'day__title', text: L(day.title) || '' })
       ),
       el(
         'div',
@@ -530,23 +558,23 @@ function renderTour() {
           return el(
             'div',
             { class: 'day__item' },
-            img((place.images || [])[0], place.name, { seed: pid }),
+            img((place.images || [])[0], L(place.name), { seed: pid }),
             el(
               'div',
               { style: 'flex:1' },
-              el('strong', { text: place.name }),
-              el('p', { text: place.shortDescription || '' }),
+              el('strong', { text: L(place.name) }),
+              el('p', { text: L(place.shortDescription) || '' }),
               el(
                 'button',
                 { class: 'textlink', type: 'button', style: 'background:none;border:0;padding:0;margin-top:6px;cursor:pointer', onclick: () => openPlace(pid) },
-                'Details'
+                t('ui.details')
               )
             ),
             el('span', { class: 'data muted', text: fmtDuration(place.visitDuration) })
           );
         })
       ),
-      day.note ? el('p', { class: 'day__note', text: day.note }) : null
+      L(day.note) ? el('p', { class: 'day__note', text: L(day.note) }) : null
     )
   );
 
@@ -554,19 +582,19 @@ function renderTour() {
     el(
       'section',
       { class: 'hero hero--short' },
-      el('div', { class: 'hero__media' }, img(tour.coverImage, tour.title, { seed: tour.id, eager: true })),
+      el('div', { class: 'hero__media' }, img(tour.coverImage, L(tour.title), { seed: tour.id, eager: true })),
       el(
         'div',
         { class: 'shell hero__body' },
-        el('p', { class: 'eyebrow', text: city ? `${city.name} · fixed tour` : 'Fixed tour' }),
-        el('h1', { class: 'd1', style: 'font-size:clamp(2.1rem,5vw,3.6rem)', text: tour.title }),
-        el('p', { class: 'lede', text: tour.description || '' }),
+        el('p', { class: 'eyebrow', text: city ? `${L(city.name)} · ${t('home.toursEyebrow')}` : t('home.toursEyebrow') }),
+        el('h1', { class: 'd1', style: 'font-size:clamp(2.1rem,5vw,3.6rem)', text: L(tour.title) }),
+        el('p', { class: 'lede', text: L(tour.description) || '' }),
         el(
           'div',
           { class: 'hero__meta' },
-          el('div', {}, el('span', { class: 'k', text: 'Length' }), el('span', { class: 'v', text: plural(tour.duration || 1, 'day', 'days') })),
-          el('div', {}, el('span', { class: 'k', text: 'Stops' }), el('span', { class: 'v', text: String(allPlaceIds.length) })),
-          el('div', {}, el('span', { class: 'k', text: 'Base' }), el('span', { class: 'v', text: city ? city.name : '—' }))
+          el('div', {}, el('span', { class: 'k', text: t('ui.timeNeeded') }), el('span', { class: 'v', text: days(tour.duration || 1) })),
+          el('div', {}, el('span', { class: 'k', text: t('ui.places') }), el('span', { class: 'v', text: String(allPlaceIds.length) })),
+          el('div', {}, el('span', { class: 'k', text: t('ui.city') }), el('span', { class: 'v', text: city ? L(city.name) : '—' }))
         )
       )
     ),
@@ -577,25 +605,25 @@ function renderTour() {
       el(
         'div',
         { class: 'shell split', style: 'display:grid;grid-template-columns:1.35fr 1fr;gap:clamp(28px,5vw,56px);align-items:start' },
-        el('div', {}, sectionHead('Day by day', 'The itinerary'), days.length ? days : emptyState('This tour has no days yet.')),
+        el('div', {}, sectionHead(t('tour.dayByDay'), t('tour.itinerary')), dayBlocks.length ? dayBlocks : emptyState('This tour has no days yet.')),
         el(
           'div',
           { class: 'reveal' },
-          tour.notes
+          L(tour.notes)
             ? el(
                 'div',
                 { style: 'padding:18px 20px;border:1px solid var(--line);border-radius:8px;background:var(--lapis-800)' },
-                el('p', { class: 'eyebrow', style: 'margin-bottom:10px', text: 'Good to know' }),
-                el('p', { class: 'muted', style: 'font-size:.95rem', text: tour.notes })
+                el('p', { class: 'eyebrow', style: 'margin-bottom:10px', text: t('tour.goodToKnow') }),
+                el('p', { class: 'muted', style: 'font-size:.95rem', text: L(tour.notes) })
               )
             : null,
           el('div', { style: 'margin-top:16px' }, mapBox),
           el(
             'div',
             { style: 'margin-top:16px;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--lapis-800)' },
-            el('h3', { class: 'd4', text: 'Book this tour' }),
-            el('p', { class: 'muted', style: 'font-size:.93rem;margin-top:6px', text: 'Send us the dates and how many of you there are. We reply the same day.' }),
-            el('a', { class: 'btn btn--block', style: 'margin-top:14px', href: BASE + 'contact.html', text: 'Contact us' })
+            el('h3', { class: 'd4', text: t('tour.book') }),
+            el('p', { class: 'muted', style: 'font-size:.93rem;margin-top:6px', text: t('tour.bookBody') }),
+            el('a', { class: 'btn btn--block', style: 'margin-top:14px', href: BASE + 'contact.html', text: t('nav.contact') })
           )
         )
       )
@@ -605,7 +633,7 @@ function renderTour() {
       ? el(
           'section',
           { class: 'section section--band' },
-          el('div', { class: 'shell' }, sectionHead('Photographs', 'What you will see'), buildGallery(galleryImages, tour.title))
+          el('div', { class: 'shell' }, sectionHead(t('tour.photos'), t('tour.photosSub')), buildGallery(galleryImages, L(tour.title)))
         )
       : null
   );
@@ -615,7 +643,7 @@ function renderTour() {
     allPlaceIds
       .map((id) => placeById(id))
       .filter(Boolean)
-      .map((p) => ({ lat: p.latitude, lng: p.longitude, name: p.name })),
+      .map((p) => ({ lat: p.latitude, lng: p.longitude, name: L(p.name) })),
     { line: true }
   );
 }
@@ -633,7 +661,7 @@ function contactGrid() {
         { class: 'contact-card reveal', href: c.telegram.url || `https://t.me/${c.telegram.username}`, target: '_blank', rel: 'noopener' },
         el('span', { class: 'contact-card__k', text: 'Telegram' }),
         el('span', { class: 'contact-card__v', text: `@${c.telegram.username || ''}` }),
-        el('span', { class: 'contact-card__note', text: 'Fastest reply. Opens the app.' })
+        el('span', { class: 'contact-card__note', text: t('contact.telegramNote') })
       )
     );
   }
@@ -653,7 +681,7 @@ function contactGrid() {
             },
           },
           img(c.wechat.qrImage, 'WeChat QR code', { seed: 'wechat' }),
-          el('span', { class: 'contact-card__note', text: 'Tap to enlarge' })
+          el('span', { class: 'contact-card__note', text: t('contact.tapQr') })
         )
       : null;
 
@@ -663,7 +691,7 @@ function contactGrid() {
         { class: 'contact-card reveal' },
         el('span', { class: 'contact-card__k', text: 'WeChat' }),
         el('span', { class: 'contact-card__v', text: c.wechat.id || '' }),
-        c.wechat.name ? el('span', { class: 'contact-card__note', text: c.wechat.name }) : null,
+        L(c.wechat.name) ? el('span', { class: 'contact-card__note', text: L(c.wechat.name) }) : null,
         qrNode
       )
     );
@@ -676,7 +704,7 @@ function contactGrid() {
         { class: 'contact-card reveal', href: `tel:${c.phone.number}` },
         el('span', { class: 'contact-card__k', text: 'Phone' }),
         el('span', { class: 'contact-card__v', text: c.phone.display || c.phone.number }),
-        el('span', { class: 'contact-card__note', text: 'Tap to call. Also on WhatsApp.' })
+        el('span', { class: 'contact-card__note', text: t('contact.phoneNote') })
       )
     );
   }
@@ -698,9 +726,9 @@ function renderContact() {
       el(
         'div',
         { class: 'shell' },
-        el('p', { class: 'eyebrow', text: 'Contact' }),
-        el('h1', { class: 'd2', text: 'Get in touch' }),
-        el('p', { class: 'lede', style: 'margin-top:14px', text: s.aboutBlurb || '' }),
+        el('p', { class: 'eyebrow', text: t('nav.contact') }),
+        el('h1', { class: 'd2', text: t('contact.getInTouch') }),
+        el('p', { class: 'lede', style: 'margin-top:14px', text: L(s.aboutBlurb) || '' }),
         el('div', { style: 'margin-top:34px' }, contactGrid()),
         el(
           'div',
@@ -709,11 +737,11 @@ function renderContact() {
           el(
             'div',
             { class: 'reveal' },
-            el('p', { class: 'eyebrow', text: 'Office' }),
-            el('p', { style: 'font-size:1.05rem', text: c.address || '' }),
-            c.hours ? el('p', { class: 'muted', text: c.hours }) : null,
+            el('p', { class: 'eyebrow', text: t('contact.office') }),
+            el('p', { style: 'font-size:1.05rem', text: L(c.address) || '' }),
+            L(c.hours) ? el('p', { class: 'muted', text: L(c.hours) }) : null,
             c.email ? el('p', {}, el('a', { class: 'textlink', href: `mailto:${c.email}`, text: c.email })) : null,
-            el('p', { class: 'muted', style: 'margin-top:18px;font-size:.95rem', text: s.companyDescription || '' })
+            el('p', { class: 'muted', style: 'margin-top:18px;font-size:.95rem', text: L(s.companyDescription) || '' })
           ),
           mapBox
         )
@@ -722,7 +750,7 @@ function renderContact() {
   );
 
   const office = Data.cities.find((x) => x.id === 'samarkand') || Data.cities[0];
-  if (office) drawMap(mapBox, [{ lat: office.latitude, lng: office.longitude, name: s.siteName || 'Office', note: c.address }], { zoom: 13 });
+  if (office) drawMap(mapBox, [{ lat: office.latitude, lng: office.longitude, name: s.siteName || 'Office', note: L(c.address) }], { zoom: 13 });
 }
 
 /* ---------- dispatch ---------- */

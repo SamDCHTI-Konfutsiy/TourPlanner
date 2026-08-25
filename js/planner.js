@@ -49,12 +49,12 @@ function renderPlanner() {
       el(
         'div',
         { class: 'shell' },
-        el('p', { class: 'eyebrow', text: 'Route planner' }),
-        el('h1', { class: 'd2', text: 'Build the trip in the right order' }),
+        el('p', { class: 'eyebrow', text: t('planner.eyebrow') }),
+        el('h1', { class: 'd2', text: t('planner.title') }),
         el('p', {
           class: 'lede',
           style: 'margin-top:14px',
-          text: 'Tap the cities you want, in the order you have in mind. We measure every leg, flag anywhere the route turns back on itself, and show you a shorter order to compare against.',
+          text: t('planner.intro'),
         }),
 
         el(
@@ -65,9 +65,9 @@ function renderPlanner() {
           el(
             'div',
             {},
-            el('p', { class: 'label', style: 'margin-bottom:12px' }, '1 · Choose your cities'),
+            el('p', { class: 'label', style: 'margin-bottom:12px' }, t('planner.step1')),
             pickerBox,
-            el('div', { style: 'margin-top:26px' }, el('p', { class: 'label', style: 'margin-bottom:12px' }, '2 · Set the order'), chosenBox)
+            el('div', { style: 'margin-top:26px' }, el('p', { class: 'label', style: 'margin-bottom:12px' }, t('planner.step2')), chosenBox)
           ),
 
           /* right: result */
@@ -104,8 +104,8 @@ function paintPicker() {
         el(
           'span',
           { style: 'flex:1' },
-          el('strong', { text: city.name }),
-          el('span', { class: 'data', text: `${plural(city.recommendedDays || 1, 'day', 'days')} · ${placesInCity(city.id).length} places` })
+          el('strong', { text: L(city.name) }),
+          el('span', { class: 'data', text: `${days(city.recommendedDays || 1)} · ${placesInCity(city.id).length} ${t('ui.places')}` })
         )
       );
     })
@@ -142,7 +142,7 @@ function paintChosen() {
 
   if (!Planner.selected.length) {
     box.replaceChildren(
-      el('p', { class: 'muted', style: 'font-size:.95rem' }, 'Nothing chosen yet. Pick at least two cities to see a route.')
+      el('p', { class: 'muted', style: 'font-size:.95rem' }, t('planner.empty'))
     );
     return;
   }
@@ -157,13 +157,13 @@ function paintChosen() {
       { class: 'order-item', draggable: 'true', dataset: { index: i } },
       el('span', { class: 'order-item__grip', 'aria-hidden': 'true', text: '⠿' }),
       el('span', { class: 'data', style: 'color:var(--glaze)', text: String(i + 1).padStart(2, '0') }),
-      el('span', { class: 'order-item__name', text: city.name }),
+      el('span', { class: 'order-item__name', text: L(city.name) }),
       el(
         'span',
         { class: 'order-item__btns' },
-        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Move ${city.name} up`, disabled: i === 0, onclick: () => moveCity(i, i - 1) }, '↑'),
-        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Move ${city.name} down`, disabled: i === Planner.selected.length - 1, onclick: () => moveCity(i, i + 1) }, '↓'),
-        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Remove ${city.name}`, onclick: () => toggleCity(id) }, '✕')
+        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Move ${L(city.name)} up`, disabled: i === 0, onclick: () => moveCity(i, i - 1) }, '↑'),
+        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Move ${L(city.name)} down`, disabled: i === Planner.selected.length - 1, onclick: () => moveCity(i, i + 1) }, '↓'),
+        el('button', { class: 'icon-btn', type: 'button', 'aria-label': `Remove ${L(city.name)}`, onclick: () => toggleCity(id) }, '✕')
       )
     );
 
@@ -201,7 +201,7 @@ function paintChosen() {
         afterChange();
       },
     }),
-    el('span', {}, 'Return to ', el('strong', { text: (cityById(Planner.selected[0]) || {}).name || 'the first city' }), ' at the end')
+    el('span', {}, 'Return to ', el('strong', { text: L((cityById(Planner.selected[0]) || {}).name) || 'the first city' }), ' at the end')
   );
 
   box.replaceChildren(
@@ -210,7 +210,7 @@ function paintChosen() {
     el(
       'div',
       { style: 'display:flex;gap:10px;margin-top:16px;flex-wrap:wrap' },
-      el('button', { class: 'btn btn--ghost btn--sm', type: 'button', onclick: shareRoute }, 'Copy link to this route'),
+      el('button', { class: 'btn btn--ghost btn--sm', type: 'button', onclick: shareRoute }, t('planner.copyLink')),
       el(
         'button',
         {
@@ -222,7 +222,7 @@ function paintChosen() {
             afterChange();
           },
         },
-        'Start over'
+        t('planner.startOver')
       )
     )
   );
@@ -237,9 +237,9 @@ async function shareRoute() {
       return;
     }
     await navigator.clipboard.writeText(url);
-    toast('Link copied.');
+    toast(t('planner.copied'));
   } catch (_) {
-    toast('Copy the address bar to share this route.', true);
+    toast(t('planner.copyFail'), true);
   }
 }
 
@@ -254,8 +254,8 @@ function paintResult() {
       el(
         'div',
         { class: 'state' },
-        el('h3', { text: 'Your journey appears here' }),
-        el('p', { text: 'Pick two or more cities and we will measure the legs, estimate how long you need, and check the order.' })
+        el('h3', { text: t('planner.placeholderTitle') }),
+        el('p', { text: t('planner.placeholderBody') })
       )
     );
     return;
@@ -269,13 +269,13 @@ function paintResult() {
     el(
       'div',
       { style: 'position:sticky;top:calc(var(--nav-h) + 16px)' },
-      el('p', { class: 'eyebrow', text: 'Your journey' }),
+      el('p', { class: 'eyebrow', text: t('planner.yourJourney') }),
       el(
         'div',
         { class: 'stat-row', style: 'margin-top:14px' },
-        el('div', { class: 'stat' }, el('span', { class: 'k', text: 'Total distance' }), el('div', { class: 'v' }, String(Math.round(analysis.totalDistance).toLocaleString('en-US')), el('small', {}, 'km'))),
-        el('div', { class: 'stat' }, el('span', { class: 'k', text: 'Time needed' }), el('div', { class: 'v' }, `${analysis.days.min}–${analysis.days.max}`, el('small', {}, 'days'))),
-        el('div', { class: 'stat' }, el('span', { class: 'k', text: 'Route quality' }), el('div', { class: 'v', style: 'font-size:1.15rem', text: analysis.quality }))
+        el('div', { class: 'stat' }, el('span', { class: 'k', text: t('planner.totalDistance') }), el('div', { class: 'v' }, String(Math.round(analysis.totalDistance).toLocaleString('en-US')), el('small', {}, 'km'))),
+        el('div', { class: 'stat' }, el('span', { class: 'k', text: t('planner.timeNeeded') }), el('div', { class: 'v' }, `${analysis.days.min}–${analysis.days.max}`, el('small', {}, LANG === 'zh' ? '天' : 'days'))),
+        el('div', { class: 'stat' }, el('span', { class: 'k', text: t('planner.quality') }), el('div', { class: 'v', style: 'font-size:1.15rem', text: t(`quality.${analysis.quality}`) }))
       ),
       el('div', { style: 'margin-top:16px' }, verdictPanel(analysis)),
       el('div', { style: 'margin-top:24px' }, ribbon(analysis)),
@@ -283,9 +283,9 @@ function paintResult() {
       el(
         'div',
         { style: 'margin-top:20px;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--lapis-800)' },
-        el('h3', { class: 'd4', text: 'Want us to book this?' }),
-        el('p', { class: 'muted', style: 'font-size:.93rem;margin-top:6px', text: 'Send the link to this route and your dates. We will come back with trains, hotels and guides.' }),
-        el('a', { class: 'btn btn--block', style: 'margin-top:14px', href: BASE + 'contact.html', text: 'Contact us' })
+        el('h3', { class: 'd4', text: t('planner.askTitle') }),
+        el('p', { class: 'muted', style: 'font-size:.93rem;margin-top:6px', text: t('planner.askBody') }),
+        el('a', { class: 'btn btn--block', style: 'margin-top:14px', href: BASE + 'contact.html', text: t('nav.contact') })
       )
     )
   );
@@ -303,25 +303,31 @@ function verdictPanel(analysis) {
   const backCount = analysis.backtracks.length;
   const roadFactor = Data.settings.roadFactor || 1.25;
 
+  const km = fmtKm(analysis.savedKm);
   let title;
   let detail;
 
   if (analysis.roundTrip && backCount === 0) {
-    title = 'Round trip, no wasted kilometres.';
-    detail = `You finish where you started, in ${cityById(analysis.order[0].id).name}, having crossed the country once in each direction. That is the shape a round trip should have.`;
+    const city = L(cityById(analysis.order[0].id).name);
+    title = t('verdict.round.title');
+    detail = tf('verdict.round.body', { city });
   } else if (backCount === 0 && analysis.efficiency >= 0.97) {
-    title = 'One clean run along the corridor.';
-    detail = 'Every leg moves you further along the road. There is no shorter order for these cities.';
+    title = t('verdict.clean.title');
+    detail = t('verdict.clean.body');
   } else if (backCount === 0) {
-    title = 'A sensible order.';
-    detail = `Nothing doubles back. A different order would save about ${fmtKm(analysis.savedKm)}, which may not be worth rearranging your trip for.`;
+    title = t('verdict.sensible.title');
+    detail = tf('verdict.sensible.body', { km });
   } else if (backCount === 1) {
     const leg = analysis.legs.find((l) => l.isBacktrack);
-    title = 'One detour — fine if it is deliberate.';
-    detail = `Going to ${leg.from.name} before ${leg.to.name} means turning back on yourself once. It costs about ${fmtKm(analysis.savedKm)} against the shortest order. Plenty of people do this for a flight time or a festival date.`;
+    title = t('verdict.detour.title');
+    detail = tf('verdict.detour.body', { from: L(leg.from.name), to: L(leg.to.name), km });
   } else {
-    title = 'This route contains unnecessary backtracking.';
-    detail = `The road turns back on itself ${backCount} times. Reordering the same cities saves roughly ${fmtKm(analysis.savedKm)} — around ${Math.round((1 - analysis.efficiency) * 100)}% of the driving.`;
+    title = t('verdict.back.title');
+    detail = tf('verdict.back.body', {
+      n: backCount,
+      km,
+      pct: Math.round((1 - analysis.efficiency) * 100),
+    });
   }
 
   const suggestion =
@@ -339,10 +345,10 @@ function verdictPanel(analysis) {
                 Planner.selected = analysis.roundTrip ? ids.slice(0, -1) : ids;
                 Planner.dismissedSuggestion = false;
                 afterChange();
-                toast(`Reordered — ${fmtKm(analysis.savedKm)} shorter.`);
+                toast(tf('planner.reordered', { km: fmtKm(analysis.savedKm) }));
               },
             },
-            'Optimise route'
+            t('planner.optimise')
           ),
           el(
             'button',
@@ -352,17 +358,17 @@ function verdictPanel(analysis) {
               onclick: () => {
                 Planner.dismissedSuggestion = true;
                 paintResult();
-                toast('Keeping your order.');
+                toast(t('planner.kept'));
               },
             },
-            'Keep my order'
+            t('planner.keepMine')
           )
         )
       : null;
 
   const preview =
     suggestion && !analysis.sameAsOptimal
-      ? el('p', { class: 'data', style: 'margin-top:10px;color:var(--glaze)' }, `Shortest: ${analysis.optimalOrder.map((c) => c.name).join(' → ')} · ${fmtKm(analysis.optimalDistance)}`)
+      ? el('p', { class: 'data', style: 'margin-top:10px;color:var(--glaze)' }, `${t('verdict.shortest')}: ${analysis.optimalOrder.map((c) => L(c.name)).join(' → ')} · ${fmtKm(analysis.optimalDistance)}`)
       : null;
 
   const toneClass = { warn: 'verdict--warn', good: 'verdict--good', note: 'verdict--note' }[analysis.tone] || '';
@@ -401,17 +407,17 @@ function ribbon(analysis) {
       el(
         'div',
         { style: 'display:flex;align-items:baseline;gap:12px;flex-wrap:wrap' },
-        el('a', { class: 'ribbon__city', href: cityHref(city.id), text: city.name }),
+        el('a', { class: 'ribbon__city', href: cityHref(city.id), text: L(city.name) }),
         !isLast || !analysis.roundTrip
-          ? el('span', { class: 'data muted', text: plural(city.recommendedDays || 1, 'day', 'days') })
-          : el('span', { class: 'data muted', text: 'return' })
+          ? el('span', { class: 'data muted', text: days(city.recommendedDays || 1) })
+          : el('span', { class: 'data muted', text: t('planner.return') })
       ),
       !(analysis.roundTrip && isLast)
         ? el(
             'div',
             { class: 'ribbon__places' },
             top.map((p) =>
-              el('button', { class: 'chip', type: 'button', onclick: () => openPlace(p.id) }, p.name)
+              el('button', { class: 'chip', type: 'button', onclick: () => openPlace(p.id) }, L(p.name))
             )
           )
         : null,
@@ -420,8 +426,8 @@ function ribbon(analysis) {
             'span',
             { class: `ribbon__leg${leg.isBacktrack ? ' ribbon__leg--back' : ''}` },
             leg.isBacktrack ? '↰' : '↓',
-            `${fmtKm(leg.km)} to ${leg.to.name}`,
-            leg.isBacktrack ? ' · retraces your path' : ''
+            `${fmtKm(leg.km)} → ${L(leg.to.name)}`,
+            leg.isBacktrack ? t('verdict.retraces') : ''
           )
         : null
     );

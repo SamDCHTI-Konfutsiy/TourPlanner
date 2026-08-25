@@ -113,6 +113,44 @@ function field(label, value, onInput, opts = {}) {
   return el('label', { class: 'field' }, el('span', { text: label }), control, hint ? el('span', { class: 'hint', text: hint }) : null);
 }
 
+/**
+ * A text field with one input per site language. Content is stored as
+ * { en: "…", zh: "…" } so the same record serves both audiences; the
+ * public site falls back to English when a translation is missing.
+ */
+function mlField(label, holder, key, opts = {}) {
+  const langs = Draft.settings.languages || [{ code: 'en', label: 'English' }];
+  if (typeof holder[key] === 'string' || holder[key] == null) {
+    holder[key] = { en: holder[key] || '' };
+  }
+
+  const inputs = langs.map((lang) => {
+    const control = opts.rows
+      ? el('textarea', { class: 'textarea', rows: String(opts.rows), placeholder: opts.placeholder || '' })
+      : el('input', { class: 'input', type: 'text', placeholder: opts.placeholder || '' });
+    control.value = holder[key][lang.code] || '';
+    control.addEventListener('input', (e) => {
+      holder[key][lang.code] = e.target.value;
+      if (opts.onInput) opts.onInput();
+      saveDraft();
+    });
+    return el(
+      'div',
+      { class: 'ml-field__row' },
+      el('span', { class: 'ml-field__tag', text: lang.label }),
+      control
+    );
+  });
+
+  return el(
+    'div',
+    { class: 'field ml-field' },
+    el('span', { class: 'label', text: label }),
+    ...inputs,
+    opts.hint ? el('span', { class: 'hint', text: opts.hint }) : null
+  );
+}
+
 function panel(title, hint, ...children) {
   return el('section', { class: 'adm-panel' }, el('h2', { text: title }), hint ? el('p', { class: 'hint', text: hint }) : null, ...children);
 }
@@ -123,6 +161,13 @@ function confirmDelete(what) {
 
 /* ---------- image editor (1–10 images, reorder, upload) ---------- */
 
+/** A single cover image is edited with the same widget as a gallery. */
+function coverAsList(holder, key) {
+  const proxy = holder[key] ? [holder[key]] : [];
+  proxy.commit = () => { holder[key] = proxy[0] || ''; };
+  return proxy;
+}
+
 function imageEditor(list, onChange, folder, max = 10) {
   const wrap = el('div', { class: 'imgs' });
 
@@ -130,11 +175,24 @@ function imageEditor(list, onChange, folder, max = 10) {
     const grid = el(
       'div',
       { class: 'imgs__grid' },
-      list.map((src, i) =>
-        el(
+      list.map((entry, i) => {
+        const creditInput = el('input', {
+          class: 'input imgs__credit',
+          type: 'text',
+          placeholder: 'Photo credit (optional)',
+          oninput: (e) => {
+            if (typeof list[i] === 'string') list[i] = { src: list[i] };
+            list[i].credit = e.target.value;
+            onChange(list);
+            if (list.commit) list.commit();
+            saveDraft();
+          },
+        });
+        creditInput.value = imgCredit(entry);
+        return el(
           'div',
           { class: 'imgs__cell' },
-          img(src, `Image ${i + 1}`, { seed: src }),
+          img(entry, `Image ${i + 1}`, { seed: imgSrc(entry) }),
           el('span', { class: 'imgs__num', text: String(i + 1) }),
           el(
             'div',
@@ -142,9 +200,10 @@ function imageEditor(list, onChange, folder, max = 10) {
             el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Move left', disabled: i === 0, onclick: () => swap(i, i - 1) }, '←'),
             el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Move right', disabled: i === list.length - 1, onclick: () => swap(i, i + 1) }, '→'),
             el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Remove image', onclick: () => remove(i) }, '✕')
-          )
-        )
-      )
+          ),
+          creditInput
+        );
+      })
     );
 
     const urlInput = el('input', { class: 'input', type: 'url', placeholder: 'Paste an image URL and press Add' });
@@ -169,7 +228,7 @@ function imageEditor(list, onChange, folder, max = 10) {
             const v = urlInput.value.trim();
             if (!v) return;
             if (list.length >= max) return toast(`That is the limit of ${max} images.`, true);
-            list.push(v);
+            list.push({ src: v, credit: '' });
             urlInput.value = '';
             commit();
           },
@@ -197,7 +256,7 @@ function imageEditor(list, onChange, folder, max = 10) {
       try {
         toast(`Uploading ${file.name}…`);
         const path = await ghUploadImage(file, folder);
-        list.push(path);
+        list.push({ src: path, credit: '' });
         commit();
       } catch (err) {
         toast(err.message, true);
@@ -216,6 +275,7 @@ function imageEditor(list, onChange, folder, max = 10) {
     commit();
   }
   function commit() {
+    if (list.commit) list.commit();
     onChange(list);
     paint();
   }
@@ -254,14 +314,27 @@ function viewDashboard() {
         'div',
         { style: 'display:grid;gap:10px' },
         orphans.length
-          ? el('div', { class: 'adm-note adm-note--bad' }, el('strong', {}, `${orphans.length} place(s) point at a city that no longer exists: `), orphans.map((p) => p.name).join(', '))
+          ? el('div', { class: 'adm-note adm-note--bad' }, el('strong', {}, `${orphans.length} place(s) point at a city that no longer exists: `), orphans.map((p) => L(p.name)).join(', '))
           : el('div', { class: 'adm-note adm-note--ok' }, 'Every place belongs to a city that exists.'),
         emptyCities.length
-          ? el('div', { class: 'adm-note' }, el('strong', {}, 'Cities with no places yet: '), emptyCities.map((c) => c.name).join(', '))
+          ? el('div', { class: 'adm-note' }, el('strong', {}, 'Cities with no places yet: '), emptyCities.map((c) => L(c.name)).join(', '))
           : el('div', { class: 'adm-note adm-note--ok' }, 'Every city has at least one place.'),
         Draft.tours.some((x) => !(x.days || []).length)
           ? el('div', { class: 'adm-note' }, 'Some tours have no days yet. They will show an empty itinerary.')
-          : null
+          : null,
+        (() => {
+          const noPhoto = Draft.places.filter((p) => !(p.images || []).length);
+          return noPhoto.length
+            ? el('div', { class: 'adm-note' }, el('strong', {}, 'Places with no photograph yet: '), noPhoto.map((p) => L(p.name)).join(', '))
+            : el('div', { class: 'adm-note adm-note--ok' }, 'Every place has at least one photograph.');
+        })(),
+        (() => {
+          const stock = Draft.places.filter((p) => (p.images || []).some((i) => imgSrc(i).includes('wikimedia')));
+          return stock.length
+            ? el('div', { class: 'adm-note' }, el('strong', {}, `${stock.length} place(s) still use stock photography. `),
+                'Replacing these with your own photographs is the single biggest improvement you can make to this site.')
+            : null;
+        })()
       )
     ),
 
@@ -298,8 +371,8 @@ function viewCities() {
               el(
                 'div',
                 { class: 'adm-item__main' },
-                el('strong', { text: city.name || '(untitled)' }),
-                el('span', { text: `${city.id} · ${plural(city.recommendedDays || 1, 'day', 'days')} · ${Draft.places.filter((p) => p.cityId === city.id).length} places` })
+                el('strong', { text: L(city.name) || '(untitled)' }),
+                el('span', { text: `${city.id} · ${city.recommendedDays || 1}d · ${Draft.places.filter((p) => p.cityId === city.id).length} places` })
               ),
               el(
                 'div',
@@ -314,7 +387,7 @@ function viewCities() {
                     type: 'button',
                     onclick: () => {
                       const attached = Draft.places.filter((p) => p.cityId === city.id).length;
-                      if (!confirmDelete(`${city.name}${attached ? ` and leave ${attached} place(s) orphaned` : ''}`)) return;
+                      if (!confirmDelete(`${L(city.name)}${attached ? ` and leave ${attached} place(s) orphaned` : ''}`)) return;
                       Draft.cities.splice(i, 1);
                       saveDraft();
                       paintList();
@@ -352,14 +425,15 @@ function viewCities() {
 
     formBox.replaceChildren(
       panel(
-        isNew ? 'New city' : `Editing ${city.name}`,
+        isNew ? 'New city' : `Editing ${L(city.name)}`,
         'Coordinates drive the route planner, so they matter more here than anywhere else.',
         el(
           'div',
           { class: 'adm-form' },
-          el('div', { class: 'adm-row' }, field('Name', city.name, set('name'), { placeholder: 'Samarkand' }), field('Region', city.region, set('region'), { placeholder: 'Samarqand Region' })),
-          field('Tagline', city.tagline, set('tagline'), { hint: 'One line, shown on the card over the photo.' }),
-          field('Description', city.description, set('description'), { rows: 5 }),
+          mlField('Name', city, 'name', { placeholder: 'Samarkand' }),
+          mlField('Region', city, 'region', { placeholder: 'Samarqand Region' }),
+          mlField('Tagline', city, 'tagline', { hint: 'One line, shown on the card over the photo.' }),
+          mlField('Description', city, 'description', { rows: 5 }),
           el(
             'div',
             { class: 'adm-row adm-row--3' },
@@ -367,8 +441,8 @@ function viewCities() {
             field('Longitude', city.longitude, set('longitude'), { type: 'number', step: '0.0001' }),
             field('Recommended days', city.recommendedDays, set('recommendedDays'), { type: 'number', min: '1', max: '10' })
           ),
-          field('Travel information', city.travelInfo, set('travelInfo'), { rows: 3, hint: 'How travellers get here and move on.' }),
-          field('Cover image URL', city.coverImage, set('coverImage'), { placeholder: 'https://… or assets/images/cities/…' }),
+          mlField('Travel information', city, 'travelInfo', { rows: 3, hint: 'How travellers get here and move on.' }),
+          el('div', { class: 'field' }, el('span', { class: 'label', text: 'Cover image' }), imageEditor(coverAsList(city, 'coverImage'), () => saveDraft(), 'cities', 1)),
           el('div', { class: 'field' }, el('span', { class: 'label', text: 'Gallery' }), imageEditor(city.gallery || (city.gallery = []), () => saveDraft(), 'cities')),
           el(
             'div',
@@ -380,13 +454,13 @@ function viewCities() {
                     class: 'btn',
                     type: 'button',
                     onclick: () => {
-                      if (!city.name.trim()) return toast('Give the city a name first.', true);
-                      city.id = uniqueId(city.name, Draft.cities);
+                      if (!L(city.name).trim()) return toast('Give the city a name first.', true);
+                      city.id = uniqueId(L(city.name), Draft.cities);
                       Draft.cities.push(city);
                       saveDraft();
                       paintList();
                       openForm(city);
-                      toast(`${city.name} added.`);
+                      toast(`${L(city.name)} added.`);
                     },
                   },
                   'Add city'
@@ -422,7 +496,7 @@ function viewPlaces() {
     { class: 'chip-row', style: 'margin-bottom:14px' },
     el('button', { class: 'chip', type: 'button', 'aria-pressed': 'true', onclick: (e) => setFilter('all', e.currentTarget) }, 'All'),
     ...Draft.cities.map((c) =>
-      el('button', { class: 'chip', type: 'button', 'aria-pressed': 'false', onclick: (e) => setFilter(c.id, e.currentTarget) }, c.name)
+      el('button', { class: 'chip', type: 'button', 'aria-pressed': 'false', onclick: (e) => setFilter(c.id, e.currentTarget) }, L(c.name))
     )
   );
 
@@ -444,8 +518,8 @@ function viewPlaces() {
               el(
                 'div',
                 { class: 'adm-item__main' },
-                el('strong', { text: place.name || '(untitled)' }),
-                el('span', { text: `${(Draft.cities.find((c) => c.id === place.cityId) || {}).name || '⚠ no city'} · ${categoryLabel(place.category)} · ${(place.images || []).length} images` })
+                el('strong', { text: L(place.name) || '(untitled)' }),
+                el('span', { text: `${L((Draft.cities.find((c) => c.id === place.cityId) || {}).name) || '⚠ no city'} · ${categoryLabel(place.category)} · ${(place.images || []).length} images` })
               ),
               el(
                 'div',
@@ -457,7 +531,7 @@ function viewPlaces() {
                     class: 'btn btn--sm btn--danger',
                     type: 'button',
                     onclick: () => {
-                      if (!confirmDelete(place.name)) return;
+                      if (!confirmDelete(L(place.name))) return;
                       Draft.places.splice(Draft.places.indexOf(place), 1);
                       Draft.tours.forEach((tour) =>
                         (tour.days || []).forEach((d) => {
@@ -500,7 +574,7 @@ function viewPlaces() {
 
     formBox.replaceChildren(
       panel(
-        isNew ? 'New place' : `Editing ${place.name}`,
+        isNew ? 'New place' : `Editing ${L(place.name)}`,
         'Between one and ten images. The first one is used on cards.',
         el(
           'div',
@@ -508,14 +582,14 @@ function viewPlaces() {
           el(
             'div',
             { class: 'adm-row' },
-            field('City', place.cityId, set('cityId'), { options: Draft.cities.map((c) => ({ value: c.id, label: c.name })) }),
+            field('City', place.cityId, set('cityId'), { options: Draft.cities.map((c) => ({ value: c.id, label: L(c.name) })) }),
             field('Category', place.category, set('category'), {
               options: (Draft.settings.categories || []).map((c) => ({ value: c.id, label: c.label })),
             })
           ),
-          field('Name', place.name, set('name'), { placeholder: 'Registan Square' }),
-          field('Short description', place.shortDescription, set('shortDescription'), { rows: 2, hint: 'One sentence, shown on the card.' }),
-          field('Full description', place.description, set('description'), { rows: 6 }),
+          mlField('Name', place, 'name', { placeholder: 'Registan Square' }),
+          mlField('Short description', place, 'shortDescription', { rows: 2, hint: 'One sentence, shown on the card.' }),
+          mlField('Full description', place, 'description', { rows: 6 }),
           field('Address', place.address, set('address')),
           el(
             'div',
@@ -535,14 +609,14 @@ function viewPlaces() {
                     class: 'btn',
                     type: 'button',
                     onclick: () => {
-                      if (!place.name.trim()) return toast('Give the place a name first.', true);
+                      if (!L(place.name).trim()) return toast('Give the place a name first.', true);
                       if (!place.cityId) return toast('Add a city before adding places.', true);
-                      place.id = uniqueId(place.name, Draft.places);
+                      place.id = uniqueId(L(place.name), Draft.places);
                       Draft.places.push(place);
                       saveDraft();
                       paintList();
                       openForm(place);
-                      toast(`${place.name} added.`);
+                      toast(`${L(place.name)} added.`);
                     },
                   },
                   'Add place'
@@ -583,8 +657,8 @@ function viewTours() {
               el(
                 'div',
                 { class: 'adm-item__main' },
-                el('strong', { text: tour.title || '(untitled)' }),
-                el('span', { text: `${(Draft.cities.find((c) => c.id === tour.cityId) || {}).name || '⚠ no city'} · ${plural(tour.duration || 1, 'day', 'days')} · ${(tour.days || []).reduce((n, d) => n + (d.placeIds || []).length, 0)} stops` })
+                el('strong', { text: L(tour.title) || '(untitled)' }),
+                el('span', { text: `${L((Draft.cities.find((c) => c.id === tour.cityId) || {}).name) || '⚠ no city'} · ${tour.duration || 1}d · ${(tour.days || []).reduce((n, d) => n + (d.placeIds || []).length, 0)} stops` })
               ),
               el(
                 'div',
@@ -596,7 +670,7 @@ function viewTours() {
                     class: 'btn btn--sm btn--danger',
                     type: 'button',
                     onclick: () => {
-                      if (!confirmDelete(tour.title)) return;
+                      if (!confirmDelete(L(tour.title))) return;
                       Draft.tours.splice(Draft.tours.indexOf(tour), 1);
                       saveDraft();
                       paintList();
@@ -644,18 +718,7 @@ function viewTours() {
               'div',
               { class: 'adm-day__head' },
               el('span', { class: 'data', style: 'color:var(--saffron)', text: `Day ${di + 1}` }),
-              (() => {
-                const input = el('input', {
-                  class: 'input',
-                  placeholder: 'What this day is about',
-                  oninput: (e) => {
-                    day.title = e.target.value;
-                    saveDraft();
-                  },
-                });
-                input.value = day.title || '';
-                return input;
-              })(),
+              el('div', { style: 'flex:1' }, mlField('', day, 'title', { placeholder: 'What this day is about' })),
               el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Move day up', disabled: di === 0, onclick: () => { [tour.days[di], tour.days[di - 1]] = [tour.days[di - 1], tour.days[di]]; saveDraft(); paintDays(); } }, '↑'),
               el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Move day down', disabled: di === tour.days.length - 1, onclick: () => { [tour.days[di], tour.days[di + 1]] = [tour.days[di + 1], tour.days[di]]; saveDraft(); paintDays(); } }, '↓'),
               el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Remove day', onclick: () => { tour.days.splice(di, 1); saveDraft(); paintDays(); } }, '✕')
@@ -671,7 +734,7 @@ function viewTours() {
                   'div',
                   { class: 'order-item' },
                   el('span', { class: 'data', style: 'color:var(--glaze)', text: String(pi + 1).padStart(2, '0') }),
-                  el('span', { class: 'order-item__name', text: place ? place.name : `⚠ missing (${pid})` }),
+                  el('span', { class: 'order-item__name', text: place ? L(place.name) : `⚠ missing (${pid})` }),
                   el(
                     'span',
                     { class: 'order-item__btns' },
@@ -703,26 +766,13 @@ function viewTours() {
                             paintDays();
                           },
                         },
-                        `+ ${p.name}`
+                        `+ ${L(p.name)}`
                       )
                     )
                 )
               : el('p', { class: 'hint', text: 'This city has no places yet — add some first.' }),
 
-            (() => {
-              const note = el('textarea', {
-                class: 'textarea',
-                rows: '2',
-                style: 'margin-top:10px',
-                placeholder: 'Note for this day (optional)',
-                oninput: (e) => {
-                  day.note = e.target.value;
-                  saveDraft();
-                },
-              });
-              note.value = day.note || '';
-              return note;
-            })()
+            el('div', { style: 'margin-top:10px' }, mlField('Note for this day', day, 'note', { rows: 2 }))
           )
         ),
         el(
@@ -751,21 +801,21 @@ function viewTours() {
 
     formBox.replaceChildren(
       panel(
-        isNew ? 'New tour' : `Editing ${tour.title}`,
+        isNew ? 'New tour' : `Editing ${L(tour.title)}`,
         'A ready tour stays inside a single city.',
         el(
           'div',
           { class: 'adm-form' },
-          field('Title', tour.title, set('title'), { placeholder: 'Samarkand in Two Days' }),
+          mlField('Title', tour, 'title', { placeholder: 'Samarkand in Two Days' }),
           el(
             'div',
             { class: 'adm-row' },
-            field('City', tour.cityId, set('cityId'), { options: Draft.cities.map((c) => ({ value: c.id, label: c.name })) }),
-            field('Length in days', tour.duration, set('duration'), { options: [1, 2, 3].map((d) => ({ value: d, label: plural(d, 'day', 'days') })) })
+            field('City', tour.cityId, set('cityId'), { options: Draft.cities.map((c) => ({ value: c.id, label: L(c.name) })) }),
+            field('Length in days', tour.duration, set('duration'), { options: [1, 2, 3].map((d) => ({ value: d, label: `${d} day${d > 1 ? 's' : ''}` })) })
           ),
-          field('Cover image URL', tour.coverImage, set('coverImage')),
-          field('Description', tour.description, set('description'), { rows: 4 }),
-          field('Good to know', tour.notes, set('notes'), { rows: 3 }),
+          el('div', { class: 'field' }, el('span', { class: 'label', text: 'Cover image' }), imageEditor(coverAsList(tour, 'coverImage'), () => saveDraft(), 'tours', 1)),
+          mlField('Description', tour, 'description', { rows: 4 }),
+          mlField('Good to know', tour, 'notes', { rows: 3 }),
           el('div', { class: 'field' }, el('span', { class: 'label', text: 'Itinerary' }), daysBox),
           el(
             'div',
@@ -777,13 +827,13 @@ function viewTours() {
                     class: 'btn',
                     type: 'button',
                     onclick: () => {
-                      if (!tour.title.trim()) return toast('Give the tour a title first.', true);
-                      tour.id = uniqueId(tour.title, Draft.tours);
+                      if (!L(tour.title).trim()) return toast('Give the tour a title first.', true);
+                      tour.id = uniqueId(L(tour.title), Draft.tours);
                       Draft.tours.push(tour);
                       saveDraft();
                       paintList();
                       openForm(tour);
-                      toast(`${tour.title} added.`);
+                      toast(`${L(tour.title)} added.`);
                     },
                   },
                   'Add tour'
@@ -865,12 +915,14 @@ function viewSettings() {
         'div',
         { class: 'adm-form' },
         el('div', { class: 'adm-row' }, field('Site name', s.siteName, set(s, 'siteName')), field('Logo text', s.logoText, set(s, 'logoText'))),
-        field('Tagline', s.siteTagline, set(s, 'siteTagline')),
-        field('Hero image URL', s.heroImage, set(s, 'heroImage')),
-        field('Hero title', s.heroTitle, set(s, 'heroTitle')),
-        field('Hero subtitle', s.heroSubtitle, set(s, 'heroSubtitle'), { rows: 3 }),
-        field('About the company', s.companyDescription, set(s, 'companyDescription'), { rows: 3 }),
-        field('Footer line', s.footerText, set(s, 'footerText'))
+        mlField('Logo subtext', s, 'logoSubtext'),
+        mlField('Tagline', s, 'siteTagline'),
+        el('div', { class: 'field' }, el('span', { class: 'label', text: 'Hero image' }), imageEditor(coverAsList(s, 'heroImage'), () => saveDraft(), 'cities', 1)),
+        mlField('Hero title', s, 'heroTitle'),
+        mlField('Hero subtitle', s, 'heroSubtitle', { rows: 3 }),
+        mlField('About me', s, 'companyDescription', { rows: 3 }),
+        mlField('Short intro line', s, 'aboutBlurb', { rows: 2 }),
+        mlField('Footer line', s, 'footerText')
       )
     ),
 
@@ -880,8 +932,9 @@ function viewSettings() {
       el(
         'div',
         { class: 'adm-form' },
-        el('div', { class: 'adm-row' }, field('WeChat ID', s.contact.wechat.id, set(s.contact.wechat, 'id')), field('Display name', s.contact.wechat.name, set(s.contact.wechat, 'name'))),
-        field('QR code image URL', s.contact.wechat.qrImage, (v) => { s.contact.wechat.qrImage = v; saveDraft(); paintQr(); }),
+        field('WeChat ID', s.contact.wechat.id, set(s.contact.wechat, 'id')),
+        mlField('Display name', s.contact.wechat, 'name'),
+        field('QR code image URL', s.contact.wechat.qrImage, (v) => { s.contact.wechat.qrImage = v; saveDraft(); paintQr(); }, { hint: 'Or upload the screenshot below — this is the single most important field on the site for WeChat clients.' }),
         el('div', { class: 'adm-actions' }, el('button', { class: 'btn btn--sm btn--ghost', type: 'button', onclick: () => qrUpload.click() }, 'Upload QR image'), qrUpload),
         qrPreview
       )
@@ -895,8 +948,9 @@ function viewSettings() {
         { class: 'adm-form' },
         el('div', { class: 'adm-row' }, field('Telegram username', s.contact.telegram.username, set(s.contact.telegram, 'username'), { placeholder: 'karvontravel' }), field('Telegram URL', s.contact.telegram.url, set(s.contact.telegram, 'url'), { placeholder: 'https://t.me/karvontravel' })),
         el('div', { class: 'adm-row' }, field('Phone number', s.contact.phone.number, set(s.contact.phone, 'number'), { placeholder: '+998901234567', hint: 'Digits and a leading +, no spaces.' }), field('Phone as displayed', s.contact.phone.display, set(s.contact.phone, 'display'), { placeholder: '+998 90 123 45 67' })),
-        el('div', { class: 'adm-row' }, field('Email', s.contact.email, set(s.contact, 'email')), field('Opening hours', s.contact.hours, set(s.contact, 'hours'))),
-        field('Office address', s.contact.address, set(s.contact, 'address'))
+        field('Email', s.contact.email, set(s.contact, 'email')),
+        mlField('Hours', s.contact, 'hours'),
+        mlField('Where you are based', s.contact, 'address')
       )
     ),
 
@@ -929,7 +983,20 @@ function viewPublish() {
     'div',
     {},
     panel(
-      'Read this once',
+      'You do not need GitHub to use this admin panel',
+      '',
+      el(
+        'div',
+        { class: 'adm-note adm-note--ok' },
+        el('strong', {}, 'Two ways to save. '),
+        'Press ',
+        el('strong', {}, 'Download JSON'),
+        ' and you get four small files to drag into the data/ folder on github.com — no token, no setup, works from any computer. Connecting GitHub below is the shortcut: it commits the same four files for you, and it is the only way to upload photographs straight from your phone. Everything else in this panel works either way.'
+      )
+    ),
+
+    panel(
+      'If you do connect GitHub, read this once',
       '',
       el(
         'div',
@@ -1004,13 +1071,13 @@ function viewPublish() {
     ),
 
     panel(
-      'Publish',
-      'Writes four JSON files to the repository. GitHub Pages rebuilds in about a minute.',
+      'Save your changes',
+      'Either route ends with the same four files in data/. GitHub Pages rebuilds in about a minute.',
       el(
         'div',
         { class: 'adm-actions' },
-        el('button', { class: 'btn', type: 'button', onclick: publishAll }, 'Publish to GitHub'),
-        el('button', { class: 'btn btn--ghost', type: 'button', onclick: downloadAll }, 'Download JSON instead'),
+        el('button', { class: 'btn', type: 'button', onclick: downloadAll }, 'Download JSON'),
+        el('button', { class: 'btn btn--ghost', type: 'button', onclick: publishAll }, 'Publish to GitHub'),
         el(
           'button',
           {
@@ -1066,7 +1133,7 @@ function downloadAll() {
     a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   });
-  toast('Four files downloaded. Commit them into /data.');
+  toast('Four files downloaded. Put them in the data/ folder and commit.');
 }
 
 /* ---------- shell ---------- */
@@ -1097,7 +1164,7 @@ function paintStatus() {
   const cfg = GitHubStore.config;
   const bits = [];
   bits.push(dirty ? 'Unpublished changes saved in this browser.' : 'Everything is published.');
-  bits.push(GitHubStore.connected ? `Connected to ${cfg.owner}/${cfg.repo}.` : 'GitHub not connected.');
+  bits.push(GitHubStore.connected ? `Connected to ${cfg.owner}/${cfg.repo}.` : 'Not connected to GitHub — use Download JSON to save.');
   $('#adm-status').replaceChildren(
     el('span', { class: `dot ${dirty ? 'dot--off' : 'dot--on'}` }),
     document.createTextNode(bits.join(' '))

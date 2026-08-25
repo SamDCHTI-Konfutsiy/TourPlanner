@@ -113,3 +113,18 @@ body.admin { padding-left: 232px; }
   .adm-stats { grid-template-columns: repeat(2, 1fr); }
   .adm-row, .adm-row--3 { grid-template-columns: 1fr; }
 }
+
+/* bilingual text fields */
+.ml-field { gap: 6px; }
+.ml-field__row { display: flex; align-items: flex-start; gap: 8px; }
+.ml-field__tag {
+  flex: none; width: 62px; padding-top: 12px;
+  font-family: var(--mono); font-size: .68rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--sand-dim);
+}
+.ml-field__row .input, .ml-field__row .textarea { flex: 1; }
+.imgs__credit { border-radius: 0; border-top: 0; border-left: 0; border-right: 0; font-size: .8rem; }
+@media (max-width: 700px) {
+  .ml-field__row { flex-direction: column; gap: 4px; }
+  .ml-field__tag { width: auto; padding-top: 0; }
+}

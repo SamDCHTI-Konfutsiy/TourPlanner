@@ -237,11 +237,11 @@ function estimateDays(order, roundTrip, factor = ROAD_FACTOR) {
  * problem even when the percentage looks softer.
  */
 function verdictFor(backtrackCount, efficiency) {
-  if (backtrackCount >= 2) return { label: 'Backtracking', tone: 'warn' };
-  if (backtrackCount === 1) return { label: 'One detour', tone: 'note' };
-  if (efficiency >= 0.97) return { label: 'Excellent', tone: 'good' };
-  if (efficiency >= 0.9) return { label: 'Good', tone: 'good' };
-  return { label: 'Workable', tone: 'note' };
+  if (backtrackCount >= 2) return { key: 'backtracking', tone: 'warn' };
+  if (backtrackCount === 1) return { key: 'detour', tone: 'note' };
+  if (efficiency >= 0.97) return { key: 'excellent', tone: 'good' };
+  if (efficiency >= 0.9) return { key: 'good', tone: 'good' };
+  return { key: 'workable', tone: 'note' };
 }
 
 /**
@@ -303,7 +303,7 @@ function analyseRoute(order, { factor = ROAD_FACTOR, startId = null, endId = nul
     efficiency,
     sameAsOptimal,
     backtracks,
-    quality: quality.label,
+    quality: quality.key,
     tone: quality.tone,
     days,
   };

@@ -1,47 +1,144 @@
 {
-  "siteName": "Karvon",
-  "siteTagline": "Uzbekistan, in the order that makes sense",
-  "logoText": "Karvon",
+  "siteName": "WuMinjun Private Tours",
+  "siteNameZh": "吴敏俊私人向导",
+  "guideName": {
+    "en": "Wu Minjun",
+    "zh": "吴敏俊"
+  },
+  "siteTagline": {
+    "en": "Private guide · Uzbekistan",
+    "zh": "私人向导 · 乌兹别克斯坦"
+  },
+  "logoText": "吴敏俊",
+  "logoSubtext": {
+    "en": "Private Tours",
+    "zh": "私人向导"
+  },
   "logoImage": "",
   "favicon": "assets/icons/favicon.svg",
-  "heroImage": "https://picsum.photos/seed/karvon-hero-main/2400/1400",
-  "heroTitle": "Four cities, one road, no backtracking",
-  "heroSubtitle": "Pick the cities you want. We put them in the order the Silk Road already put them, tell you how far it is, and how many days you need.",
-  "companyDescription": "Karvon is a small travel outfit based in Samarkand. We build routes across Uzbekistan for independent travellers and run fixed one-, two- and three-day tours in each of the four main cities.",
-  "aboutBlurb": "We are guides first. Every place on this site is somewhere we take people ourselves, which is why there are twenty-six of them and not two hundred.",
+  "heroImage": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan_square_Samarkand.jpg?width=1600",
+    "credit": "Wikimedia Commons, CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Registan_square_Samarkand.jpg"
+  },
+  "heroTitle": {
+    "en": "Four cities, one road, in the right order",
+    "zh": "四座城，一条路，按正确的顺序走"
+  },
+  "heroSubtitle": {
+    "en": "I am Wu Minjun, a private guide based in Samarkand. Tell me which cities you want and I will put them in the order the Silk Road already put them — then drive it with you.",
+    "zh": "我是吴敏俊，常驻撒马尔罕的私人向导。告诉我你想去哪几座城市，我会把它们排成丝绸之路本来的顺序——然后一路陪你走完。"
+  },
+  "companyDescription": {
+    "en": "Wu Minjun is an independent private guide based in Samarkand, working with small groups and families across Uzbekistan in Chinese and English. Not an agency — one guide, one car, your itinerary.",
+    "zh": "吴敏俊是常驻撒马尔罕的独立私人向导，以中文和英文接待小型团队与家庭客人，服务范围覆盖乌兹别克斯坦全境。这里没有旅行社——一位向导、一辆车、你自己的行程。"
+  },
+  "aboutBlurb": {
+    "en": "Every place on this site is somewhere I take people myself, which is why there are fifteen of them and not two hundred. Message me on WeChat and we can plan the route before you book anything.",
+    "zh": "这个网站上的每一处，都是我亲自带客人去过的地方——所以只有十五处，而不是两百处。先加我微信，我们可以在你订任何东西之前把路线定下来。"
+  },
   "contact": {
     "wechat": {
-      "id": "karvon_travel",
-      "name": "Karvon Travel",
-      "qrImage": "https://picsum.photos/seed/karvon-wechat-qr/600/600"
+      "id": "wuminjun_uz",
+      "name": {
+        "en": "Wu Minjun · Uzbekistan",
+        "zh": "吴敏俊 · 乌兹别克斯坦"
+      },
+      "qrImage": ""
     },
     "telegram": {
-      "username": "karvontravel",
-      "url": "https://t.me/karvontravel"
+      "username": "wuminjun_uz",
+      "url": "https://t.me/wuminjun_uz"
     },
     "phone": {
       "number": "+998901234567",
       "display": "+998 90 123 45 67"
     },
-    "email": "hello@karvon.example",
-    "address": "Registan Street 12, Samarkand, Uzbekistan",
-    "hours": "Every day, 09:00 – 20:00 (UTC+5)"
+    "whatsapp": "",
+    "email": "wuminjun.uz@example.com",
+    "address": {
+      "en": "Samarkand, Uzbekistan",
+      "zh": "乌兹别克斯坦，撒马尔罕"
+    },
+    "hours": {
+      "en": "Every day, 09:00 – 21:00 (UTC+5)",
+      "zh": "每天 09:00 – 21:00（UTC+5）"
+    }
   },
-  "social": [
-    { "label": "Instagram", "url": "https://instagram.com/" },
-    { "label": "YouTube", "url": "https://youtube.com/" }
+  "social": [],
+  "footerText": {
+    "en": "Wu Minjun — private guide, Samarkand, Uzbekistan.",
+    "zh": "吴敏俊 — 私人向导，乌兹别克斯坦撒马尔罕。"
+  },
+  "languages": [
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "zh",
+      "label": "中文"
+    }
   ],
-  "footerText": "Karvon Travel — Samarkand, Uzbekistan. Demo content; replace it in the admin panel.",
+  "defaultLanguage": "en",
   "roadFactor": 1.25,
   "categories": [
-    { "id": "historical", "label": "Historical" },
-    { "id": "architecture", "label": "Architecture" },
-    { "id": "museum", "label": "Museum" },
-    { "id": "market", "label": "Market" },
-    { "id": "nature", "label": "Nature" },
-    { "id": "food", "label": "Food" },
-    { "id": "culture", "label": "Culture" },
-    { "id": "other", "label": "Other" }
+    {
+      "id": "historical",
+      "label": {
+        "en": "Historical",
+        "zh": "历史遗迹"
+      }
+    },
+    {
+      "id": "architecture",
+      "label": {
+        "en": "Architecture",
+        "zh": "建筑"
+      }
+    },
+    {
+      "id": "museum",
+      "label": {
+        "en": "Museum",
+        "zh": "博物馆"
+      }
+    },
+    {
+      "id": "market",
+      "label": {
+        "en": "Market",
+        "zh": "巴扎市场"
+      }
+    },
+    {
+      "id": "nature",
+      "label": {
+        "en": "Nature",
+        "zh": "自然风光"
+      }
+    },
+    {
+      "id": "food",
+      "label": {
+        "en": "Food",
+        "zh": "美食"
+      }
+    },
+    {
+      "id": "culture",
+      "label": {
+        "en": "Culture",
+        "zh": "人文体验"
+      }
+    },
+    {
+      "id": "other",
+      "label": {
+        "en": "Other",
+        "zh": "其他"
+      }
+    }
   ],
   "github": {
     "owner": "",

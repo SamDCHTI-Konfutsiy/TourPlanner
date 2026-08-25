@@ -153,6 +153,33 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .textlink:hover { color: var(--saffron); border-bottom-color: var(--saffron); }
 
+/* ---------- language switcher ---------- */
+.lang { display: inline-flex; border: 1px solid var(--line-strong); border-radius: var(--radius); overflow: hidden; }
+.lang__btn {
+  padding: 7px 12px; background: transparent; border: 0; cursor: pointer;
+  color: var(--sand); font-size: .84rem; font-weight: 700; line-height: 1;
+  transition: background-color .15s ease, color .15s ease;
+}
+.lang__btn + .lang__btn { border-left: 1px solid var(--line-strong); }
+.lang__btn:hover { color: var(--chalk); background: rgba(244,239,230,.08); }
+.lang__btn[aria-pressed="true"] { background: var(--glaze); color: var(--lapis-900); }
+
+/* ---------- photo credit ---------- */
+.gallery__credit {
+  margin: 8px 0 0; font-family: var(--mono); font-size: .7rem;
+  color: var(--sand-dim); letter-spacing: .02em;
+}
+.gallery__credit a { color: var(--sand-dim); border-bottom: 1px solid rgba(190,177,160,.3); }
+.gallery__credit a:hover { color: var(--glaze); border-bottom-color: var(--glaze); }
+.gallery__credit:empty { display: none; }
+
+/* ---------- guide intro ---------- */
+.guide { display: grid; grid-template-columns: 260px 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; }
+.guide__portrait { border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 1; background: var(--lapis-800); }
+.guide__portrait img { width: 100%; height: 100%; object-fit: cover; }
+.guide__name { font-family: var(--display); font-size: clamp(1.8rem, 3.4vw, 2.6rem); font-weight: 700; }
+.guide__langs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+
 /* ---------- nav ---------- */
 .nav {
   position: fixed; inset: 0 0 auto 0; z-index: 100;
@@ -592,7 +619,9 @@ body[data-nav="solid"] .nav {
 @media (max-width: 820px) {
   :root { --gutter: 18px; }
   body { font-size: 16px; }
-  .nav__links, .nav__actions .btn { display: none; }
+  .nav__links, .nav__actions .btn, .nav__actions .lang { display: none; }
+  .guide { grid-template-columns: 1fr; }
+  .guide__portrait { max-width: 220px; }
   .nav__burger { display: flex; }
   .split { grid-template-columns: 1fr !important; }
   .stat-row { grid-template-columns: 1fr; }
