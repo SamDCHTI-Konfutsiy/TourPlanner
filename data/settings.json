@@ -1,13 +1,13 @@
 {
-  "siteName": "吴敏俊私家团",
+  "siteName": "Wuminjun",
   "siteTagline": {
     "en": "Uzbekistan, in the order that makes sense"
   },
-  "logoText": "Wuminjun's Private Tours",
+  "logoText": "Private Tours",
   "logoImage": "",
   "favicon": "assets/icons/favicon.svg",
   "heroImage": {
-    "src": "assets/images/cities/1787668339142-2026-08-25-19.19.02.jpg",
+    "src": "https://static.zarnews.uz/crop/5/9/720__80_59687f917a0d46685a52ec8fe7c04138.jpg?img=self&v=1626171787",
     "credit": ""
   },
   "heroTitle": {
@@ -17,21 +17,21 @@
     "en": "Pick the cities you want. We put them in the order the Silk Road already put them, tell you how far it is, and how many days you need."
   },
   "companyDescription": {
-    "en": "Karvon is a small travel outfit based in Samarkand. We build routes across Uzbekistan for independent travellers and run fixed one-, two- and three-day tours in each of the four main cities."
+    "en": "We build routes across Uzbekistan for independent travellers and run fixed one-, two- and three-day tours in each of the four main cities."
   },
   "aboutBlurb": {
-    "en": "We are guides first. Every place on this site is somewhere we take people ourselves, which is why there are twenty-six of them and not two hundred."
+    "en": "Every place on this site is somewhere we take people ourselves, which is why there are twenty-six of them and not two hundred."
   },
   "contact": {
     "wechat": {
-      "id": "wuminjun_daoyou",
+      "id": "wuminjun_daouyou",
       "name": {
-        "en": "Wuminjun"
+        "en": "Wuminjun Guide"
       },
-      "qrImage": "assets/images/contact/1787668439613-2026-08-25-19.33.20.jpg"
+      "qrImage": "assets/images/contact/1787668926967-3.jpeg"
     },
     "telegram": {
-      "username": "Wuminjun",
+      "username": "wuminjun",
       "url": "https://t.me/wuminjun"
     },
     "phone": {
@@ -57,7 +57,7 @@
     }
   ],
   "footerText": {
-    "en": "Karvon Travel — Samarkand, Uzbekistan. Demo content; replace it in the admin panel."
+    "en": "Samarkand, Uzbekistan"
   },
   "roadFactor": 1.25,
   "categories": [
