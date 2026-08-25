@@ -657,19 +657,61 @@
   {
     "id": "tashkent-metro",
     "cityId": "tashkent",
-    "name": "Tashkent Metro",
+    "name": {
+      "en": "Tashkent Metro"
+    },
     "category": "culture",
-    "shortDescription": "Marble, chandeliers and mosaics, station after station, for the price of a single fare.",
-    "description": "Built as a bomb shelter and decorated like a palace, each station on its own theme — cotton, cosmonauts, poets. Photography was banned until 2018; now it is the cheapest sightseeing in the country. Ride the Uzbekistan line and get off at Kosmonavtlar, Alisher Navoi and Pakhtakor.",
+    "shortDescription": {
+      "en": "Marble, chandeliers and mosaics, station after station, for the price of a single fare."
+    },
+    "description": {
+      "en": "Built as a bomb shelter and decorated like a palace, each station on its own theme — cotton, cosmonauts, poets. Photography was banned until 2018; now it is the cheapest sightseeing in the country. Ride the Uzbekistan line and get off at Kosmonavtlar, Alisher Navoi and Pakhtakor."
+    },
     "address": "Citywide, Tashkent",
     "latitude": 41.3111,
     "longitude": 69.2401,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-metro-1/1600/1050",
-      "https://picsum.photos/seed/karvon-metro-2/1600/1050",
-      "https://picsum.photos/seed/karvon-metro-3/1600/1050",
-      "https://picsum.photos/seed/karvon-metro-4/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ26FLyHFayzgZ1OxRiEY9U23oB96TL3njagiRPa7ivPlxxoA6vuv71Pz-f&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/63bd68c0216f6912b6e9a038/735f961b-ebf8-4945-a919-6350f9f043d7/IMG_3543.JPG",
+        "credit": ""
+      },
+      {
+        "src": "https://central-asia.guide/wp-content/uploads/2022/06/Novsa_station_Tashkent_metro-1024x682.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwsfySC7oRtR3CbPBI0cW2HU8-xEzl47yMNjW9AcLUXw&s",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-bWkFnZZzWEJCn-oQ0h6O5u1mU50KtmfjHT4XjatSKIvZiTzfWLjajOU&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ7KFDxBOsBidrDSMPeG73Li88NeKVespiEJxgNlqgCA&s",
+        "credit": ""
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/v1/5940f2725016e1c79e469470/1540110532396-FY38UXRJM4WAWO693468/pakhtakor",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi8bd33uSUZjplXbETxBNUs03WOiGZp4-S23oOFYgt8GWiQzE2_Dw5EZHx&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=720/QwRY54Li1HMwD7oNfqZnjm2H6g5g8c3vghWhfnslf9",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEHuOYEepcKJlb-UDcRATkj4iVfKNHLkD31V5W4hdRGzv4bV4qV6ge7Ixu&s=10",
+        "credit": ""
+      }
     ]
   },
   {
