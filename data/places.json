@@ -2,21 +2,49 @@
   {
     "id": "registan",
     "cityId": "samarkand",
-    "name": "Registan Square",
+    "name": {
+      "en": "Registan Square"
+    },
     "category": "architecture",
-    "shortDescription": "Three madrasahs facing one square — the single most photographed place in Central Asia.",
-    "description": "Ulugh Beg built the first madrasah here in 1420 as a school of astronomy and mathematics; two more were added two centuries later, each one answering the last. The Sher-Dor facade breaks Islamic convention outright with two tigers chasing deer under a human-faced sun. Go twice: once around nine in the morning before the tour groups, and again after dark when the facades are lit.",
+    "shortDescription": {
+      "en": "Three madrasahs facing one square — the single most photographed place in Central Asia."
+    },
+    "description": {
+      "en": "Ulugh Beg built the first madrasah here in 1420 as a school of astronomy and mathematics; two more were added two centuries later, each one answering the last. The Sher-Dor facade breaks Islamic convention outright with two tigers chasing deer under a human-faced sun. Go twice: once around nine in the morning before the tour groups, and again after dark when the facades are lit."
+    },
     "address": "Registan Street, Samarkand",
     "latitude": 39.6547,
     "longitude": 66.9758,
     "visitDuration": 120,
     "images": [
-      "https://picsum.photos/seed/karvon-registan-1/1600/1050",
-      "https://picsum.photos/seed/karvon-registan-2/1600/1050",
-      "https://picsum.photos/seed/karvon-registan-3/1600/1050",
-      "https://picsum.photos/seed/karvon-registan-4/1600/1050",
-      "https://picsum.photos/seed/karvon-registan-5/1600/1050",
-      "https://picsum.photos/seed/karvon-registan-6/1600/1050"
+      {
+        "src": "assets/images/places/1787670426947-2026-08-25-19.19.02.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670429520-1.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670431533-2026-08-25-19.20.34.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670433098-2026-08-25-19.20.36.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670434741-2026-08-25-19.21.51.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787670437036-2026-08-25-19.21.52.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://www.afisha.uz/uploads/media/2026/06/e245d59de0b135c90904697889d4532d_m.webp",
+        "credit": ""
+      }
     ]
   },
   {
