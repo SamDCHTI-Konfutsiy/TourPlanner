@@ -1,12 +1,15 @@
 {
-  "siteName": "Karvon",
+  "siteName": "吴敏俊私家团",
   "siteTagline": {
     "en": "Uzbekistan, in the order that makes sense"
   },
-  "logoText": "Karvon",
+  "logoText": "Wuminjun's Private Tours",
   "logoImage": "",
   "favicon": "assets/icons/favicon.svg",
-  "heroImage": "https://picsum.photos/seed/karvon-hero-main/2400/1400",
+  "heroImage": {
+    "src": "assets/images/cities/1787668339142-2026-08-25-19.19.02.jpg",
+    "credit": ""
+  },
   "heroTitle": {
     "en": "Four cities, one road, no backtracking"
   },
@@ -21,26 +24,26 @@
   },
   "contact": {
     "wechat": {
-      "id": "karvon_travel",
+      "id": "wuminjun_daoyou",
       "name": {
-        "en": "Karvon Travel"
+        "en": "Wuminjun"
       },
-      "qrImage": "https://picsum.photos/seed/karvon-wechat-qr/600/600"
+      "qrImage": "assets/images/contact/1787668439613-2026-08-25-19.33.20.jpg"
     },
     "telegram": {
-      "username": "karvontravel",
-      "url": "https://t.me/karvontravel"
+      "username": "Wuminjun",
+      "url": "https://t.me/wuminjun"
     },
     "phone": {
-      "number": "+998901234567",
-      "display": "+998 90 123 45 67"
+      "number": "+998972640691",
+      "display": "+998 97 264 06 91"
     },
-    "email": "hello@karvon.example",
+    "email": "narzullayevumidjon976@gmail.com",
     "address": {
-      "en": "Registan Street 12, Samarkand, Uzbekistan"
+      "en": "Samarkand, Uzbekistan"
     },
     "hours": {
-      "en": "Every day, 09:00 – 20:00 (UTC+5)"
+      "en": "Every day, 08:00 – 20:00 (UTC+5)"
     }
   },
   "social": [
