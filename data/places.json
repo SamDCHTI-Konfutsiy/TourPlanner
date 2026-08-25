@@ -646,19 +646,33 @@
   {
     "id": "tosh-hovli",
     "cityId": "khiva",
-    "name": "Tosh-Hovli Palace",
+    "name": {
+      "en": "Tosh-Hovli Palace"
+    },
     "category": "historical",
-    "shortDescription": "The khan's harem and reception courts, with the densest blue tilework in the city.",
-    "description": "Built in the 1830s across three courtyards — one for the harem, one for receptions, one for the courts. The harem court has five iwans, one for the khan and one for each wife, and the tiled dado runs unbroken around all of them. Look up at the carved wooden columns as well; the stone bases are each different.",
+    "shortDescription": {
+      "en": "The khan's harem and reception courts, with the densest blue tilework in the city."
+    },
+    "description": {
+      "en": "Built in the 1830s across three courtyards — one for the harem, one for receptions, one for the courts. The harem court has five iwans, one for the khan and one for each wife, and the tiled dado runs unbroken around all of them. Look up at the carved wooden columns as well; the stone bases are each different."
+    },
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3792,
     "longitude": 60.3639,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-toshhovli-1/1600/1050",
-      "https://picsum.photos/seed/karvon-toshhovli-2/1600/1050",
-      "https://picsum.photos/seed/karvon-toshhovli-3/1600/1050",
-      "https://picsum.photos/seed/karvon-toshhovli-4/1600/1050"
+      {
+        "src": "https://meros.uz/upload/2017/02/fd253676584ebad032a84a7e3d482ad1-large.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsrGqiIsESWs8Q4jJwqpjDa3zkiH3VFB8DXYzAfHrPbTG7xReRHOQXLOOI&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/tashhauli1-0-0-0-0-1598000827.jpg",
+        "credit": ""
+      }
     ]
   },
   {
