@@ -470,18 +470,37 @@
   {
     "id": "samanid-mausoleum",
     "cityId": "bukhara",
-    "name": "Samanid Mausoleum",
+    "name": {
+      "en": "Samanid Mausoleum"
+    },
     "category": "historical",
-    "shortDescription": "The oldest building in Bukhara — a brick cube whose entire decoration is the bricks themselves.",
-    "description": "Built around 900 AD and buried under silt for centuries, which is why it survived the Mongols intact. There is no tile and no paint: the walls are woven from baked brick laid in basket patterns that change with the angle of the sun, so the building looks completely different at noon and at six. Small, perfect, and usually quiet.",
+    "shortDescription": {
+      "en": "The oldest building in Bukhara — a brick cube whose entire decoration is the bricks themselves."
+    },
+    "description": {
+      "en": "Built around 900 AD and buried under silt for centuries, which is why it survived the Mongols intact. There is no tile and no paint: the walls are woven from baked brick laid in basket patterns that change with the angle of the sun, so the building looks completely different at noon and at six. Small, perfect, and usually quiet."
+    },
     "address": "Samanid Park, Bukhara",
     "latitude": 39.7772,
     "longitude": 64.4014,
     "visitDuration": 40,
     "images": [
-      "https://picsum.photos/seed/karvon-samanid-1/1600/1050",
-      "https://picsum.photos/seed/karvon-samanid-2/1600/1050",
-      "https://picsum.photos/seed/karvon-samanid-3/1600/1050"
+      {
+        "src": "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Ismail_Samani_Mausoleum/2992968639_c3776f9345_o.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV6LFTeHS95bMpBLrOi0WzrkPJ3Bk3Vfe6BHoVf_J9a4h3Qx2Y9U8l9f4&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://www.turkestantravel.com/wp-content/uploads/2023/02/Samoni-Mausoleum.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKA-KCk8ccUv072EJJNF79gVYaFtFPPO6NkVnyCgqkpSvLxu8M4bcUR67t&s=10",
+        "credit": ""
+      }
     ]
   },
   {
