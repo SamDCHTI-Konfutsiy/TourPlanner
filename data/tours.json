@@ -1,0 +1,123 @@
+[
+  {
+    "id": "samarkand-1day",
+    "title": "Samarkand in One Day",
+    "cityId": "samarkand",
+    "duration": 1,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam1/1600/1000",
+    "description": "The short version, built for travellers arriving on the morning train and leaving at night. It covers the three sights nobody should miss and leaves an hour at the end for the square after dark.",
+    "notes": "Buy the Registan ticket first thing — the queue doubles after ten. Lunch is easiest near the bazaar.",
+    "days": [
+      {
+        "title": "Arrival and the essentials",
+        "placeIds": ["registan", "bibi-khanym", "siyob-bazaar", "shah-i-zinda"],
+        "note": "Finish with the Registan again after sunset; the illuminated facades are a different building."
+      }
+    ]
+  },
+  {
+    "id": "samarkand-2day",
+    "title": "Samarkand in Two Days",
+    "cityId": "samarkand",
+    "duration": 2,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam2/1600/1000",
+    "description": "The pace most people want. Day one is the Timurid core in the centre; day two moves out to the observatory and the paper mill, with room for a long lunch.",
+    "notes": "Day two needs a car or taxi for two short hops. Both stops are on the same side of the city.",
+    "days": [
+      {
+        "title": "The Timurid centre",
+        "placeIds": ["registan", "gur-e-amir", "bibi-khanym", "siyob-bazaar"],
+        "note": "All within walking distance of each other."
+      },
+      {
+        "title": "Tombs, stars and paper",
+        "placeIds": ["shah-i-zinda", "ulugbek-observatory", "konigil"],
+        "note": "Start at Shah-i-Zinda by eight to have the lane to yourself."
+      }
+    ]
+  },
+  {
+    "id": "samarkand-3day",
+    "title": "Samarkand in Three Days",
+    "cityId": "samarkand",
+    "duration": 3,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-sam3/1600/1000",
+    "description": "For travellers who want to stop rushing. Everything in the two-day itinerary, spread out, with a third day for the workshops, the bazaar at its own pace, and a second visit to whichever site you liked most.",
+    "notes": "The third day is deliberately light. A day trip to Shahrisabz over the mountain pass can replace it if you would rather cover ground.",
+    "days": [
+      {
+        "title": "The Registan and around",
+        "placeIds": ["registan", "gur-e-amir"],
+        "note": "A half day, so you can arrive on the midday train and still do it."
+      },
+      {
+        "title": "Tombs and the great mosque",
+        "placeIds": ["shah-i-zinda", "bibi-khanym", "siyob-bazaar"],
+        "note": "The bazaar sits between the other two — use it as your lunch stop."
+      },
+      {
+        "title": "Out of the centre",
+        "placeIds": ["ulugbek-observatory", "konigil"],
+        "note": "Half a day of driving and craft workshops, back in town for the evening."
+      }
+    ]
+  },
+  {
+    "id": "bukhara-2day",
+    "title": "Bukhara in Two Days",
+    "cityId": "bukhara",
+    "duration": 2,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-bukh2/1600/1000",
+    "description": "Bukhara rewards walking more than any other city here. Two days is enough to cover the monuments without ever needing a taxi, and to end both evenings at the pool.",
+    "notes": "Almost everything is inside a twenty-minute walk of Lyab-i Hauz. Wear shoes you can cover ten kilometres in.",
+    "days": [
+      {
+        "title": "The fortress and the minaret",
+        "placeIds": ["ark-fortress", "samanid-mausoleum", "poi-kalyan"],
+        "note": "Save Poi Kalyan for late afternoon when the brick turns gold."
+      },
+      {
+        "title": "Domes, lanes and the pool",
+        "placeIds": ["trading-domes", "chor-minor", "lyabi-hauz"],
+        "note": "Chor Minor is a fifteen-minute walk east through residential streets — that walk is part of the point."
+      }
+    ]
+  },
+  {
+    "id": "khiva-2day",
+    "title": "Khiva in Two Days",
+    "cityId": "khiva",
+    "duration": 2,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-khiva2/1600/1000",
+    "description": "One day inside the walls covers the monuments; the second is for the parts of Khiva that only appear when the day-trippers leave. Staying overnight inside Ichan Kala is the whole difference.",
+    "notes": "A single combined ticket covers most sites inside the walls and is valid for two days.",
+    "days": [
+      {
+        "title": "Inside the walls",
+        "placeIds": ["ichan-kala", "kalta-minor", "juma-mosque"],
+        "note": "Climb the Kunya-Ark watchtower early to get the layout in your head."
+      },
+      {
+        "title": "The palace and the view",
+        "placeIds": ["tosh-hovli", "islam-khoja"],
+        "note": "Time the minaret climb for the hour before sunset."
+      }
+    ]
+  },
+  {
+    "id": "tashkent-1day",
+    "title": "Tashkent in One Day",
+    "cityId": "tashkent",
+    "duration": 1,
+    "coverImage": "https://picsum.photos/seed/karvon-tour-tash1/1600/1000",
+    "description": "Designed for the day you land or the day before you fly home. Old town in the morning, metro in the middle, modern city in the evening — all reachable without a car.",
+    "notes": "Metro tickets are a flat fare and the trains run every few minutes. Keep some cash for the bazaar.",
+    "days": [
+      {
+        "title": "Old town to new",
+        "placeIds": ["chorsu-bazaar", "hazrati-imam", "tashkent-metro", "amir-timur-square"],
+        "note": "Chorsu and Hazrati Imam are a short walk apart; take the metro east from there."
+      }
+    ]
+  }
+]

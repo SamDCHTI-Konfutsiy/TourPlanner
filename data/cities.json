@@ -1,0 +1,103 @@
+[
+  {
+    "id": "tashkent",
+    "name": "Tashkent",
+    "region": "Tashkent Region",
+    "tagline": "Where the modern republic meets the old caravan road",
+    "description": "Tashkent is the gateway for almost every Silk Road journey. Soviet-era boulevards and a metro built like an underground museum sit beside the mud-brick lanes of the old town, where bread is still baked in clay ovens each morning. Most travellers land here, sleep off the flight, and use the city as the hinge between the Fergana Valley in the east and the desert cities in the west.",
+    "coverImage": "https://picsum.photos/seed/karvon-tashkent-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-tashkent-g1/1400/950",
+      "https://picsum.photos/seed/karvon-tashkent-g2/1400/950",
+      "https://picsum.photos/seed/karvon-tashkent-g3/1400/950"
+    ],
+    "latitude": 41.2995,
+    "longitude": 69.2401,
+    "recommendedDays": 2,
+    "travelInfo": "International airport with the widest choice of flights. High-speed Afrosiyob trains leave for Samarkand and Bukhara several times a day — book at least a week ahead in spring and autumn."
+  },
+  {
+    "id": "samarkand",
+    "name": "Samarkand",
+    "region": "Samarqand Region",
+    "tagline": "The blue domes that gave the Silk Road its postcard",
+    "description": "Samarkand is the reason most people come to Uzbekistan. Timur rebuilt it as the capital of an empire and filled it with tilework at a scale that still feels unreasonable — three madrasahs facing one square, a mausoleum of ribbed turquoise, an avenue of tombs climbing a hill. Two full days lets you see it twice: once in the flat light of morning and once when the tiles go violet at dusk.",
+    "coverImage": "https://picsum.photos/seed/karvon-samarkand-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-samarkand-g1/1400/950",
+      "https://picsum.photos/seed/karvon-samarkand-g2/1400/950",
+      "https://picsum.photos/seed/karvon-samarkand-g3/1400/950",
+      "https://picsum.photos/seed/karvon-samarkand-g4/1400/950"
+    ],
+    "latitude": 39.6542,
+    "longitude": 66.9597,
+    "recommendedDays": 2,
+    "travelInfo": "Two hours from Tashkent by high-speed train, three hours on to Bukhara. The old town is walkable; keep a taxi for the observatory and the paper mill on the edge of town."
+  },
+  {
+    "id": "bukhara",
+    "name": "Bukhara",
+    "region": "Bukhara Region",
+    "tagline": "A living old town you can cross on foot in twenty minutes",
+    "description": "Bukhara kept its shape. Where other cities were rebuilt around their monuments, here the trading domes, the pool, the fortress and the mosques are still stitched together by ordinary streets full of people going to work. The colour is different too — less glazed blue, more raw ochre brick that turns gold in the last hour of light.",
+    "coverImage": "https://picsum.photos/seed/karvon-bukhara-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-bukhara-g1/1400/950",
+      "https://picsum.photos/seed/karvon-bukhara-g2/1400/950",
+      "https://picsum.photos/seed/karvon-bukhara-g3/1400/950"
+    ],
+    "latitude": 39.7747,
+    "longitude": 64.4286,
+    "recommendedDays": 2,
+    "travelInfo": "Reachable by train from Samarkand in about three hours. The road west to Khiva crosses the Kyzylkum desert — around seven hours by car, or take the overnight train."
+  },
+  {
+    "id": "khiva",
+    "name": "Khiva",
+    "region": "Khorezm Region",
+    "tagline": "A walled desert city that closes at sunset",
+    "description": "Ichan Kala, the inner town of Khiva, is a rectangle of mud walls holding fifty monuments in half a square kilometre. It is the most compact and the most theatrical of the four cities — you climb a minaret, look down, and the whole place is laid out below you like a model. Stay inside the walls for the night, when the day-trippers have gone and the lanes are empty.",
+    "coverImage": "https://picsum.photos/seed/karvon-khiva-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-khiva-g1/1400/950",
+      "https://picsum.photos/seed/karvon-khiva-g2/1400/950",
+      "https://picsum.photos/seed/karvon-khiva-g3/1400/950"
+    ],
+    "latitude": 41.3783,
+    "longitude": 60.3639,
+    "recommendedDays": 1,
+    "travelInfo": "The furthest west of the four main cities. Urgench airport is 35 km away with daily flights back to Tashkent, which saves a long drive at the end of a trip."
+  },
+  {
+    "id": "shahrisabz",
+    "name": "Shahrisabz",
+    "region": "Qashqadaryo Region",
+    "tagline": "Timur's home town, and the palace he never finished",
+    "description": "Timur was born near here and built Shahrisabz to outdo his own capital. The Ak-Saray palace gate survives as two enormous broken pylons standing in open ground — arguably more impressive as a ruin than it would have been whole. It works as a long day trip from Samarkand over the Takhtakaracha pass.",
+    "coverImage": "https://picsum.photos/seed/karvon-shahrisabz-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-shahrisabz-g1/1400/950",
+      "https://picsum.photos/seed/karvon-shahrisabz-g2/1400/950"
+    ],
+    "latitude": 39.0567,
+    "longitude": 66.8339,
+    "recommendedDays": 1,
+    "travelInfo": "About 90 minutes from Samarkand by car over a mountain pass. There is no high-speed rail link, so plan it as a day trip rather than an overnight stop."
+  },
+  {
+    "id": "nukus",
+    "name": "Nukus",
+    "region": "Karakalpakstan",
+    "tagline": "A world-class avant-garde collection at the edge of a dead sea",
+    "description": "Nukus exists in most itineraries for one reason: the Savitsky Museum, which holds thousands of Soviet avant-garde paintings smuggled out of Moscow and hidden here for decades. It is also the jumping-off point for the Aral Sea and the fortresses of ancient Khorezm. A niche stop, and a genuinely strange one.",
+    "coverImage": "https://picsum.photos/seed/karvon-nukus-cover/1800/1100",
+    "gallery": [
+      "https://picsum.photos/seed/karvon-nukus-g1/1400/950",
+      "https://picsum.photos/seed/karvon-nukus-g2/1400/950"
+    ],
+    "latitude": 42.46,
+    "longitude": 59.61,
+    "recommendedDays": 1,
+    "travelInfo": "Three hours north of Khiva by road. Add it only if the Savitsky collection or the Aral Sea is the point of your trip — otherwise it is a long detour."
+  }
+]

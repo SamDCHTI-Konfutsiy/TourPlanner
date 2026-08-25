@@ -1,0 +1,51 @@
+{
+  "siteName": "Karvon",
+  "siteTagline": "Uzbekistan, in the order that makes sense",
+  "logoText": "Karvon",
+  "logoImage": "",
+  "favicon": "assets/icons/favicon.svg",
+  "heroImage": "https://picsum.photos/seed/karvon-hero-main/2400/1400",
+  "heroTitle": "Four cities, one road, no backtracking",
+  "heroSubtitle": "Pick the cities you want. We put them in the order the Silk Road already put them, tell you how far it is, and how many days you need.",
+  "companyDescription": "Karvon is a small travel outfit based in Samarkand. We build routes across Uzbekistan for independent travellers and run fixed one-, two- and three-day tours in each of the four main cities.",
+  "aboutBlurb": "We are guides first. Every place on this site is somewhere we take people ourselves, which is why there are twenty-six of them and not two hundred.",
+  "contact": {
+    "wechat": {
+      "id": "karvon_travel",
+      "name": "Karvon Travel",
+      "qrImage": "https://picsum.photos/seed/karvon-wechat-qr/600/600"
+    },
+    "telegram": {
+      "username": "karvontravel",
+      "url": "https://t.me/karvontravel"
+    },
+    "phone": {
+      "number": "+998901234567",
+      "display": "+998 90 123 45 67"
+    },
+    "email": "hello@karvon.example",
+    "address": "Registan Street 12, Samarkand, Uzbekistan",
+    "hours": "Every day, 09:00 – 20:00 (UTC+5)"
+  },
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com/" },
+    { "label": "YouTube", "url": "https://youtube.com/" }
+  ],
+  "footerText": "Karvon Travel — Samarkand, Uzbekistan. Demo content; replace it in the admin panel.",
+  "roadFactor": 1.25,
+  "categories": [
+    { "id": "historical", "label": "Historical" },
+    { "id": "architecture", "label": "Architecture" },
+    { "id": "museum", "label": "Museum" },
+    { "id": "market", "label": "Market" },
+    { "id": "nature", "label": "Nature" },
+    { "id": "food", "label": "Food" },
+    { "id": "culture", "label": "Culture" },
+    { "id": "other", "label": "Other" }
+  ],
+  "github": {
+    "owner": "",
+    "repo": "",
+    "branch": "main"
+  }
+}

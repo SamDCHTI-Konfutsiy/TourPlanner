@@ -1,0 +1,115 @@
+/* ============================================================
+   Karvon — admin.css
+   Uses the same tokens as the public site; only the layout differs.
+   ============================================================ */
+
+body.admin { padding-left: 232px; }
+
+.adm-side {
+  position: fixed; inset: 0 auto 0 0; z-index: 50;
+  width: 232px; padding: 22px 16px;
+  background: var(--lapis-850); border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 6px;
+  overflow-y: auto;
+}
+.adm-brand { display: flex; align-items: baseline; gap: 8px; padding: 0 8px 18px; font-family: var(--display); font-size: 1.25rem; font-weight: 700; letter-spacing: -.03em; }
+.adm-brand span { font-family: var(--mono); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; color: var(--glaze); }
+.adm-nav { display: flex; flex-direction: column; gap: 2px; }
+.adm-nav button {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  width: 100%; padding: 10px 12px; text-align: left; cursor: pointer;
+  background: transparent; border: 0; border-radius: var(--radius);
+  color: var(--sand); font-size: .95rem; font-weight: 600;
+  transition: background-color .15s ease, color .15s ease;
+}
+.adm-nav button:hover { background: rgba(244,239,230,.06); color: var(--chalk); }
+.adm-nav button[aria-current="true"] { background: rgba(53,176,174,.14); color: var(--chalk); }
+.adm-nav .count { font-family: var(--mono); font-size: .74rem; color: var(--sand-dim); }
+.adm-side__foot { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+
+.adm-main { padding: 30px clamp(18px, 3vw, 40px) 80px; max-width: 1080px; }
+.adm-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; flex-wrap: wrap; margin-bottom: 26px; }
+.adm-head h1 { font-size: 1.9rem; }
+.adm-head p { color: var(--sand); font-size: .95rem; margin: 6px 0 0; }
+
+.adm-panel { background: var(--lapis-850); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 22px; }
+.adm-panel + .adm-panel { margin-top: 16px; }
+.adm-panel h2 { font-size: 1.2rem; margin-bottom: 4px; }
+.adm-panel > p.hint { margin-bottom: 16px; }
+
+.adm-form { display: grid; gap: 16px; }
+.adm-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.adm-row--3 { grid-template-columns: repeat(3, 1fr); }
+.adm-actions { display: flex; gap: 10px; flex-wrap: wrap; padding-top: 6px; }
+
+.adm-list { display: grid; gap: 8px; }
+.adm-item {
+  display: flex; align-items: center; gap: 14px;
+  padding: 10px 12px; background: var(--lapis-800);
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.adm-item img { width: 56px; height: 42px; object-fit: cover; border-radius: 3px; flex: none; }
+.adm-item__main { flex: 1; min-width: 0; }
+.adm-item__main strong { display: block; font-size: 1rem; }
+.adm-item__main span { font-family: var(--mono); font-size: .72rem; color: var(--sand-dim); }
+.adm-item__btns { display: flex; gap: 5px; flex: none; }
+
+.adm-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.adm-stat { background: var(--lapis-850); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 20px; }
+.adm-stat .k { font-family: var(--mono); font-size: .68rem; letter-spacing: .15em; text-transform: uppercase; color: var(--glaze); }
+.adm-stat .v { font-family: var(--display); font-size: 2.3rem; font-weight: 700; line-height: 1.1; margin-top: 6px; }
+
+.adm-note {
+  padding: 14px 16px; border-radius: var(--radius);
+  border: 1px solid rgba(227,165,62,.4); background: rgba(227,165,62,.09);
+  font-size: .92rem; color: var(--sand);
+}
+.adm-note strong { color: var(--chalk); }
+.adm-note--ok { border-color: rgba(53,176,174,.4); background: rgba(53,176,174,.09); }
+.adm-note--bad { border-color: rgba(203,81,64,.45); background: rgba(203,81,64,.1); }
+
+/* image editor */
+.imgs { display: grid; gap: 10px; }
+.imgs__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+.imgs__cell { position: relative; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--lapis-800); }
+.imgs__cell img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+.imgs__bar { display: flex; gap: 4px; padding: 6px; background: var(--lapis-850); }
+.imgs__bar button { flex: 1; }
+.imgs__num { position: absolute; top: 6px; left: 6px; padding: 2px 7px; border-radius: 3px; background: rgba(6,20,38,.85); font-family: var(--mono); font-size: .7rem; }
+.imgs__add { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.imgs__add .input { flex: 1; min-width: 200px; }
+
+/* tour day editor */
+.adm-day { border: 1px solid var(--line); border-radius: var(--radius); background: var(--lapis-800); padding: 14px; }
+.adm-day + .adm-day { margin-top: 10px; }
+.adm-day__head { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
+.adm-day__head .input { flex: 1; }
+.adm-picks { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.adm-bar {
+  position: fixed; left: 232px; right: 0; bottom: 0; z-index: 40;
+  padding: 12px clamp(18px, 3vw, 40px);
+  background: rgba(8,27,49,.96); backdrop-filter: blur(10px);
+  border-top: 1px solid var(--line);
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.adm-bar__status { flex: 1; font-size: .9rem; color: var(--sand); min-width: 180px; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; background: var(--sand-dim); }
+.dot--on { background: var(--glaze); }
+.dot--off { background: var(--madder); }
+
+@media (max-width: 900px) {
+  body.admin { padding-left: 0; padding-bottom: 96px; }
+  .adm-side {
+    position: static; width: auto; inset: auto;
+    border-right: 0; border-bottom: 1px solid var(--line);
+    flex-direction: row; flex-wrap: wrap; align-items: center; gap: 8px; padding: 14px;
+  }
+  .adm-brand { padding: 0 8px 0 0; }
+  .adm-nav { flex-direction: row; flex-wrap: wrap; }
+  .adm-nav button { width: auto; padding: 8px 12px; }
+  .adm-side__foot { margin: 0; padding: 0; border: 0; grid-auto-flow: column; }
+  .adm-bar { left: 0; }
+  .adm-stats { grid-template-columns: repeat(2, 1fr); }
+  .adm-row, .adm-row--3 { grid-template-columns: 1fr; }
+}

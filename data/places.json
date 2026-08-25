@@ -1,0 +1,460 @@
+[
+  {
+    "id": "registan",
+    "cityId": "samarkand",
+    "name": "Registan Square",
+    "category": "architecture",
+    "shortDescription": "Three madrasahs facing one square — the single most photographed place in Central Asia.",
+    "description": "Ulugh Beg built the first madrasah here in 1420 as a school of astronomy and mathematics; two more were added two centuries later, each one answering the last. The Sher-Dor facade breaks Islamic convention outright with two tigers chasing deer under a human-faced sun. Go twice: once around nine in the morning before the tour groups, and again after dark when the facades are lit.",
+    "address": "Registan Street, Samarkand",
+    "latitude": 39.6547,
+    "longitude": 66.9758,
+    "visitDuration": 120,
+    "images": [
+      "https://picsum.photos/seed/karvon-registan-1/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-2/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-3/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-4/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-5/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-6/1600/1050"
+    ]
+  },
+  {
+    "id": "gur-e-amir",
+    "cityId": "samarkand",
+    "name": "Gur-e-Amir Mausoleum",
+    "category": "historical",
+    "shortDescription": "Timur's tomb under a fluted turquoise dome, with a gold-leaf chamber inside.",
+    "description": "Timur built this for a grandson and ended up buried in it himself, under a slab of dark green jade. The ribbed dome is the shape every later Timurid architect copied, including the builders of the Taj Mahal. The interior is small and almost entirely gilded — it takes twenty minutes, but it is worth timing for late afternoon when the light comes through the grilles.",
+    "address": "Bustonsaroy Street 2, Samarkand",
+    "latitude": 39.6484,
+    "longitude": 66.9689,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-guramir-1/1600/1050",
+      "https://picsum.photos/seed/karvon-guramir-2/1600/1050",
+      "https://picsum.photos/seed/karvon-guramir-3/1600/1050",
+      "https://picsum.photos/seed/karvon-guramir-4/1600/1050"
+    ]
+  },
+  {
+    "id": "shah-i-zinda",
+    "cityId": "samarkand",
+    "name": "Shah-i-Zinda",
+    "category": "historical",
+    "shortDescription": "An avenue of tombs climbing a hillside, tiled from floor to dome.",
+    "description": "Eleven mausoleums built over three centuries, packed shoulder to shoulder along a narrow lane and a flight of stairs. Because each family commissioned its own tomb, the tilework changes as you walk — carved terracotta, then majolica, then mosaic faience — so the street reads as a timeline of Central Asian ceramics. Come at opening time; the lane is too narrow for crowds.",
+    "address": "Shahi Zinda Street, Samarkand",
+    "latitude": 39.6625,
+    "longitude": 66.9847,
+    "visitDuration": 90,
+    "images": [
+      "https://picsum.photos/seed/karvon-shahizinda-1/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-2/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-3/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-4/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-5/1600/1050"
+    ]
+  },
+  {
+    "id": "bibi-khanym",
+    "cityId": "samarkand",
+    "name": "Bibi-Khanym Mosque",
+    "category": "architecture",
+    "shortDescription": "An enormous congregational mosque that began collapsing almost as soon as it was built.",
+    "description": "Timur pushed his builders past what the engineering of the 1390s could hold, and the arches started failing within decades. Much of what stands now is a Soviet reconstruction, but the scale is intact and the marble Quran stand in the courtyard is original. Pair it with the bazaar next door — they are two minutes apart.",
+    "address": "Bibikhonim Street, Samarkand",
+    "latitude": 39.6602,
+    "longitude": 66.9791,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-bibikhanym-1/1600/1050",
+      "https://picsum.photos/seed/karvon-bibikhanym-2/1600/1050",
+      "https://picsum.photos/seed/karvon-bibikhanym-3/1600/1050"
+    ]
+  },
+  {
+    "id": "ulugbek-observatory",
+    "cityId": "samarkand",
+    "name": "Ulugh Beg Observatory",
+    "category": "museum",
+    "shortDescription": "The buried arc of a 15th-century sextant that measured the year to within a minute.",
+    "description": "Ulugh Beg was a working astronomer who happened to rule an empire. His observatory held a marble sextant forty metres tall, sunk into the hillside for stability; the underground section survives and you can walk down beside it. His star catalogue of 1018 entries stayed the most accurate in the world for two hundred years. The small museum above puts the numbers in context.",
+    "address": "Tashkent Road, Samarkand",
+    "latitude": 39.6753,
+    "longitude": 67.0053,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-observatory-1/1600/1050",
+      "https://picsum.photos/seed/karvon-observatory-2/1600/1050",
+      "https://picsum.photos/seed/karvon-observatory-3/1600/1050"
+    ]
+  },
+  {
+    "id": "siyob-bazaar",
+    "cityId": "samarkand",
+    "name": "Siyob Bazaar",
+    "category": "market",
+    "shortDescription": "The city's working food market — dried apricots, spice mountains, and Samarkand's stamped bread.",
+    "description": "This is where Samarkand actually shops. The bread counter is the thing to find: Samarkand non is pressed with a nail-stamp before baking and is dense enough to keep for weeks, which is why caravans carried it. Traders will hand you slivers of everything. Mornings are busiest and best.",
+    "address": "Tashkent Street, Samarkand",
+    "latitude": 39.6617,
+    "longitude": 66.9803,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-siyob-1/1600/1050",
+      "https://picsum.photos/seed/karvon-siyob-2/1600/1050",
+      "https://picsum.photos/seed/karvon-siyob-3/1600/1050",
+      "https://picsum.photos/seed/karvon-siyob-4/1600/1050"
+    ]
+  },
+  {
+    "id": "konigil",
+    "cityId": "samarkand",
+    "name": "Konigil Paper Mill",
+    "category": "culture",
+    "shortDescription": "Silk paper still made by water-wheel, using the method Samarkand took from Chinese prisoners in 751.",
+    "description": "Samarkand paper was the finest in the medieval world, and the technique died out entirely until a family of craftsmen reconstructed it in the 1990s. You watch mulberry bark get pounded by a water-driven hammer, pressed, and polished with agate stone. It sits on a stream ten minutes outside town and doubles as a shady place to eat lunch.",
+    "address": "Konigil village, Samarkand district",
+    "latitude": 39.7028,
+    "longitude": 67.0286,
+    "visitDuration": 75,
+    "images": [
+      "https://picsum.photos/seed/karvon-konigil-1/1600/1050",
+      "https://picsum.photos/seed/karvon-konigil-2/1600/1050",
+      "https://picsum.photos/seed/karvon-konigil-3/1600/1050"
+    ]
+  },
+  {
+    "id": "poi-kalyan",
+    "cityId": "bukhara",
+    "name": "Poi Kalyan Complex",
+    "category": "architecture",
+    "shortDescription": "A 47-metre brick minaret that Genghis Khan reportedly refused to destroy.",
+    "description": "The Kalyan minaret has stood since 1127 — fourteen bands of patterned brick, no two alike, tapering to a lantern. It survived the Mongol sack of the city, the story goes, because Genghis Khan had to tip his head back to see the top and ordered it spared. The mosque on one side holds twelve thousand people; the Mir-i-Arab madrasah opposite is still a working seminary and closed to visitors, so admire the facade.",
+    "address": "Hoja Nurobobod Street, Bukhara",
+    "latitude": 39.7758,
+    "longitude": 64.4142,
+    "visitDuration": 90,
+    "images": [
+      "https://picsum.photos/seed/karvon-poikalyan-1/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-2/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-3/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-4/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-5/1600/1050"
+    ]
+  },
+  {
+    "id": "ark-fortress",
+    "cityId": "bukhara",
+    "name": "Ark Fortress",
+    "category": "historical",
+    "shortDescription": "The emir's walled citadel — a city inside the city, occupied for fifteen hundred years.",
+    "description": "The Ark was residence, treasury, prison and mint all at once, and the ramp up through the gate is the same one every ambassador climbed. Most of the interior was flattened in 1920 and what remains is a set of courtyards housing small museums. The throne room and the coronation court are the parts to spend time in.",
+    "address": "Afrosiyob Street, Bukhara",
+    "latitude": 39.7758,
+    "longitude": 64.4092,
+    "visitDuration": 90,
+    "images": [
+      "https://picsum.photos/seed/karvon-ark-1/1600/1050",
+      "https://picsum.photos/seed/karvon-ark-2/1600/1050",
+      "https://picsum.photos/seed/karvon-ark-3/1600/1050",
+      "https://picsum.photos/seed/karvon-ark-4/1600/1050"
+    ]
+  },
+  {
+    "id": "lyabi-hauz",
+    "cityId": "bukhara",
+    "name": "Lyab-i Hauz",
+    "category": "culture",
+    "shortDescription": "A 17th-century stone pool under mulberry trees, still the centre of local evening life.",
+    "description": "Bukhara once had dozens of these reservoirs; the emirs filled most of them in after they turned out to be spreading disease. This one survived and became the city's living room — old men playing backgammon under trees planted in 1477, teahouses on three sides, and a statue of the trickster Nasreddin riding his donkey. Best after seven in the evening.",
+    "address": "Lyabi-Hauz, Bukhara",
+    "latitude": 39.7756,
+    "longitude": 64.4197,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-lyabihauz-1/1600/1050",
+      "https://picsum.photos/seed/karvon-lyabihauz-2/1600/1050",
+      "https://picsum.photos/seed/karvon-lyabihauz-3/1600/1050"
+    ]
+  },
+  {
+    "id": "chor-minor",
+    "cityId": "bukhara",
+    "name": "Chor Minor",
+    "category": "architecture",
+    "shortDescription": "Four blue-capped towers on a small gatehouse, hidden in a residential lane.",
+    "description": "Not a mosque and not a madrasah — this was the gatehouse to a madrasah that no longer exists, built in 1807 by a Turkmen merchant. Each of the four towers is decorated differently, and the usual reading is that they represent four faiths. It takes ten minutes and finding it through the back streets is half the pleasure.",
+    "address": "Chor Minor Street, Bukhara",
+    "latitude": 39.7773,
+    "longitude": 64.4272,
+    "visitDuration": 30,
+    "images": [
+      "https://picsum.photos/seed/karvon-chorminor-1/1600/1050",
+      "https://picsum.photos/seed/karvon-chorminor-2/1600/1050",
+      "https://picsum.photos/seed/karvon-chorminor-3/1600/1050"
+    ]
+  },
+  {
+    "id": "samanid-mausoleum",
+    "cityId": "bukhara",
+    "name": "Samanid Mausoleum",
+    "category": "historical",
+    "shortDescription": "The oldest building in Bukhara — a brick cube whose entire decoration is the bricks themselves.",
+    "description": "Built around 900 AD and buried under silt for centuries, which is why it survived the Mongols intact. There is no tile and no paint: the walls are woven from baked brick laid in basket patterns that change with the angle of the sun, so the building looks completely different at noon and at six. Small, perfect, and usually quiet.",
+    "address": "Samanid Park, Bukhara",
+    "latitude": 39.7772,
+    "longitude": 64.4014,
+    "visitDuration": 40,
+    "images": [
+      "https://picsum.photos/seed/karvon-samanid-1/1600/1050",
+      "https://picsum.photos/seed/karvon-samanid-2/1600/1050",
+      "https://picsum.photos/seed/karvon-samanid-3/1600/1050"
+    ]
+  },
+  {
+    "id": "trading-domes",
+    "cityId": "bukhara",
+    "name": "The Trading Domes",
+    "category": "market",
+    "shortDescription": "Three domed medieval crossroads where money-changers, hat-makers and jewellers still trade.",
+    "description": "Bukhara roofed over its main intersections in the 16th century so that trade could continue through the desert summer, and each dome specialised: caps in one, jewellers in another, money-changers in the third. The specialisation mostly survives. Prices start high — expect to negotiate, and expect it to be friendly.",
+    "address": "Bahouddin Naqshband Street, Bukhara",
+    "latitude": 39.7761,
+    "longitude": 64.4159,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-domes-1/1600/1050",
+      "https://picsum.photos/seed/karvon-domes-2/1600/1050",
+      "https://picsum.photos/seed/karvon-domes-3/1600/1050",
+      "https://picsum.photos/seed/karvon-domes-4/1600/1050"
+    ]
+  },
+  {
+    "id": "ichan-kala",
+    "cityId": "khiva",
+    "name": "Ichan Kala",
+    "category": "historical",
+    "shortDescription": "The walled inner town — fifty monuments inside a rectangle you can walk in twenty minutes.",
+    "description": "One ticket covers almost everything inside the walls, and the whole inner town is the UNESCO site rather than any single building in it. Start at the west gate, climb the Kunya-Ark watchtower for the overview, then wander without a plan. Roughly four hundred people still live inside, which stops it feeling like a museum.",
+    "address": "Ichan Kala, Khiva",
+    "latitude": 41.3785,
+    "longitude": 60.3594,
+    "visitDuration": 180,
+    "images": [
+      "https://picsum.photos/seed/karvon-ichankala-1/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-2/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-3/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-4/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-5/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-6/1600/1050"
+    ]
+  },
+  {
+    "id": "kalta-minor",
+    "cityId": "khiva",
+    "name": "Kalta Minor Minaret",
+    "category": "architecture",
+    "shortDescription": "A fat, banded, glazed minaret abandoned at a third of its planned height.",
+    "description": "The khan wanted a tower tall enough to see Bukhara from. He died in 1855 with it 29 metres up and 14 metres wide, and nobody continued it — so Khiva ended up with a stump completely sheathed in glazed tile, which is far stranger and more memorable than the finished thing would have been. It sits just inside the west gate.",
+    "address": "Ichan Kala, Khiva",
+    "latitude": 41.3789,
+    "longitude": 60.3614,
+    "visitDuration": 20,
+    "images": [
+      "https://picsum.photos/seed/karvon-kaltaminor-1/1600/1050",
+      "https://picsum.photos/seed/karvon-kaltaminor-2/1600/1050",
+      "https://picsum.photos/seed/karvon-kaltaminor-3/1600/1050"
+    ]
+  },
+  {
+    "id": "juma-mosque",
+    "cityId": "khiva",
+    "name": "Juma Mosque",
+    "category": "architecture",
+    "shortDescription": "A flat-roofed hall held up by 213 carved wooden columns, lit only by two ceiling openings.",
+    "description": "No domes, no arches, no courtyard — just a dim forest of elm columns, some of them carved a thousand years ago and reused from earlier buildings. Shafts of light drop through two square holes in the roof and move across the floor during the day. It is the coolest place in Khiva in both senses and the best antidote to tile fatigue.",
+    "address": "Ichan Kala, Khiva",
+    "latitude": 41.3776,
+    "longitude": 60.3618,
+    "visitDuration": 40,
+    "images": [
+      "https://picsum.photos/seed/karvon-juma-1/1600/1050",
+      "https://picsum.photos/seed/karvon-juma-2/1600/1050",
+      "https://picsum.photos/seed/karvon-juma-3/1600/1050"
+    ]
+  },
+  {
+    "id": "tosh-hovli",
+    "cityId": "khiva",
+    "name": "Tosh-Hovli Palace",
+    "category": "historical",
+    "shortDescription": "The khan's harem and reception courts, with the densest blue tilework in the city.",
+    "description": "Built in the 1830s across three courtyards — one for the harem, one for receptions, one for the courts. The harem court has five iwans, one for the khan and one for each wife, and the tiled dado runs unbroken around all of them. Look up at the carved wooden columns as well; the stone bases are each different.",
+    "address": "Ichan Kala, Khiva",
+    "latitude": 41.3792,
+    "longitude": 60.3639,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-toshhovli-1/1600/1050",
+      "https://picsum.photos/seed/karvon-toshhovli-2/1600/1050",
+      "https://picsum.photos/seed/karvon-toshhovli-3/1600/1050",
+      "https://picsum.photos/seed/karvon-toshhovli-4/1600/1050"
+    ]
+  },
+  {
+    "id": "islam-khoja",
+    "cityId": "khiva",
+    "name": "Islam Khoja Minaret",
+    "category": "architecture",
+    "shortDescription": "The tallest minaret in the country, and the best view over the walled town.",
+    "description": "57 metres, built in 1910, with a spiral staircase that is genuinely tight and unlit — take a phone torch and skip it if you dislike enclosed spaces. The reward at the top is the only view that shows you Ichan Kala as a whole: flat roofs, domes, and the desert starting immediately outside the walls.",
+    "address": "Ichan Kala, Khiva",
+    "latitude": 41.3766,
+    "longitude": 60.3628,
+    "visitDuration": 30,
+    "images": [
+      "https://picsum.photos/seed/karvon-islamkhoja-1/1600/1050",
+      "https://picsum.photos/seed/karvon-islamkhoja-2/1600/1050",
+      "https://picsum.photos/seed/karvon-islamkhoja-3/1600/1050"
+    ]
+  },
+  {
+    "id": "amir-timur-square",
+    "cityId": "tashkent",
+    "name": "Amir Timur Square",
+    "category": "culture",
+    "shortDescription": "The green centre of the capital, ringed by the city's grandest buildings.",
+    "description": "A shaded park with Timur on horseback at the middle, the Hotel Uzbekistan's concrete grid on one side and the Amir Timur Museum's blue dome on the other. It is the easiest orientation point in Tashkent and the place locals go to walk in the evening. The museum next door is worth an hour if the empire is new to you.",
+    "address": "Amir Timur Avenue, Tashkent",
+    "latitude": 41.3111,
+    "longitude": 69.2797,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-timursquare-1/1600/1050",
+      "https://picsum.photos/seed/karvon-timursquare-2/1600/1050",
+      "https://picsum.photos/seed/karvon-timursquare-3/1600/1050"
+    ]
+  },
+  {
+    "id": "chorsu-bazaar",
+    "cityId": "tashkent",
+    "name": "Chorsu Bazaar",
+    "category": "market",
+    "shortDescription": "A blue dome the size of a stadium, packed with meat, spice and dairy counters.",
+    "description": "The oldest market in the city and still the loudest. The main dome holds the butchers and the dairy counters — go up to the gallery to look down on the spice pyramids — while bread, plov and secondhand everything spill out into the streets around it. Come hungry and before two in the afternoon.",
+    "address": "Chorsu, Old City, Tashkent",
+    "latitude": 41.3264,
+    "longitude": 69.2347,
+    "visitDuration": 75,
+    "images": [
+      "https://picsum.photos/seed/karvon-chorsu-1/1600/1050",
+      "https://picsum.photos/seed/karvon-chorsu-2/1600/1050",
+      "https://picsum.photos/seed/karvon-chorsu-3/1600/1050",
+      "https://picsum.photos/seed/karvon-chorsu-4/1600/1050"
+    ]
+  },
+  {
+    "id": "hazrati-imam",
+    "cityId": "tashkent",
+    "name": "Hazrati Imam Complex",
+    "category": "historical",
+    "shortDescription": "Home to the Uthman Quran, believed to be the oldest surviving copy in the world.",
+    "description": "The complex is mostly modern, rebuilt in 2007 around a set of older madrasahs, but the reason to come is in the library: a huge deerskin Quran attributed to the third caliph, stained with what tradition holds is his blood. Photography is not allowed in that room. Dress modestly — this is an active religious centre, not a monument.",
+    "address": "Karasaray Street, Tashkent",
+    "latitude": 41.3378,
+    "longitude": 69.2394,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-hazratiimam-1/1600/1050",
+      "https://picsum.photos/seed/karvon-hazratiimam-2/1600/1050",
+      "https://picsum.photos/seed/karvon-hazratiimam-3/1600/1050"
+    ]
+  },
+  {
+    "id": "tashkent-metro",
+    "cityId": "tashkent",
+    "name": "Tashkent Metro",
+    "category": "culture",
+    "shortDescription": "Marble, chandeliers and mosaics, station after station, for the price of a single fare.",
+    "description": "Built as a bomb shelter and decorated like a palace, each station on its own theme — cotton, cosmonauts, poets. Photography was banned until 2018; now it is the cheapest sightseeing in the country. Ride the Uzbekistan line and get off at Kosmonavtlar, Alisher Navoi and Pakhtakor.",
+    "address": "Citywide, Tashkent",
+    "latitude": 41.3111,
+    "longitude": 69.2401,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-metro-1/1600/1050",
+      "https://picsum.photos/seed/karvon-metro-2/1600/1050",
+      "https://picsum.photos/seed/karvon-metro-3/1600/1050",
+      "https://picsum.photos/seed/karvon-metro-4/1600/1050"
+    ]
+  },
+  {
+    "id": "minor-mosque",
+    "cityId": "tashkent",
+    "name": "Minor Mosque",
+    "category": "architecture",
+    "shortDescription": "A white marble mosque from 2014 — the modern counterpoint to everything else on this trip.",
+    "description": "Bright white marble, pale blue dome, no patina at all. It is a useful reminder that Uzbek religious architecture is a living tradition rather than a museum, and the interior carving is genuinely good. Fifteen minutes on the way to or from the airport.",
+    "address": "Kichik Halqa Yuli, Tashkent",
+    "latitude": 41.3419,
+    "longitude": 69.2872,
+    "visitDuration": 30,
+    "images": [
+      "https://picsum.photos/seed/karvon-minor-1/1600/1050",
+      "https://picsum.photos/seed/karvon-minor-2/1600/1050",
+      "https://picsum.photos/seed/karvon-minor-3/1600/1050"
+    ]
+  },
+  {
+    "id": "ak-saray",
+    "cityId": "shahrisabz",
+    "name": "Ak-Saray Palace",
+    "category": "historical",
+    "shortDescription": "Two broken pylons, 38 metres high, all that is left of Timur's largest building.",
+    "description": "The arch that once spanned these two towers would have been the widest in the Islamic world. It fell centuries ago and what stands now are the stumps, still carrying their blue mosaic and an inscription that reads, roughly, that anyone doubting Timur's power should look at what he built. Hard to argue with.",
+    "address": "Ipak Yuli Street, Shahrisabz",
+    "latitude": 39.0619,
+    "longitude": 66.8306,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-aksaray-1/1600/1050",
+      "https://picsum.photos/seed/karvon-aksaray-2/1600/1050",
+      "https://picsum.photos/seed/karvon-aksaray-3/1600/1050"
+    ]
+  },
+  {
+    "id": "dorut-tilovat",
+    "cityId": "shahrisabz",
+    "name": "Dorut Tilovat Complex",
+    "category": "historical",
+    "shortDescription": "The family burial complex, including the crypt Timur prepared for himself and never used.",
+    "description": "Quieter and more intact than Ak-Saray at the other end of town. It holds the tomb of Timur's spiritual teacher, the Kok Gumbaz mosque with its blue dome, and — under a modern shelter nearby — the empty crypt Timur intended for his own body before he died in the wrong season to be carried home.",
+    "address": "Shahrisabz centre",
+    "latitude": 39.0522,
+    "longitude": 66.8339,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-doruttilovat-1/1600/1050",
+      "https://picsum.photos/seed/karvon-doruttilovat-2/1600/1050"
+    ]
+  },
+  {
+    "id": "savitsky-museum",
+    "cityId": "nukus",
+    "name": "Savitsky Museum",
+    "category": "museum",
+    "shortDescription": "Thousands of banned Soviet avant-garde paintings, hidden in the desert for fifty years.",
+    "description": "Igor Savitsky spent decades collecting work by artists the Soviet state had suppressed and brought it to Nukus, far enough from Moscow that nobody looked closely. The result is the second-largest collection of Russian avant-garde art anywhere, in a city most people have never heard of. Allow three hours; the labelling is thin, so a guide helps.",
+    "address": "Rzayev Street 127, Nukus",
+    "latitude": 42.4599,
+    "longitude": 59.6111,
+    "visitDuration": 150,
+    "images": [
+      "https://picsum.photos/seed/karvon-savitsky-1/1600/1050",
+      "https://picsum.photos/seed/karvon-savitsky-2/1600/1050",
+      "https://picsum.photos/seed/karvon-savitsky-3/1600/1050"
+    ]
+  }
+]
