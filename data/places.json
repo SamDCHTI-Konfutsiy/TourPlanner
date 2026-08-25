@@ -238,19 +238,41 @@
   {
     "id": "siyob-bazaar",
     "cityId": "samarkand",
-    "name": "Siyob Bazaar",
+    "name": {
+      "en": "Siyob Bazaar"
+    },
     "category": "market",
-    "shortDescription": "The city's working food market — dried apricots, spice mountains, and Samarkand's stamped bread.",
-    "description": "This is where Samarkand actually shops. The bread counter is the thing to find: Samarkand non is pressed with a nail-stamp before baking and is dense enough to keep for weeks, which is why caravans carried it. Traders will hand you slivers of everything. Mornings are busiest and best.",
+    "shortDescription": {
+      "en": "The city's working food market — dried apricots, spice mountains, and Samarkand's stamped bread."
+    },
+    "description": {
+      "en": "This is where Samarkand actually shops. The bread counter is the thing to find: Samarkand non is pressed with a nail-stamp before baking and is dense enough to keep for weeks, which is why caravans carried it. Traders will hand you slivers of everything. Mornings are busiest and best."
+    },
     "address": "Tashkent Street, Samarkand",
     "latitude": 39.6617,
     "longitude": 66.9803,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-siyob-1/1600/1050",
-      "https://picsum.photos/seed/karvon-siyob-2/1600/1050",
-      "https://picsum.photos/seed/karvon-siyob-3/1600/1050",
-      "https://picsum.photos/seed/karvon-siyob-4/1600/1050"
+      {
+        "src": "https://meros.uz/upload/2017/05/8d32b03b9470cab0bf6bd5e82ec3b8cd-large.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/16136409/2a00000199d76216691676b68f2a3cd02bcb/L_height",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_fJOQlMXPZwoZESX5tvoW31cR4I7EP4cSPiIq_bwl4q676N-v20ffmkCx&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://storage.kun.uz/source/uploads/20190104/64545.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8w_aQI1UVe45UtdiGsGA8inOSXF9xSO6oaEEK4-1yf4C5okjUXW4Vnyc&s=10",
+        "credit": ""
+      }
     ]
   },
   {
