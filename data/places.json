@@ -278,18 +278,61 @@
   {
     "id": "konigil",
     "cityId": "samarkand",
-    "name": "Konigil Paper Mill",
+    "name": {
+      "en": "Konigil Paper Mill"
+    },
     "category": "culture",
-    "shortDescription": "Silk paper still made by water-wheel, using the method Samarkand took from Chinese prisoners in 751.",
-    "description": "Samarkand paper was the finest in the medieval world, and the technique died out entirely until a family of craftsmen reconstructed it in the 1990s. You watch mulberry bark get pounded by a water-driven hammer, pressed, and polished with agate stone. It sits on a stream ten minutes outside town and doubles as a shady place to eat lunch.",
+    "shortDescription": {
+      "en": "Silk paper still made by water-wheel, using the method Samarkand took from Chinese prisoners in 751."
+    },
+    "description": {
+      "en": "Samarkand paper was the finest in the medieval world, and the technique died out entirely until a family of craftsmen reconstructed it in the 1990s. You watch mulberry bark get pounded by a water-driven hammer, pressed, and polished with agate stone. It sits on a stream ten minutes outside town and doubles as a shady place to eat lunch."
+    },
     "address": "Konigil village, Samarkand district",
     "latitude": 39.7028,
     "longitude": 67.0286,
     "visitDuration": 75,
     "images": [
-      "https://picsum.photos/seed/karvon-konigil-1/1600/1050",
-      "https://picsum.photos/seed/karvon-konigil-2/1600/1050",
-      "https://picsum.photos/seed/karvon-konigil-3/1600/1050"
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/IMG_8518-0-0-0-0-1594287171.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLllejrj0QZAfFma02y6VArFywX26picyuFMBwu4RctyeRO0F8EJuGTew&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/1027861/2a00000187296a54fd01920de417983ba9c5/L_height",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671567484-2026-08-25-20.25.16.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671570600-2026-08-25-20.25.09.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671573363-2026-08-25-20.25.07.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671575451-2026-08-25-20.25.02.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671577728-2026-08-25-20.24.53.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671579725-2026-08-25-20.24.57.jpg",
+        "credit": ""
+      },
+      {
+        "src": "assets/images/places/1787671587198-2026-08-25-20.24.50.jpg",
+        "credit": ""
+      }
     ]
   },
   {
