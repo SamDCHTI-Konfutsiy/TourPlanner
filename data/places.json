@@ -506,19 +506,41 @@
   {
     "id": "trading-domes",
     "cityId": "bukhara",
-    "name": "The Trading Domes",
+    "name": {
+      "en": "The Trading Domes"
+    },
     "category": "market",
-    "shortDescription": "Three domed medieval crossroads where money-changers, hat-makers and jewellers still trade.",
-    "description": "Bukhara roofed over its main intersections in the 16th century so that trade could continue through the desert summer, and each dome specialised: caps in one, jewellers in another, money-changers in the third. The specialisation mostly survives. Prices start high — expect to negotiate, and expect it to be friendly.",
+    "shortDescription": {
+      "en": "Three domed medieval crossroads where money-changers, hat-makers and jewellers still trade."
+    },
+    "description": {
+      "en": "Bukhara roofed over its main intersections in the 16th century so that trade could continue through the desert summer, and each dome specialised: caps in one, jewellers in another, money-changers in the third. The specialisation mostly survives. Prices start high — expect to negotiate, and expect it to be friendly."
+    },
     "address": "Bahouddin Naqshband Street, Bukhara",
     "latitude": 39.7761,
     "longitude": 64.4159,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-domes-1/1600/1050",
-      "https://picsum.photos/seed/karvon-domes-2/1600/1050",
-      "https://picsum.photos/seed/karvon-domes-3/1600/1050",
-      "https://picsum.photos/seed/karvon-domes-4/1600/1050"
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0iMQV3f2394EJDbxqzxBooNhKnkVb1rFK4auYNWq3x5r0EIbMhetdISNh&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://www.advantour.com/img/uzbekistan/bukhara/trading-domes/bukhara-trading-domes.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwZHL2dNz-ScntqNoXoD8pXSytpbbESya9zHDx7REIh8hIVrftBunIxE&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9ozaDUF2pKTo_DzR64bD2h7y-bea3VKRoC-h922K9OP_9uL4tQomAHHx&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://www.aljazeera.com/wp-content/uploads/2023/07/Souvenir-vendors-in-Bukhara-Uzbekistan-with-one-of-the-citys-trading-domes-in-the-background.-David-Andreas_Al-Jazeera-1688616446.jpg?resize=1920%2C1440",
+        "credit": ""
+      }
     ]
   },
   {
