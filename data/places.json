@@ -617,18 +617,41 @@
   {
     "id": "hazrati-imam",
     "cityId": "tashkent",
-    "name": "Hazrati Imam Complex",
+    "name": {
+      "en": "Hazrati Imam Complex"
+    },
     "category": "historical",
-    "shortDescription": "Home to the Uthman Quran, believed to be the oldest surviving copy in the world.",
-    "description": "The complex is mostly modern, rebuilt in 2007 around a set of older madrasahs, but the reason to come is in the library: a huge deerskin Quran attributed to the third caliph, stained with what tradition holds is his blood. Photography is not allowed in that room. Dress modestly — this is an active religious centre, not a monument.",
+    "shortDescription": {
+      "en": "Home to the Uthman Quran, believed to be the oldest surviving copy in the world."
+    },
+    "description": {
+      "en": "The complex is mostly modern, rebuilt in 2007 around a set of older madrasahs, but the reason to come is in the library: a huge deerskin Quran attributed to the third caliph, stained with what tradition holds is his blood. Photography is not allowed in that room. Dress modestly — this is an active religious centre, not a monument."
+    },
     "address": "Karasaray Street, Tashkent",
     "latitude": 41.3378,
     "longitude": 69.2394,
     "visitDuration": 60,
     "images": [
-      "https://picsum.photos/seed/karvon-hazratiimam-1/1600/1050",
-      "https://picsum.photos/seed/karvon-hazratiimam-2/1600/1050",
-      "https://picsum.photos/seed/karvon-hazratiimam-3/1600/1050"
+      {
+        "src": "https://cdn.iticket.uz/event/artist/UWQ1g4ME1OxCtWzju0Xq1Kk2bTUsu7m9oV8ccwrl.png",
+        "credit": ""
+      },
+      {
+        "src": "https://meros.uz/upload/2017/02/9da5ba327cc8ee44e63f6d63bd112aa3-large.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://www.afisha.uz/uploads/media/2026/03/ad7807c0a272383e955b6d96371c7db9_m.webp",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_K-ODxh4MEnQTJ3ZdAyQWBJg5WCbwdg4YdAym8Z3BQ&s",
+        "credit": ""
+      },
+      {
+        "src": "https://avatars.mds.yandex.net/get-altay/10228783/2a000001939056d271e4bd041455d3101c36/L_height",
+        "credit": ""
+      }
     ]
   },
   {
