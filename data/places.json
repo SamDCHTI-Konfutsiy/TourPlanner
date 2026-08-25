@@ -2,701 +2,459 @@
   {
     "id": "registan",
     "cityId": "samarkand",
-    "name": {
-      "en": "Registan Square",
-      "zh": "雷吉斯坦广场"
-    },
+    "name": "Registan Square",
     "category": "architecture",
-    "shortDescription": {
-      "en": "Three madrasahs facing one square — the image everyone has of the Silk Road.",
-      "zh": "三座经学院共对一个广场——世人心中丝绸之路的标准画面。"
-    },
-    "description": {
-      "en": "Ulugh Beg built the first madrasah here between 1417 and 1420 as a school of astronomy and mathematics; two more were added two centuries later, each answering the last. The Sher-Dor facade breaks Islamic convention outright, with two tigers chasing deer beneath a human-faced sun. Go twice: around nine in the morning before the groups arrive, and again after dark when the facades are lit. Tickets are sold at the entrance and the queue doubles after ten.",
-      "zh": "兀鲁伯于1417至1420年间在此建起第一座经学院，用作天文与数学学堂；两个世纪后又添两座，彼此呼应。希尔多经学院的正面公然突破了伊斯兰艺术的惯例——两只老虎追逐小鹿，头顶是一轮带人面的太阳。建议看两次：上午九点左右团队还没到，以及天黑后灯光亮起时。门票在入口处购买，十点以后排队时间会翻倍。"
-    },
+    "shortDescription": "Three madrasahs facing one square — the single most photographed place in Central Asia.",
+    "description": "Ulugh Beg built the first madrasah here in 1420 as a school of astronomy and mathematics; two more were added two centuries later, each one answering the last. The Sher-Dor facade breaks Islamic convention outright with two tigers chasing deer under a human-faced sun. Go twice: once around nine in the morning before the tour groups, and again after dark when the facades are lit.",
     "address": "Registan Street, Samarkand",
     "latitude": 39.6547,
     "longitude": 66.9758,
     "visitDuration": 120,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan_square_Samarkand.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA 3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Registan_square_Samarkand.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan_Samarkand_Uzbekistan.JPG?width=1600",
-        "credit": "Stomac / Wikimedia Commons, CC BY-SA 2.0 FR",
-        "page": "https://commons.wikimedia.org/wiki/File:Registan_Samarkand_Uzbekistan.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan%2C_main_square_in_Samarkand.JPG?width=1600",
-        "credit": "Oleg Yunakov / Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Registan%2C_main_square_in_Samarkand.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan_square_Samarkand%2C_Uzbekistan%2C_at_night.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Registan_square_Samarkand%2C_Uzbekistan%2C_at_night.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sher-Dor_Madrasah%2C_Registan_Sq%2C_Samarkand.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA 3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Sher-Dor_Madrasah%2C_Registan_Sq%2C_Samarkand.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand%2C_light_show_at_the_Registan_%286237905701%29.jpg?width=1600",
-        "credit": "Arian Zwegers / Wikimedia Commons, CC BY 2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Samarkand%2C_light_show_at_the_Registan_%286237905701%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Registan_%C3%A0_Samarcande_%28Ouzb%C3%A9kistan%29_%285630435838%29.jpg?width=1600",
-        "credit": "Jean-Pierre Dalbéra / Wikimedia Commons, CC BY 2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Le_Registan_%C3%A0_Samarcande_%28Ouzb%C3%A9kistan%29_%285630435838%29.jpg"
-      }
+      "https://picsum.photos/seed/karvon-registan-1/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-2/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-3/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-4/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-5/1600/1050",
+      "https://picsum.photos/seed/karvon-registan-6/1600/1050"
     ]
   },
   {
     "id": "gur-e-amir",
     "cityId": "samarkand",
-    "name": {
-      "en": "Gur-e-Amir Mausoleum",
-      "zh": "古尔埃米尔陵（帖木儿陵）"
-    },
+    "name": "Gur-e-Amir Mausoleum",
     "category": "historical",
-    "shortDescription": {
-      "en": "Timur's tomb under a fluted turquoise dome, with a gold-leaf chamber inside.",
-      "zh": "帖木儿长眠之处：青绿棱纹穹顶下，内室满铺金箔。"
-    },
-    "description": {
-      "en": "Timur built this for a grandson who died young, and ended up buried in it himself in 1405 under a slab of dark green jade. The ribbed dome is the shape every later Timurid architect copied, including the builders of the Taj Mahal. The interior is small and almost entirely gilded — twenty minutes is enough, but time it for late afternoon when light comes through the window grilles.",
-      "zh": "帖木儿本是为早逝的孙子建造此陵，1405年他自己却葬在了这里，墓上覆着一整块墨绿玉石。那道棱纹穹顶成为后世帖木儿王朝建筑争相模仿的范式，泰姬陵的建造者也在其列。内部空间不大，几乎通体贴金——二十分钟足够，但最好安排在下午晚些时候，那时光线会从窗棂透进来。"
-    },
+    "shortDescription": "Timur's tomb under a fluted turquoise dome, with a gold-leaf chamber inside.",
+    "description": "Timur built this for a grandson and ended up buried in it himself, under a slab of dark green jade. The ribbed dome is the shape every later Timurid architect copied, including the builders of the Taj Mahal. The interior is small and almost entirely gilded — it takes twenty minutes, but it is worth timing for late afternoon when the light comes through the grilles.",
     "address": "Bustonsaroy Street 2, Samarkand",
     "latitude": 39.6484,
     "longitude": 66.9689,
     "visitDuration": 60,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_Amir_Temur_%281%29.JPG?width=1600",
-        "credit": "Bobyrr / Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Amir_Temur_%281%29.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80_-_Amir_Temur_maqbarasi_-_Gur-e-Amir_%28By_Khusen_Rustamov%29.jpg?width=1600",
-        "credit": "Khusen Rustamov / Wikimedia Commons, CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80_-_Amir_Temur_maqbarasi_-_Gur-e-Amir_%28By_Khusen_Rustamov%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_Facade_of_Gur-e-Amir_Mausoleum_-_Samarkand_-_Uzbekistan_-_02_%287488438844%29.jpg?width=1600",
-        "credit": "Adam Jones / Wikimedia Commons, CC BY-SA 2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Detail_of_Facade_of_Gur-e-Amir_Mausoleum_-_Samarkand_-_Uzbekistan_-_02_%287488438844%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Night_View_of_Gur-e-Amir_Mausoleum_-_Samarkand_-_Uzbekistan_%287488500022%29.jpg?width=1600",
-        "credit": "Adam Jones / Wikimedia Commons, CC BY-SA 2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Night_View_of_Gur-e-Amir_Mausoleum_-_Samarkand_-_Uzbekistan_%287488500022%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Gur_Emir_Mausoleum%2C_Samarkand_%284934602294%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY",
-        "page": "https://commons.wikimedia.org/wiki/File:Gur_Emir_Mausoleum%2C_Samarkand_%284934602294%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarcanda%2C_Gur-e_Amir_15.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Samarcanda%2C_Gur-e_Amir_15.jpg"
-      }
+      "https://picsum.photos/seed/karvon-guramir-1/1600/1050",
+      "https://picsum.photos/seed/karvon-guramir-2/1600/1050",
+      "https://picsum.photos/seed/karvon-guramir-3/1600/1050",
+      "https://picsum.photos/seed/karvon-guramir-4/1600/1050"
     ]
   },
   {
     "id": "shah-i-zinda",
     "cityId": "samarkand",
-    "name": {
-      "en": "Shah-i-Zinda",
-      "zh": "沙赫静达陵墓群"
-    },
+    "name": "Shah-i-Zinda",
     "category": "historical",
-    "shortDescription": {
-      "en": "An avenue of tombs climbing a hillside, tiled from floor to dome.",
-      "zh": "沿山坡而上的陵墓长街，自地面到穹顶铺满琉璃。"
-    },
-    "description": {
-      "en": "Eleven mausoleums built over three centuries, packed shoulder to shoulder along a narrow lane and a flight of stairs. Because each family commissioned its own tomb, the tilework changes as you walk — carved terracotta, then majolica, then mosaic faience — so the street reads as a timeline of Central Asian ceramics. Come at opening time; the lane is too narrow to enjoy with crowds in it.",
-      "zh": "十一座陵墓建于三个世纪之间，沿一条窄巷和一段台阶肩并肩排开。由于每座陵墓由不同家族出资，琉璃工艺随着你往上走而变化——先是雕花陶土，再是马约利卡彩陶，最后是马赛克镶嵌——整条街读起来就是一部中亚陶艺编年史。请在刚开门时来；巷子太窄，人多了就没法看了。"
-    },
+    "shortDescription": "An avenue of tombs climbing a hillside, tiled from floor to dome.",
+    "description": "Eleven mausoleums built over three centuries, packed shoulder to shoulder along a narrow lane and a flight of stairs. Because each family commissioned its own tomb, the tilework changes as you walk — carved terracotta, then majolica, then mosaic faience — so the street reads as a timeline of Central Asian ceramics. Come at opening time; the lane is too narrow for crowds.",
     "address": "Shahi Zinda Street, Samarkand",
     "latitude": 39.6625,
     "longitude": 66.9847,
     "visitDuration": 90,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shohi-Zinda_majmuasi_%28Shah-i-Zinda%2C_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA — featured picture",
-        "page": "https://commons.wikimedia.org/wiki/File:Shohi-Zinda_majmuasi_%28Shah-i-Zinda%2C_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah-i-Zinda.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Shah-i-Zinda.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_Qassim-ibn-Abbas.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Mausoleum_Qassim-ibn-Abbas.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Windows_of_the_outer_walls_of_the_Ensemble_of_the_mausoleums_of_Shahi_Zinda.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Windows_of_the_outer_walls_of_the_Ensemble_of_the_mausoleums_of_Shahi_Zinda.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0_10.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0_10.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0_11.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A8%D0%B0%D1%85%D0%B8-%D0%97%D0%B8%D0%BD%D0%B4%D0%B0_11.jpg"
-      }
+      "https://picsum.photos/seed/karvon-shahizinda-1/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-2/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-3/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-4/1600/1050",
+      "https://picsum.photos/seed/karvon-shahizinda-5/1600/1050"
     ]
   },
   {
     "id": "bibi-khanym",
     "cityId": "samarkand",
-    "name": {
-      "en": "Bibi-Khanym Mosque",
-      "zh": "比比哈努姆清真寺"
-    },
+    "name": "Bibi-Khanym Mosque",
     "category": "architecture",
-    "shortDescription": {
-      "en": "An enormous congregational mosque that began collapsing almost as soon as it was built.",
-      "zh": "规模惊人的主麻清真寺，建成不久便开始坍塌。"
-    },
-    "description": {
-      "en": "Timur pushed his builders past what the engineering of the 1390s could hold, and the arches started failing within decades. Much of what stands now is a twentieth-century reconstruction, but the scale is intact and the enormous marble Quran stand in the courtyard is original. Pair it with the bazaar next door — they are two minutes apart.",
-      "zh": "帖木儿把工匠逼到了1390年代结构技术的极限之外，拱券在几十年内就开始失效。今天所见大多是二十世纪的重建，但体量仍然震撼，庭院中那座巨大的大理石经架是原物。可与隔壁的巴扎连在一起看——两者相距不过两分钟路程。"
-    },
+    "shortDescription": "An enormous congregational mosque that began collapsing almost as soon as it was built.",
+    "description": "Timur pushed his builders past what the engineering of the 1390s could hold, and the arches started failing within decades. Much of what stands now is a Soviet reconstruction, but the scale is intact and the marble Quran stand in the courtyard is original. Pair it with the bazaar next door — they are two minutes apart.",
     "address": "Bibikhonim Street, Samarkand",
     "latitude": 39.6602,
     "longitude": 66.9791,
     "visitDuration": 45,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibi-Khanym_Mosque.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Bibi-Khanym_Mosque.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_facades_of_the_Bibikhanim_mosque.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:The_facades_of_the_Bibikhanim_mosque.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%B4_%D1%81_%D1%83%D0%BB%D0%B8%D1%86%D1%8B_%D0%BD%D0%B0_%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%91%D0%B8%D0%B1%D0%B8_%D0%A5%D0%B0%D0%BD%D1%8B%D0%BC.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D1%81_%D1%83%D0%BB%D0%B8%D1%86%D1%8B_%D0%BD%D0%B0_%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%91%D0%B8%D0%B1%D0%B8_%D0%A5%D0%B0%D0%BD%D1%8B%D0%BC.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%BE_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5_%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D0%B8_%D0%91%D0%B8%D0%B1%D0%B8_%D0%A5%D0%B0%D0%BD%D1%8B%D0%BC_2.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5_%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D0%B8_%D0%91%D0%B8%D0%B1%D0%B8_%D0%A5%D0%B0%D0%BD%D1%8B%D0%BC_2.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Marmar_Qu%27ron_lavxidagi_naqshlar_%28Bibixonim_masjidi%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Marmar_Qu%27ron_lavxidagi_naqshlar_%28Bibixonim_masjidi%29.jpg"
-      }
+      "https://picsum.photos/seed/karvon-bibikhanym-1/1600/1050",
+      "https://picsum.photos/seed/karvon-bibikhanym-2/1600/1050",
+      "https://picsum.photos/seed/karvon-bibikhanym-3/1600/1050"
     ]
   },
   {
     "id": "ulugbek-observatory",
     "cityId": "samarkand",
-    "name": {
-      "en": "Ulugh Beg Observatory",
-      "zh": "兀鲁伯天文台"
-    },
+    "name": "Ulugh Beg Observatory",
     "category": "museum",
-    "shortDescription": {
-      "en": "The buried arc of a 15th-century sextant that measured the year to within a minute.",
-      "zh": "埋于地下的十五世纪六分仪弧，把一年的长度测到了分钟级误差。"
-    },
-    "description": {
-      "en": "Ulugh Beg was a working astronomer who happened to rule an empire. His observatory held a marble sextant around forty metres tall, sunk into the hillside for stability; the underground section survives and you walk down beside it. His star catalogue of 1018 entries remained the most accurate in the world for two centuries. The small museum above puts the numbers in context and is worth the extra twenty minutes.",
-      "zh": "兀鲁伯是一位真正从事观测的天文学家，只是恰好统治着一个帝国。他的天文台内建有一具约四十米高的大理石六分仪，为求稳定而嵌入山坡；地下部分保存至今，可以沿着它走下去。他编纂的1018颗恒星星表，在此后两百年间都是世界上最精确的。上方的小型博物馆能帮你理解这些数字的分量，值得多花二十分钟。"
-    },
+    "shortDescription": "The buried arc of a 15th-century sextant that measured the year to within a minute.",
+    "description": "Ulugh Beg was a working astronomer who happened to rule an empire. His observatory held a marble sextant forty metres tall, sunk into the hillside for stability; the underground section survives and you can walk down beside it. His star catalogue of 1018 entries stayed the most accurate in the world for two hundred years. The small museum above puts the numbers in context.",
     "address": "Tashkent Road, Samarkand",
     "latitude": 39.6753,
     "longitude": 67.0053,
     "visitDuration": 60,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand_observatoire_ulugh_beg.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Samarkand_observatoire_ulugh_beg.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D0%B1%D1%81%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%A3%D0%BB%D1%83%D0%B3%D0%B1%D0%B5%D0%BA%D0%B0.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%81%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%A3%D0%BB%D1%83%D0%B3%D0%B1%D0%B5%D0%BA%D0%B0.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D0%B1%D1%81%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%A3%D0%BB%D1%83%D0%B3%D0%B1%D0%B5%D0%BA%D0%B0%2C_%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4_%28Ulugh_Beg_Observatory%2C_Samarkand%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B1%D1%81%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%A3%D0%BB%D1%83%D0%B3%D0%B1%D0%B5%D0%BA%D0%B0%2C_%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4_%28Ulugh_Beg_Observatory%2C_Samarkand%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C%D0%B8%D1%80%D0%B7%D0%BE_%D0%A3%D0%BB%D1%83%D0%B3%D0%B1%D0%B5%D0%BA%D1%83.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C%D0%B8%D1%80%D0%B7%D0%BE_%D0%A3%D0%BB%D1%83%D0%B3%D0%B1%D0%B5%D0%BA%D1%83.jpg"
-      }
+      "https://picsum.photos/seed/karvon-observatory-1/1600/1050",
+      "https://picsum.photos/seed/karvon-observatory-2/1600/1050",
+      "https://picsum.photos/seed/karvon-observatory-3/1600/1050"
+    ]
+  },
+  {
+    "id": "siyob-bazaar",
+    "cityId": "samarkand",
+    "name": "Siyob Bazaar",
+    "category": "market",
+    "shortDescription": "The city's working food market — dried apricots, spice mountains, and Samarkand's stamped bread.",
+    "description": "This is where Samarkand actually shops. The bread counter is the thing to find: Samarkand non is pressed with a nail-stamp before baking and is dense enough to keep for weeks, which is why caravans carried it. Traders will hand you slivers of everything. Mornings are busiest and best.",
+    "address": "Tashkent Street, Samarkand",
+    "latitude": 39.6617,
+    "longitude": 66.9803,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-siyob-1/1600/1050",
+      "https://picsum.photos/seed/karvon-siyob-2/1600/1050",
+      "https://picsum.photos/seed/karvon-siyob-3/1600/1050",
+      "https://picsum.photos/seed/karvon-siyob-4/1600/1050"
+    ]
+  },
+  {
+    "id": "konigil",
+    "cityId": "samarkand",
+    "name": "Konigil Paper Mill",
+    "category": "culture",
+    "shortDescription": "Silk paper still made by water-wheel, using the method Samarkand took from Chinese prisoners in 751.",
+    "description": "Samarkand paper was the finest in the medieval world, and the technique died out entirely until a family of craftsmen reconstructed it in the 1990s. You watch mulberry bark get pounded by a water-driven hammer, pressed, and polished with agate stone. It sits on a stream ten minutes outside town and doubles as a shady place to eat lunch.",
+    "address": "Konigil village, Samarkand district",
+    "latitude": 39.7028,
+    "longitude": 67.0286,
+    "visitDuration": 75,
+    "images": [
+      "https://picsum.photos/seed/karvon-konigil-1/1600/1050",
+      "https://picsum.photos/seed/karvon-konigil-2/1600/1050",
+      "https://picsum.photos/seed/karvon-konigil-3/1600/1050"
     ]
   },
   {
     "id": "poi-kalyan",
     "cityId": "bukhara",
-    "name": {
-      "en": "Poi Kalyan Complex",
-      "zh": "波依卡扬建筑群"
-    },
+    "name": "Poi Kalyan Complex",
     "category": "architecture",
-    "shortDescription": {
-      "en": "A 45-metre brick minaret from 1127 that Genghis Khan reportedly refused to destroy.",
-      "zh": "1127年的45米砖砌宣礼塔，据说成吉思汗下令留它不毁。"
-    },
-    "description": {
-      "en": "The Kalyan minaret has stood since 1127 — fourteen bands of patterned brick, no two alike, tapering to a lantern about 46 metres up. It survived the Mongol sack of the city, the story goes, because Genghis Khan had to tip his head back to see the top and ordered it spared. The mosque on one side holds thousands of worshippers; the Mir-i-Arab madrasah opposite is still a working seminary and closed to visitors, so admire the facade from the square. Save this for late afternoon, when the brick turns gold.",
-      "zh": "卡扬宣礼塔自1127年屹立至今——十四道纹样各异的砖砌腰带，向上收束，塔顶灯室高约46米。传说蒙古人洗劫全城时它得以幸存，是因为成吉思汗要仰头才能看见塔顶，于是下令保留。一侧的清真寺可容纳数千名礼拜者；对面的米里阿拉伯经学院至今仍是运作中的宗教学校，不对外开放，只能在广场上欣赏其立面。请留到下午晚些时候来，那时砖会变成金色。"
-    },
+    "shortDescription": "A 47-metre brick minaret that Genghis Khan reportedly refused to destroy.",
+    "description": "The Kalyan minaret has stood since 1127 — fourteen bands of patterned brick, no two alike, tapering to a lantern. It survived the Mongol sack of the city, the story goes, because Genghis Khan had to tip his head back to see the top and ordered it spared. The mosque on one side holds twelve thousand people; the Mir-i-Arab madrasah opposite is still a working seminary and closed to visitors, so admire the facade.",
     "address": "Hoja Nurobobod Street, Bukhara",
     "latitude": 39.7758,
     "longitude": 64.4142,
     "visitDuration": 90,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalyan_Minaret%2C_Bukhara_%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD_%D0%B2_%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B5%2C_Minorai_Kalon%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA — featured picture",
-        "page": "https://commons.wikimedia.org/wiki/File:Kalyan_Minaret%2C_Bukhara_%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD_%D0%B2_%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B5%2C_Minorai_Kalon%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalon_Minaret%2C_Bukhara_%284933987001%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY",
-        "page": "https://commons.wikimedia.org/wiki/File:Kalon_Minaret%2C_Bukhara_%284933987001%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalon_Minaret%2C_Bukhara_%284934580714%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY",
-        "page": "https://commons.wikimedia.org/wiki/File:Kalon_Minaret%2C_Bukhara_%284934580714%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalon_Minaret%2C_Karakhanid%2C_1127%3B_Bukhara%2C_Uzbekistan_%281%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Kalon_Minaret%2C_Karakhanid%2C_1127%3B_Bukhara%2C_Uzbekistan_%281%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Base_of_the_stout_Kalyan_Minaret_and_Mir-i-Arab_Madrasa_behind_in_Bukhara.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Base_of_the_stout_Kalyan_Minaret_and_Mir-i-Arab_Madrasa_behind_in_Bukhara.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Minaret_in_Late-Afternoon_Light_-_Old_City_-_Bukhara_-_Uzbekistan_%287502928418%29_%282%29.jpg?width=1600",
-        "credit": "Adam Jones / Wikimedia Commons, CC BY-SA 2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Late-Afternoon_Light_-_Old_City_-_Bukhara_-_Uzbekistan_%287502928418%29_%282%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Minorai_Kalon._Buxoro.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Minorai_Kalon._Buxoro.jpg"
-      }
+      "https://picsum.photos/seed/karvon-poikalyan-1/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-2/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-3/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-4/1600/1050",
+      "https://picsum.photos/seed/karvon-poikalyan-5/1600/1050"
     ]
   },
   {
     "id": "ark-fortress",
     "cityId": "bukhara",
-    "name": {
-      "en": "Ark Fortress",
-      "zh": "雅克城堡（方舟城堡）"
-    },
+    "name": "Ark Fortress",
     "category": "historical",
-    "shortDescription": {
-      "en": "The emir's walled citadel — a city inside the city, occupied for around fifteen centuries.",
-      "zh": "埃米尔的城中之城，被占用了大约十五个世纪。"
-    },
-    "description": {
-      "en": "The Ark was residence, treasury, prison and mint all at once, and the ramp up through the gate is the same one every ambassador climbed. Most of the interior was destroyed in 1920 during the Bolshevik assault on the city; what remains is a set of courtyards housing small museums. The throne court and the coronation court are the parts worth your time.",
-      "zh": "雅克城堡同时是王宫、国库、监狱和铸币厂，穿过城门向上的那道斜坡，正是历代使节走过的同一条路。内部大部分在1920年布尔什维克攻城时被摧毁，如今留下的是几进院落和其中的小型博物馆。真正值得花时间的是御座庭院和加冕庭院。"
-    },
+    "shortDescription": "The emir's walled citadel — a city inside the city, occupied for fifteen hundred years.",
+    "description": "The Ark was residence, treasury, prison and mint all at once, and the ramp up through the gate is the same one every ambassador climbed. Most of the interior was flattened in 1920 and what remains is a set of courtyards housing small museums. The throne room and the coronation court are the parts to spend time in.",
     "address": "Afrosiyob Street, Bukhara",
     "latitude": 39.7758,
     "longitude": 64.4092,
     "visitDuration": 90,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Fortress_in_Bukhara_04.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Ark_Fortress_in_Bukhara_04.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/23_archaeological_area_Arch_121.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:23_archaeological_area_Arch_121.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/23_archaeological_area_Arch_123.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:23_archaeological_area_Arch_123.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Uzbek_Bukhara_Restore_%2826224395230%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY",
-        "page": "https://commons.wikimedia.org/wiki/File:Uzbek_Bukhara_Restore_%2826224395230%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%2C_%D0%90%D1%80%D0%BA%2C_%D0%B4%D0%B2%D0%B5%D1%80%D1%8C_%D0%B2_%D0%B4%D0%BE%D0%BC%D0%B5_%D0%A7%D0%B8%D0%BB%D1%8C%D0%B4%D1%83%D1%85%D1%82%D0%B0%D1%80%D0%BE%D0%BD%D0%B0_%281%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%2C_%D0%90%D1%80%D0%BA%2C_%D0%B4%D0%B2%D0%B5%D1%80%D1%8C_%D0%B2_%D0%B4%D0%BE%D0%BC%D0%B5_%D0%A7%D0%B8%D0%BB%D1%8C%D0%B4%D1%83%D1%85%D1%82%D0%B0%D1%80%D0%BE%D0%BD%D0%B0_%281%29.jpg"
-      }
+      "https://picsum.photos/seed/karvon-ark-1/1600/1050",
+      "https://picsum.photos/seed/karvon-ark-2/1600/1050",
+      "https://picsum.photos/seed/karvon-ark-3/1600/1050",
+      "https://picsum.photos/seed/karvon-ark-4/1600/1050"
+    ]
+  },
+  {
+    "id": "lyabi-hauz",
+    "cityId": "bukhara",
+    "name": "Lyab-i Hauz",
+    "category": "culture",
+    "shortDescription": "A 17th-century stone pool under mulberry trees, still the centre of local evening life.",
+    "description": "Bukhara once had dozens of these reservoirs; the emirs filled most of them in after they turned out to be spreading disease. This one survived and became the city's living room — old men playing backgammon under trees planted in 1477, teahouses on three sides, and a statue of the trickster Nasreddin riding his donkey. Best after seven in the evening.",
+    "address": "Lyabi-Hauz, Bukhara",
+    "latitude": 39.7756,
+    "longitude": 64.4197,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-lyabihauz-1/1600/1050",
+      "https://picsum.photos/seed/karvon-lyabihauz-2/1600/1050",
+      "https://picsum.photos/seed/karvon-lyabihauz-3/1600/1050"
+    ]
+  },
+  {
+    "id": "chor-minor",
+    "cityId": "bukhara",
+    "name": "Chor Minor",
+    "category": "architecture",
+    "shortDescription": "Four blue-capped towers on a small gatehouse, hidden in a residential lane.",
+    "description": "Not a mosque and not a madrasah — this was the gatehouse to a madrasah that no longer exists, built in 1807 by a Turkmen merchant. Each of the four towers is decorated differently, and the usual reading is that they represent four faiths. It takes ten minutes and finding it through the back streets is half the pleasure.",
+    "address": "Chor Minor Street, Bukhara",
+    "latitude": 39.7773,
+    "longitude": 64.4272,
+    "visitDuration": 30,
+    "images": [
+      "https://picsum.photos/seed/karvon-chorminor-1/1600/1050",
+      "https://picsum.photos/seed/karvon-chorminor-2/1600/1050",
+      "https://picsum.photos/seed/karvon-chorminor-3/1600/1050"
     ]
   },
   {
     "id": "samanid-mausoleum",
     "cityId": "bukhara",
-    "name": {
-      "en": "Samanid Mausoleum",
-      "zh": "萨曼尼陵墓"
-    },
+    "name": "Samanid Mausoleum",
     "category": "historical",
-    "shortDescription": {
-      "en": "The oldest building in Bukhara — a brick cube whose entire decoration is the bricks themselves.",
-      "zh": "布哈拉最古老的建筑——一座立方体砖楼，全部装饰就是砖本身。"
-    },
-    "description": {
-      "en": "Built around the early 900s and buried under silt for centuries, which is why it survived the Mongols intact. There is no tile and no paint: the walls are woven from baked brick laid in basket patterns that change with the angle of the sun, so the building looks completely different at noon and at six in the evening. Small, perfect, and usually quiet.",
-      "zh": "约建于十世纪初，此后数百年被泥沙掩埋，因而完整躲过了蒙古人的破坏。它没有琉璃，也没有彩绘：墙体由烧砖以编篮般的图案砌成，随太阳角度变化而变化，正午和傍晚六点看起来判若两座建筑。体量不大，却近乎完美，而且通常很安静。"
-    },
+    "shortDescription": "The oldest building in Bukhara — a brick cube whose entire decoration is the bricks themselves.",
+    "description": "Built around 900 AD and buried under silt for centuries, which is why it survived the Mongols intact. There is no tile and no paint: the walls are woven from baked brick laid in basket patterns that change with the angle of the sun, so the building looks completely different at noon and at six. Small, perfect, and usually quiet.",
     "address": "Samanid Park, Bukhara",
     "latitude": 39.7772,
     "longitude": 64.4014,
     "visitDuration": 40,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Samanid_Mausoleum_in_Bukhara.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_mausoleum_bukhara.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Samanid_mausoleum_bukhara.jpg"
-      }
+      "https://picsum.photos/seed/karvon-samanid-1/1600/1050",
+      "https://picsum.photos/seed/karvon-samanid-2/1600/1050",
+      "https://picsum.photos/seed/karvon-samanid-3/1600/1050"
     ]
   },
   {
     "id": "trading-domes",
     "cityId": "bukhara",
-    "name": {
-      "en": "The Trading Domes",
-      "zh": "商贸圆顶市场"
-    },
+    "name": "The Trading Domes",
     "category": "market",
-    "shortDescription": {
-      "en": "Domed medieval crossroads where money-changers, hat-makers and jewellers still trade.",
-      "zh": "中世纪的穹顶十字路口，钱庄、帽匠与金匠至今仍在此营业。"
-    },
-    "description": {
-      "en": "Bukhara roofed over its main intersections in the sixteenth century so that trade could continue through the desert summer, and each dome specialised: caps in one, jewellers in another, money-changers in a third. Toqi Zargaron, the goldsmiths' dome, is the largest and best preserved. The specialisation mostly survives. Prices start high — expect to negotiate, and expect it to be friendly. This is the best place in the country to buy suzani embroidery and hand-forged knives.",
-      "zh": "十六世纪，布哈拉给主要的十字路口加盖穹顶，使贸易在沙漠酷夏也能继续，每座穹顶各有专营：一座卖帽子，一座是金匠，还有一座是钱庄。金匠圆顶 Toqi Zargaron 规模最大、保存最好。这种行业分工大体保留至今。开价通常偏高——做好还价的准备，气氛是友好的。这里是全国购买苏扎尼刺绣和手工锻打刀具最好的地方。"
-    },
+    "shortDescription": "Three domed medieval crossroads where money-changers, hat-makers and jewellers still trade.",
+    "description": "Bukhara roofed over its main intersections in the 16th century so that trade could continue through the desert summer, and each dome specialised: caps in one, jewellers in another, money-changers in the third. The specialisation mostly survives. Prices start high — expect to negotiate, and expect it to be friendly.",
     "address": "Bahouddin Naqshband Street, Bukhara",
     "latitude": 39.7761,
     "longitude": 64.4159,
     "visitDuration": 60,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/19_Buhara_Toki_Zargaron%282%29.JPG?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:19_Buhara_Toki_Zargaron%282%29.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/19_Buhara_Toki_Zargaron%284%29.JPG?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:19_Buhara_Toki_Zargaron%284%29.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/172_Toqi_Zargaron%2C_el_basar_dels_joiers_%28Bukhar%C3%A0%29%2C_mocadors.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:172_Toqi_Zargaron%2C_el_basar_dels_joiers_%28Bukhar%C3%A0%29%2C_mocadors.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/173_Toqi_Zargaron%2C_el_basar_dels_joiers_%28Bukhar%C3%A0%29%2C_mocadors.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:173_Toqi_Zargaron%2C_el_basar_dels_joiers_%28Bukhar%C3%A0%29%2C_mocadors.jpg"
-      }
+      "https://picsum.photos/seed/karvon-domes-1/1600/1050",
+      "https://picsum.photos/seed/karvon-domes-2/1600/1050",
+      "https://picsum.photos/seed/karvon-domes-3/1600/1050",
+      "https://picsum.photos/seed/karvon-domes-4/1600/1050"
     ]
   },
   {
     "id": "ichan-kala",
     "cityId": "khiva",
-    "name": {
-      "en": "Ichan Kala",
-      "zh": "伊禅卡拉内城"
-    },
+    "name": "Ichan Kala",
     "category": "historical",
-    "shortDescription": {
-      "en": "The walled inner town — around fifty monuments inside a rectangle you can walk in twenty minutes.",
-      "zh": "被城墙围起的内城——二十分钟能走穿的长方形里，藏着约五十处古迹。"
-    },
-    "description": {
-      "en": "One combined ticket covers almost everything inside the walls and is valid for two days. The whole inner town is the UNESCO site rather than any single building in it, so the right way to see it is to start at the west gate, get the layout in your head from a high point, then wander without a plan. Around four hundred people still live inside, which is what stops it feeling like a museum.",
-      "zh": "一张联票几乎涵盖城墙内所有景点，有效期两天。列入世界遗产的是整座内城，而不是其中某一座建筑，所以正确的看法是：从西门进入，先登高把布局记在脑子里，然后不按计划地随意走。城内至今仍住着约四百位居民，这正是它没有沦为博物馆的原因。"
-    },
+    "shortDescription": "The walled inner town — fifty monuments inside a rectangle you can walk in twenty minutes.",
+    "description": "One ticket covers almost everything inside the walls, and the whole inner town is the UNESCO site rather than any single building in it. Start at the west gate, climb the Kunya-Ark watchtower for the overview, then wander without a plan. Roughly four hundred people still live inside, which stops it feeling like a museum.",
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3785,
     "longitude": 60.3594,
     "visitDuration": 180,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_Itchan_Kala.JPG?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva_Itchan_Kala.JPG"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_skyline.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva_skyline.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_Uzbekistan_2023.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva_Uzbekistan_2023.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva%2C_view_from_Juma_Minaret_%286227208346%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva%2C_view_from_Juma_Minaret_%286227208346%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva%2C_view_from_Juma_Minaret%2C_main_street_%286227193852%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva%2C_view_from_Juma_Minaret%2C_main_street_%286227193852%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%82%A4%E3%83%81%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%A9%E5%86%85%E3%81%AE%E5%BB%BA%E9%80%A0%E7%89%A9%E7%BE%A4_2023.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%E3%82%A4%E3%83%81%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%A9%E5%86%85%E3%81%AE%E5%BB%BA%E9%80%A0%E7%89%A9%E7%BE%A4_2023.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva_%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD_panorama.JPG?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva_%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD_panorama.JPG"
-      }
+      "https://picsum.photos/seed/karvon-ichankala-1/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-2/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-3/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-4/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-5/1600/1050",
+      "https://picsum.photos/seed/karvon-ichankala-6/1600/1050"
     ]
   },
   {
     "id": "kalta-minor",
     "cityId": "khiva",
-    "name": {
-      "en": "Kalta Minor Minaret",
-      "zh": "卡尔塔米诺塔"
-    },
+    "name": "Kalta Minor Minaret",
     "category": "architecture",
-    "shortDescription": {
-      "en": "A fat, banded, fully glazed minaret abandoned at a third of its planned height.",
-      "zh": "粗壮而通体琉璃的宣礼塔，停工时只建到计划高度的三分之一。"
-    },
-    "description": {
-      "en": "Muhammad Amin Khan wanted a tower tall enough to see Bukhara from. He died in 1855 with it around 29 metres up and 14 metres wide, and nobody continued the work — so Khiva ended up with a stump completely sheathed in glazed tile, which is far stranger and more memorable than the finished thing would have been. It sits just inside the west gate, so it is the first thing you meet.",
-      "zh": "穆罕默德·阿明汗想建一座高到能望见布哈拉的塔。1855年他去世时，塔只砌到约29米高、直径14米，此后无人续建——于是希瓦得到了一截通体包覆琉璃砖的塔基，比建成的样子更奇特、也更令人难忘。它就在西门内侧，是你进城遇到的第一个建筑。"
-    },
+    "shortDescription": "A fat, banded, glazed minaret abandoned at a third of its planned height.",
+    "description": "The khan wanted a tower tall enough to see Bukhara from. He died in 1855 with it 29 metres up and 14 metres wide, and nobody continued it — so Khiva ended up with a stump completely sheathed in glazed tile, which is far stranger and more memorable than the finished thing would have been. It sits just inside the west gate.",
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3789,
     "longitude": 60.3614,
     "visitDuration": 20,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalta_Minor%2C_Khiva%2C_Uzbekistan.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Kalta_Minor%2C_Khiva%2C_Uzbekistan.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva-itchan-kala.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva-itchan-kala.jpg"
-      }
+      "https://picsum.photos/seed/karvon-kaltaminor-1/1600/1050",
+      "https://picsum.photos/seed/karvon-kaltaminor-2/1600/1050",
+      "https://picsum.photos/seed/karvon-kaltaminor-3/1600/1050"
     ]
   },
   {
-    "id": "kuhna-ark",
+    "id": "juma-mosque",
     "cityId": "khiva",
-    "name": {
-      "en": "Kuhna Ark",
-      "zh": "库赫纳方舟宫"
-    },
-    "category": "historical",
-    "shortDescription": {
-      "en": "The khans' own fortress inside the walls, with the best rooftop view of the old town.",
-      "zh": "城墙内可汗自用的宫堡，屋顶是俯瞰老城的最佳位置。"
-    },
-    "description": {
-      "en": "The khans' residence, mint, harem and summer mosque, built into the western wall of Ichan Kala from the seventeenth century onward. The summer mosque courtyard has the densest blue tilework in Khiva, and the watchtower at the corner is the climb to do first — from up there the whole walled town makes sense before you start walking it.",
-      "zh": "这里是可汗的居所、铸币厂、后宫与夏用清真寺，自十七世纪起依托伊禅卡拉西城墙陆续建成。夏用清真寺庭院内的蓝色琉璃是希瓦最密集的，角上的瞭望塔则是最该先爬的地方——站上去以后，整座围城的格局一目了然，再开始走就清楚了。"
-    },
+    "name": "Juma Mosque",
+    "category": "architecture",
+    "shortDescription": "A flat-roofed hall held up by 213 carved wooden columns, lit only by two ceiling openings.",
+    "description": "No domes, no arches, no courtyard — just a dim forest of elm columns, some of them carved a thousand years ago and reused from earlier buildings. Shafts of light drop through two square holes in the roof and move across the floor during the day. It is the coolest place in Khiva in both senses and the best antidote to tile fatigue.",
     "address": "Ichan Kala, Khiva",
-    "latitude": 41.3794,
-    "longitude": 60.3596,
+    "latitude": 41.3776,
+    "longitude": 60.3618,
+    "visitDuration": 40,
+    "images": [
+      "https://picsum.photos/seed/karvon-juma-1/1600/1050",
+      "https://picsum.photos/seed/karvon-juma-2/1600/1050",
+      "https://picsum.photos/seed/karvon-juma-3/1600/1050"
+    ]
+  },
+  {
+    "id": "tosh-hovli",
+    "cityId": "khiva",
+    "name": "Tosh-Hovli Palace",
+    "category": "historical",
+    "shortDescription": "The khan's harem and reception courts, with the densest blue tilework in the city.",
+    "description": "Built in the 1830s across three courtyards — one for the harem, one for receptions, one for the courts. The harem court has five iwans, one for the khan and one for each wife, and the tiled dado runs unbroken around all of them. Look up at the carved wooden columns as well; the stone bases are each different.",
+    "address": "Ichan Kala, Khiva",
+    "latitude": 41.3792,
+    "longitude": 60.3639,
     "visitDuration": 60,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kukhna_ark%2C_khiva_%28472532%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Kukhna_ark%2C_khiva_%28472532%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Abulgazi_Muhammad_Rahim_Khan_1_Mausoleum.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Abulgazi_Muhammad_Rahim_Khan_1_Mausoleum.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Allaquli_Muhammad_Bahadirkhan_mausoleum.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Allaquli_Muhammad_Bahadirkhan_mausoleum.jpg"
-      }
+      "https://picsum.photos/seed/karvon-toshhovli-1/1600/1050",
+      "https://picsum.photos/seed/karvon-toshhovli-2/1600/1050",
+      "https://picsum.photos/seed/karvon-toshhovli-3/1600/1050",
+      "https://picsum.photos/seed/karvon-toshhovli-4/1600/1050"
     ]
   },
   {
     "id": "islam-khoja",
     "cityId": "khiva",
-    "name": {
-      "en": "Islam Khoja Minaret",
-      "zh": "伊斯兰霍加宣礼塔"
-    },
+    "name": "Islam Khoja Minaret",
     "category": "architecture",
-    "shortDescription": {
-      "en": "The tallest minaret in the country, and the best view over the walled town.",
-      "zh": "全国最高的宣礼塔，也是俯瞰围城的最佳视角。"
-    },
-    "description": {
-      "en": "About 57 metres, built in 1908–1910, with a spiral staircase that is genuinely tight and unlit — bring a phone torch, and skip it if you dislike enclosed spaces. The reward at the top is the only view that shows you Ichan Kala whole: flat roofs, domes, and the desert starting immediately outside the walls. Time the climb for the hour before sunset.",
-      "zh": "塔高约57米，建于1908至1910年，内部螺旋楼梯确实狭窄且没有照明——请带手机手电，若不适应封闭空间就不要上。登顶的回报是唯一能看到伊禅卡拉全貌的视角：平屋顶、穹顶，以及紧贴城墙之外就开始的沙漠。请安排在日落前一小时登塔。"
-    },
+    "shortDescription": "The tallest minaret in the country, and the best view over the walled town.",
+    "description": "57 metres, built in 1910, with a spiral staircase that is genuinely tight and unlit — take a phone torch and skip it if you dislike enclosed spaces. The reward at the top is the only view that shows you Ichan Kala as a whole: flat roofs, domes, and the desert starting immediately outside the walls.",
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3766,
     "longitude": 60.3628,
     "visitDuration": 30,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Islam_Hoja_Minaret%2C_Khiva_%28Islomxo%CA%BBja_minorasi%2C_%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%98%D1%81%D0%BB%D0%B0%D0%BC_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B0%2C_%D0%A5%D0%B8%D0%B2%D0%B0%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Islam_Hoja_Minaret%2C_Khiva_%28Islomxo%CA%BBja_minorasi%2C_%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82_%D0%98%D1%81%D0%BB%D0%B0%D0%BC_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B0%2C_%D0%A5%D0%B8%D0%B2%D0%B0%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Khiva%2C_Islam_Khodja_Minaret.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Khiva%2C_Islam_Khodja_Minaret.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%A7%E5%B8%82%E8%A1%97%E5%9C%B0%E3%81%A8Islam_Khoja_Minaret_2023.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:%E6%97%A7%E5%B8%82%E8%A1%97%E5%9C%B0%E3%81%A8Islam_Khoja_Minaret_2023.jpg"
-      }
+      "https://picsum.photos/seed/karvon-islamkhoja-1/1600/1050",
+      "https://picsum.photos/seed/karvon-islamkhoja-2/1600/1050",
+      "https://picsum.photos/seed/karvon-islamkhoja-3/1600/1050"
+    ]
+  },
+  {
+    "id": "amir-timur-square",
+    "cityId": "tashkent",
+    "name": "Amir Timur Square",
+    "category": "culture",
+    "shortDescription": "The green centre of the capital, ringed by the city's grandest buildings.",
+    "description": "A shaded park with Timur on horseback at the middle, the Hotel Uzbekistan's concrete grid on one side and the Amir Timur Museum's blue dome on the other. It is the easiest orientation point in Tashkent and the place locals go to walk in the evening. The museum next door is worth an hour if the empire is new to you.",
+    "address": "Amir Timur Avenue, Tashkent",
+    "latitude": 41.3111,
+    "longitude": 69.2797,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-timursquare-1/1600/1050",
+      "https://picsum.photos/seed/karvon-timursquare-2/1600/1050",
+      "https://picsum.photos/seed/karvon-timursquare-3/1600/1050"
     ]
   },
   {
     "id": "chorsu-bazaar",
     "cityId": "tashkent",
-    "name": {
-      "en": "Chorsu Bazaar",
-      "zh": "乔尔苏巴扎"
-    },
+    "name": "Chorsu Bazaar",
     "category": "market",
-    "shortDescription": {
-      "en": "A blue Soviet-modernist dome the size of a stadium, packed with meat, spice and dairy counters.",
-      "zh": "体量堪比体育场的苏联现代主义蓝色穹顶，里面挤满肉档、香料摊与奶制品柜台。"
-    },
-    "description": {
-      "en": "The oldest market in the city and still the loudest. The current dome was designed in 1980 and covers the butchers and the dairy counters — go up to the gallery to look down on the spice pyramids — while bread, plov and secondhand everything spill out into the streets around it. Come hungry and before two in the afternoon. This is where I take clients to try non bread and dried fruit before the long train ride.",
-      "zh": "全城最古老的市场，至今也最喧闹。现在的穹顶设计于1980年，下面是肉档和奶制品柜台——上二层回廊往下看，可以看到堆成金字塔的香料——而馕、抓饭和各种旧货则溢到周边街道上。请空着肚子来，并在下午两点前到。长途火车前，我一般带客人来这里尝馕和干果。"
-    },
+    "shortDescription": "A blue dome the size of a stadium, packed with meat, spice and dairy counters.",
+    "description": "The oldest market in the city and still the loudest. The main dome holds the butchers and the dairy counters — go up to the gallery to look down on the spice pyramids — while bread, plov and secondhand everything spill out into the streets around it. Come hungry and before two in the afternoon.",
     "address": "Chorsu, Old City, Tashkent",
     "latitude": 41.3264,
     "longitude": 69.2347,
     "visitDuration": 75,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/083_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_parada_de_verdures.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:083_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_parada_de_verdures.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/088_Chorsu_Plaza_i_c%C3%BApules_de_la_mesquita_de_Xoja_Ahror%2C_des_del_basar_Eski_Juva_%28Taixkent%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:088_Chorsu_Plaza_i_c%C3%BApules_de_la_mesquita_de_Xoja_Ahror%2C_des_del_basar_Eski_Juva_%28Taixkent%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/091_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_venedores.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:091_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_venedores.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/096_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_pans.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:096_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_pans.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/094_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_parada_de_dol%C3%A7os.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:094_Eski_Juva_Bozori%2C_mercat_de_Chorsu_%28Taixkent%29%2C_parada_de_dol%C3%A7os.jpg"
-      }
+      "https://picsum.photos/seed/karvon-chorsu-1/1600/1050",
+      "https://picsum.photos/seed/karvon-chorsu-2/1600/1050",
+      "https://picsum.photos/seed/karvon-chorsu-3/1600/1050",
+      "https://picsum.photos/seed/karvon-chorsu-4/1600/1050"
     ]
   },
   {
     "id": "hazrati-imam",
     "cityId": "tashkent",
-    "name": {
-      "en": "Hazrati Imam Complex",
-      "zh": "哈兹拉提伊玛目建筑群"
-    },
+    "name": "Hazrati Imam Complex",
     "category": "historical",
-    "shortDescription": {
-      "en": "Home to the Uthman Quran, widely held to be among the oldest surviving copies in the world.",
-      "zh": "奥斯曼《古兰经》所在地，普遍认为是世上现存最古老的抄本之一。"
-    },
-    "description": {
-      "en": "The complex was largely rebuilt in 2007 around a set of older madrasahs, so the architecture is newer than it looks. The reason to come is in the library: a huge deerskin Quran attributed to the third caliph, Uthman, stained with what tradition holds is his blood. Photography is not allowed in that room. This is an active religious centre rather than a monument — dress modestly, and women should bring a headscarf.",
-      "zh": "该建筑群于2007年围绕若干更早的经学院大规模重建，因此建筑比外表看上去要新。真正值得来的理由在图书馆：一部巨大的鹿皮《古兰经》，相传出自第三任哈里发奥斯曼之手，上面的痕迹据传是他的血。该展室禁止拍照。这里是仍在运作的宗教中心，而非单纯的古迹——请着装得体，女士请自备头巾。"
-    },
+    "shortDescription": "Home to the Uthman Quran, believed to be the oldest surviving copy in the world.",
+    "description": "The complex is mostly modern, rebuilt in 2007 around a set of older madrasahs, but the reason to come is in the library: a huge deerskin Quran attributed to the third caliph, stained with what tradition holds is his blood. Photography is not allowed in that room. Dress modestly — this is an active religious centre, not a monument.",
     "address": "Karasaray Street, Tashkent",
     "latitude": 41.3378,
     "longitude": 69.2394,
     "visitDuration": 60,
     "images": [
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hazrati_Imam_Mosque_01.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Hazrati_Imam_Mosque_01.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hazrati_Imam_Mosque_04.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Hazrati_Imam_Mosque_04.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/021_Hazrati_Imom_Jome_Masjidi%2C_Gran_Mesquita_de_Hazrati_Imam_%28Taixkent%29.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:021_Hazrati_Imom_Jome_Masjidi%2C_Gran_Mesquita_de_Hazrati_Imam_%28Taixkent%29.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/039_Hazrati_Imom_Jome_Masjidi%2C_Gran_Mesquita_de_Hazrati_Imam_%28Taixkent%29%2C_c%C3%BApula_i_minaret.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:039_Hazrati_Imom_Jome_Masjidi%2C_Gran_Mesquita_de_Hazrati_Imam_%28Taixkent%29%2C_c%C3%BApula_i_minaret.jpg"
-      },
-      {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Minbar_of_Hazrati_Imam_Mosque.jpg?width=1600",
-        "credit": "Wikimedia Commons, CC BY-SA",
-        "page": "https://commons.wikimedia.org/wiki/File:Minbar_of_Hazrati_Imam_Mosque.jpg"
-      }
+      "https://picsum.photos/seed/karvon-hazratiimam-1/1600/1050",
+      "https://picsum.photos/seed/karvon-hazratiimam-2/1600/1050",
+      "https://picsum.photos/seed/karvon-hazratiimam-3/1600/1050"
+    ]
+  },
+  {
+    "id": "tashkent-metro",
+    "cityId": "tashkent",
+    "name": "Tashkent Metro",
+    "category": "culture",
+    "shortDescription": "Marble, chandeliers and mosaics, station after station, for the price of a single fare.",
+    "description": "Built as a bomb shelter and decorated like a palace, each station on its own theme — cotton, cosmonauts, poets. Photography was banned until 2018; now it is the cheapest sightseeing in the country. Ride the Uzbekistan line and get off at Kosmonavtlar, Alisher Navoi and Pakhtakor.",
+    "address": "Citywide, Tashkent",
+    "latitude": 41.3111,
+    "longitude": 69.2401,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-metro-1/1600/1050",
+      "https://picsum.photos/seed/karvon-metro-2/1600/1050",
+      "https://picsum.photos/seed/karvon-metro-3/1600/1050",
+      "https://picsum.photos/seed/karvon-metro-4/1600/1050"
+    ]
+  },
+  {
+    "id": "minor-mosque",
+    "cityId": "tashkent",
+    "name": "Minor Mosque",
+    "category": "architecture",
+    "shortDescription": "A white marble mosque from 2014 — the modern counterpoint to everything else on this trip.",
+    "description": "Bright white marble, pale blue dome, no patina at all. It is a useful reminder that Uzbek religious architecture is a living tradition rather than a museum, and the interior carving is genuinely good. Fifteen minutes on the way to or from the airport.",
+    "address": "Kichik Halqa Yuli, Tashkent",
+    "latitude": 41.3419,
+    "longitude": 69.2872,
+    "visitDuration": 30,
+    "images": [
+      "https://picsum.photos/seed/karvon-minor-1/1600/1050",
+      "https://picsum.photos/seed/karvon-minor-2/1600/1050",
+      "https://picsum.photos/seed/karvon-minor-3/1600/1050"
+    ]
+  },
+  {
+    "id": "ak-saray",
+    "cityId": "shahrisabz",
+    "name": "Ak-Saray Palace",
+    "category": "historical",
+    "shortDescription": "Two broken pylons, 38 metres high, all that is left of Timur's largest building.",
+    "description": "The arch that once spanned these two towers would have been the widest in the Islamic world. It fell centuries ago and what stands now are the stumps, still carrying their blue mosaic and an inscription that reads, roughly, that anyone doubting Timur's power should look at what he built. Hard to argue with.",
+    "address": "Ipak Yuli Street, Shahrisabz",
+    "latitude": 39.0619,
+    "longitude": 66.8306,
+    "visitDuration": 60,
+    "images": [
+      "https://picsum.photos/seed/karvon-aksaray-1/1600/1050",
+      "https://picsum.photos/seed/karvon-aksaray-2/1600/1050",
+      "https://picsum.photos/seed/karvon-aksaray-3/1600/1050"
+    ]
+  },
+  {
+    "id": "dorut-tilovat",
+    "cityId": "shahrisabz",
+    "name": "Dorut Tilovat Complex",
+    "category": "historical",
+    "shortDescription": "The family burial complex, including the crypt Timur prepared for himself and never used.",
+    "description": "Quieter and more intact than Ak-Saray at the other end of town. It holds the tomb of Timur's spiritual teacher, the Kok Gumbaz mosque with its blue dome, and — under a modern shelter nearby — the empty crypt Timur intended for his own body before he died in the wrong season to be carried home.",
+    "address": "Shahrisabz centre",
+    "latitude": 39.0522,
+    "longitude": 66.8339,
+    "visitDuration": 45,
+    "images": [
+      "https://picsum.photos/seed/karvon-doruttilovat-1/1600/1050",
+      "https://picsum.photos/seed/karvon-doruttilovat-2/1600/1050"
+    ]
+  },
+  {
+    "id": "savitsky-museum",
+    "cityId": "nukus",
+    "name": "Savitsky Museum",
+    "category": "museum",
+    "shortDescription": "Thousands of banned Soviet avant-garde paintings, hidden in the desert for fifty years.",
+    "description": "Igor Savitsky spent decades collecting work by artists the Soviet state had suppressed and brought it to Nukus, far enough from Moscow that nobody looked closely. The result is the second-largest collection of Russian avant-garde art anywhere, in a city most people have never heard of. Allow three hours; the labelling is thin, so a guide helps.",
+    "address": "Rzayev Street 127, Nukus",
+    "latitude": 42.4599,
+    "longitude": 59.6111,
+    "visitDuration": 150,
+    "images": [
+      "https://picsum.photos/seed/karvon-savitsky-1/1600/1050",
+      "https://picsum.photos/seed/karvon-savitsky-2/1600/1050",
+      "https://picsum.photos/seed/karvon-savitsky-3/1600/1050"
     ]
   }
 ]
