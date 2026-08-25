@@ -546,21 +546,37 @@
   {
     "id": "ichan-kala",
     "cityId": "khiva",
-    "name": "Ichan Kala",
+    "name": {
+      "en": "Ichan Kala"
+    },
     "category": "historical",
-    "shortDescription": "The walled inner town — fifty monuments inside a rectangle you can walk in twenty minutes.",
-    "description": "One ticket covers almost everything inside the walls, and the whole inner town is the UNESCO site rather than any single building in it. Start at the west gate, climb the Kunya-Ark watchtower for the overview, then wander without a plan. Roughly four hundred people still live inside, which stops it feeling like a museum.",
+    "shortDescription": {
+      "en": "The walled inner town — fifty monuments inside a rectangle you can walk in twenty minutes."
+    },
+    "description": {
+      "en": "One ticket covers almost everything inside the walls, and the whole inner town is the UNESCO site rather than any single building in it. Start at the west gate, climb the Kunya-Ark watchtower for the overview, then wander without a plan. Roughly four hundred people still live inside, which stops it feeling like a museum."
+    },
     "address": "Ichan Kala, Khiva",
     "latitude": 41.3785,
     "longitude": 60.3594,
     "visitDuration": 180,
     "images": [
-      "https://picsum.photos/seed/karvon-ichankala-1/1600/1050",
-      "https://picsum.photos/seed/karvon-ichankala-2/1600/1050",
-      "https://picsum.photos/seed/karvon-ichankala-3/1600/1050",
-      "https://picsum.photos/seed/karvon-ichankala-4/1600/1050",
-      "https://picsum.photos/seed/karvon-ichankala-5/1600/1050",
-      "https://picsum.photos/seed/karvon-ichankala-6/1600/1050"
+      {
+        "src": "https://data.daryo.uz/media/cache/2022/04/photo_2022-04-22_10-08-14-2-1190x774.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF4_7Bz1qVe57ytW3XIp6SDKRvSx3y7pT_Lx2Vy0ZKKHuMvapyZW-xtEul&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://meros.uz/uploads/wonder/wonder//e748bef6dfdc04693f353128f98f50a4.JPG",
+        "credit": ""
+      },
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRVJmZUcE5i0dqvIq0v1x0EFKiVHtdaKJpDi-kJvO1Fg&s",
+        "credit": ""
+      }
     ]
   },
   {
