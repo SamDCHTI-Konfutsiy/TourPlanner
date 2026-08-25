@@ -591,7 +591,28 @@
     "latitude": 41.3264,
     "longitude": 69.2347,
     "visitDuration": 75,
-    "images": []
+    "images": [
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjmd_rpOI3gMC8cAk7g29oOfhdiyh6Ypi4oU0QK_r2HpgGqW99n0yK5s3l&s=10",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/chorsu1-0-0-0-0-1600943233.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbek-travel.com/images/uz/Cities/Tashkent/Chorsu/2_chorsu_bazaar.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://uzbek-travel.com/images/uz/Cities/Tashkent/Chorsu/12_chorsu_bazaar.jpg",
+        "credit": ""
+      },
+      {
+        "src": "https://i.ytimg.com/vi/U6cYRfKZJgc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCtOn_hyFkrZYkrw8WoMR5tID_eyg",
+        "credit": ""
+      }
+    ]
   },
   {
     "id": "hazrati-imam",
